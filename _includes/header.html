@@ -11,8 +11,8 @@
     <title>{{ page.title }}</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-	<link href="css/bootstrap-theme.css" rel="stylesheet">
+    <link href="/css/bootstrap.css" rel="stylesheet">
+	<link href="/css/bootstrap-theme.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="jumbotron.css" rel="stylesheet">
@@ -41,13 +41,13 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li {% if page.title == 'Home' %}class="active"{% endif %}><a href="index.html">Home</a></li>
-                    <li {% if page.title == 'Why FRS' %}class="active"{% endif %}><a href="why_frs.html">Why FRS</a></li>
-					<li {% if page.title == 'Products' %}class="active"{% endif %}><a href="products.html">Products</a></li>
-                    <li><a href="products.html">Resourses</a></li>
-                    <li><a href="#about">Clients</a></li>
-					<li {% if page.title == 'About' %}class="active"{% endif %}><a href="about.html">About</a></li>
-					<li {% if page.title == 'Contact' %}class="active"{% endif %}><a href="contact.html">Contact</a></li>
+                    <li {% if page.title == 'Home' %}class="active"{% endif %}><a href="/index.html">Home</a></li>
+                    <li {% if page.title == 'Why FRS' %}class="active"{% endif %}><a href="/why_frs.html">Why FRS</a></li>
+					<li {% if page.title == 'Products' %}class="active"{% endif %}><a href="/products.html">Products</a></li>
+                    <li {% if page.title == 'Clients' %}class="active"{% endif %}><a href="/clients.html">Clients</a></li>
+					<li {% if page.title == 'About' %}class="active"{% endif %}><a href="/about.html">About</a></li>
+					<li {% if page.title == 'Contact' %}class="active"{% endif %}><a href="/contact.html">Contact</a></li>
+                    <li {% if page.title == 'News' %}class="active"{% endif %}><a href="/news.html">News</a></li>
                 </ul>
             </div><!--/.navbar-collapse -->
         </div>
