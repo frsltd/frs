@@ -1,0 +1,22 @@
+---
+layout: default
+title: Why FRS
+---
+
+<div class="container">
+	<!-- Example row of columns -->
+	<div class="row">
+		<div class="page-header">	
+			<h2>News and</h2>
+		</div>
+
+	<ul>
+		{% for post in site.posts %}
+		<li>
+			<a href="{{ post.url }}">{{ post.title }}</a>
+		</li>
+		{% endfor %}
+	</ul>
+
+</div>
+</div>

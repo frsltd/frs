@@ -1,0 +1,25 @@
+---
+layout: default
+title: Clients
+---
+
+
+<div class="container">
+	<!-- Example row of columns -->
+	<div class="row">
+		<div class="page-header">	
+			<h2>Clients</h2>
+		</div>
+
+<ul>
+{% for member in site.data.customers %}
+  <li>
+    <a href="https://github.com/{{ member.github }}">
+      {{ member.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+
+</div>
+</div>
