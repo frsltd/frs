@@ -1,0 +1,79 @@
+---
+layout: default
+title: News
+---
+
+<div class="container">
+	<!-- Example row of columns -->
+	<div class="row">
+
+
+		<div class="col-md-8 div-border">
+			<div class="page-header">	
+				<h2>News</h2>
+			</div>
+
+
+			<!-- This loops through the paginated posts -->
+			{% for post in paginator.posts %}
+			<div class="media">
+				<a class="pull-left" href="#">
+					<img src="{{ post.image }}">
+				</a>
+				<div class="media-body">
+					<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+					<p class="author">
+						<p><strong>{{ post.date | date_to_long_string }}</strong></p>
+					</p>
+					<div class="content">
+						{{ post.content | truncatewords:30 | strip_html }}
+					</div>
+				</div>
+			</div>
+				<hr />
+			{% endfor %}
+
+			{% if paginator.total_pages > 1 %}
+			<div class="pagination">
+			  {% if paginator.previous_page %}
+			    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+			  {% else %}
+			    <span>&laquo; Prev</span>
+			  {% endif %}
+
+			  {% for page in (1..paginator.total_pages) %}
+			    {% if page == paginator.page %}
+			      <em>{{ page }}</em>
+			    {% elsif page == 1 %}
+			      <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+			    {% else %}
+			      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+			    {% endif %}
+			  {% endfor %}
+
+			  {% if paginator.next_page %}
+			    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+			  {% else %}
+			    <span>Next &raquo;</span>
+			  {% endif %}
+			</div>
+			{% endif %}
+
+		</div>
+		<div class="col-md-4">
+			<div class="page-header">	
+				<h2>Events</h2>
+			</div>
+
+			{% for event in site.data.events limit:3 %}
+
+			{% if event.image %}<img src="{{ event.image }}"/>{% endif %}
+			{{ event.name }} - {{ event.date }} - {{ event.location }}
+			{% if event.url %}<a href="{{ event.url }}">See website{% endif %}
+				<br/><br/>
+				{% endfor %}
+
+			</div>
+
+		</div>
+	</div>

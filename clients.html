@@ -12,12 +12,13 @@ title: Clients
 		</div>
 
 <ul>
-{% for member in site.data.customers %}
+{% for client in site.data.customers %}
   <li>
-    <a href="https://github.com/{{ member.github }}">
-      {{ member.name }}
+	  <img src=>
+      {{ client.name }} - {{ client.description }}
     </a>
   </li>
+{% if client.quote %} {{ client.quote }} {% endif %}
 {% endfor %}
 </ul>
 

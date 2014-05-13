@@ -355,4 +355,16 @@ border-right-style:solid;
 border-color:#98bf21;
 }
 
+.event{margin-bottom:30px; position:relative;}
+.event .date{width:44px; height:53px; background:url(images/cal.gif) no-repeat; display:block; float:left; margin-bottom:14px;}
+.event .thumbnail{position:absolute; top:0px; left:52px;}
+
+.event .date span{display:block; text-align:center;}
+.event .date span.month{font-size:12px; color:#fff; text-transform:uppercase; padding-top:3px;}
+.event .date span.day{font-size:24px; color:#222; padding-top:6px;}
+.event .event-content{clear:both;}
+#content .event .event-content p{margin-bottom:1px;} 
+#content .event .event-content p strong{color:#dd7300}
+#content .event .event-content p a{color:#111; text-decoration:underline;}
+
 /*# sourceMappingURL=bootstrap-theme.css.map */

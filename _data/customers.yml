@@ -1,8 +1,9 @@
-- name: Tom Preston-Werner
-  github: mojombo
-
+- name: MetLife
+  description: Metlife are a large company that do xy and a bit of z.
+  quote: Here is a quote for ya
+  
 - name: Parker Moore
-  github: parkr
+  description: parkr
 
 - name: Liu Fengyun
-  github: liufengyun
+  description: liufengyun

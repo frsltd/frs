@@ -9,7 +9,7 @@ title: Why FRS
 		<h2>Exceptional track record of Project Success</h2>
 		<h3>100+ of successful installs and upgrades since 2006</h3>
 	</div>
-	<div class="col-md-8 div-border">
+	<div class="col-md-9 div-border">
 		<img src="http://www.guidewire.com/assets/WhyGuidewire-Images/_resampled/resizedimage600231-why-guidewire.jpg">
 
 		<h4>Here are some great reasons for choosing Invest|Pro from FRS.</h4>
@@ -23,7 +23,12 @@ title: Why FRS
 			<li><strong>Here for the long-term</strong> — We build our products to last, and we conduct business to have lifelong relationships with our customers.</li>
 		</ul>
 	</div>
-	<div class="col-md-4">
-		"Add in some quote here..."
+	<div class="col-md-3">
+		{% for quote in site.data.quotes %}
+		<blockquote>
+			<p>{{ quote.quote }}</p>
+			<footer><cite title="Source Title">{{ quote.person }}, {{ quote.title}}, {{ quote.company }}</cite></footer>
+		</blockquote>
+		{% endfor %}
 	</div>
 </div>
