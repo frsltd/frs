@@ -1,9 +1,22 @@
 - name: MetLife
-  description: Metlife are a large company that do xy and a bit of z.
-  quote: Here is a quote for ya
+  description: Metlife are a pure asset management company managing $302 billion of third party assets from offices around the world as at 30 September 2012. Clients access investment expertise drawn from three main asset classes equities fixed income and property as well as tailored solutions.
+  image: metlife.png
+  website: www.metlife.com
   
-- name: Parker Moore
-  description: parkr
+- name: Accenture
+  description: Accenture are a pure asset management company managing $302 billion of third party assets from offices around the world as at 30 September 2012. Clients access investment expertise drawn from three main asset classes equities fixed income and property as well as tailored solutions.
+  quote: 
+  image: accenture.png
+  website: www.accenture.com
 
-- name: Liu Fengyun
-  description: liufengyun
+- name: Friends First
+  description: Friends First are a pure asset management company managing $302 billion of third party assets from offices around the world as at 30 September 2012. Clients access investment expertise drawn from three main asset classes equities fixed income and property as well as tailored solutions.
+  quote: Prior to the implementation of Invest|Pro™ the preparation of a set of investment accounts from multiple different systems was quite inefficient. Having a single database of investment transactions and a single Invest|Pro™ general ledger from which to extract a trial balance has significantly reduced timescales and greatly improved the robustness of the process.Invest|Pro™ has completely transformed our operations.
+  quotefrom: Sarah Knipe Financial Controller RL360°
+  image: ff.png
+  website: www.friends-first.com
+  
+  
+  
+  
+  

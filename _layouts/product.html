@@ -1,0 +1,57 @@
+{% include header.html %}
+
+<div class="container">
+	<div class="row">
+		<div class="page-header">	
+			<h2>Products</h2>
+		</div>
+
+		<div class="col-md-3">
+			<div class="list-group">
+				<a href="/products.html" class="list-group-item {% if page.sub-title == 'InvestPro' %}list-group-item-success{% endif %}">Invest|Pro</a>
+			</div>
+			<h4>Core Modules</h4>
+			<div class="list-group">
+				<a href="#" class="list-group-item"><span class="glyphicon glyphicon-download"> Appropriations</a>
+					<a href="#" class="list-group-item"><span class="glyphicon glyphicon-stats"> Valuations</a>
+						<a href="#" class="list-group-item"><span class="glyphicon glyphicon-file"> Financial Reporting</a>
+						</div>
+						<h4>Optional Modules</h4>
+						<div class="list-group">
+							<a href="/modules/analytics.html" class="list-group-item {% if page.sub-title == 'Analytics' %}list-group-item-success{% endif %}"><span class="glyphicon glyphicon-search"> Analytics</span><span class="badge">standalone</span></a>
+							<a href="/modules/exceptions.html" class="list-group-item {% if page.sub-title == 'Exceptions' %}list-group-item-success{% endif %}"><span class="glyphicon glyphicon-flash"> Exceptions</span><span class="badge">standalone</span></a>
+							<a href="/modules/workflow.html" class="list-group-item {% if page.sub-title == 'Workflow' %}list-group-item-success{% endif %}"><span class="glyphicon glyphicon-user"> Workflow</span><span class="badge">June 14</span></a>	
+							<a href="/modules/retail.html" class="list-group-item {% if page.sub-title == 'Retail' %}list-group-item-success{% endif %}"><span class="glyphicon glyphicon-barcode"> Retail</a>
+								<a href="/modules/server.html" class="list-group-item {% if page.sub-title == 'Server' %}list-group-item-success{% endif %}"><span class="glyphicon glyphicon-cloud-upload"> Server</a>
+								</div>
+							</div>
+							<div class="col-md-9">
+								<h2>{{ page.headline1 }}</h2>
+								<h3>{{ page.headline2 }}</h3>
+
+								{{ page.intro }}
+
+								<h2>Benefits</h2>
+								{% for benefit in page.benefits %}
+								<div class="media">
+									<a class="pull-left" href="#">
+										<img class="size-full alignleft" alt="portrait" src=""/>
+									</a>
+									<div class="media-body">
+										<h4 class="media-heading">{{ benefit.headline }}</h4>
+										{{ benefit.detail }}
+									</div>
+								</div>
+								{% endfor %}
+
+								<h3>Features</h3>
+								<ul>
+									{% for feature in page.features %}
+									<li>{{ feature }}</li>
+									{% endfor %}
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					{% include footer.html %}

@@ -11,12 +11,29 @@ title: Clients
 
 	<ul>
 		{% for client in site.data.customers %}
-		<li>
-			<img src=>
-			{{ client.name }} - {{ client.description }}
-		</a>
-	</li>
-	{% if client.quote %} {{ client.quote }} {% endif %}
-	{% endfor %}
-</ul>
-</div>
+
+		<div class="media">
+			<a class="pull-left" href="#">
+				<img class="size-full wp-image-1047 alignleft" alt="portrait" src="/images/logos/{{ client.image }}" width="200" />
+			</a>
+			<div class="media-body">
+				<h4 class="media-heading">{{ client.name }}</h4>
+				{{ client.description }}<br><br>
+				<p><a href="{{ client.website }}">{{ client.website }}</a>
+
+					{% if client.quote %} 
+					<div class="well">
+						<blockquote>
+							<p>"{{ client.quote }}</p>
+							<footer><cite title="Source Title">{{ client.quotefrom }}</cite></footer>
+						</blockquote>
+					</div>
+					{% endif %}
+				</div>
+			</div>
+
+			<hr />
+			{% endfor %}
+
+		</ul>
+	</div>
