@@ -24,20 +24,4 @@ End
 
  
 
-For Media enquiries:
-
-Contact Martina Doherty at Martina@md-comms.com or +44 (0)7951 057146
-
- 
-
-Notes to Editor
-
-About Financial Risk Solutions (FRS)
-
-Financial Risk Solutions Ltd (FRS) is a leading provider of unit pricing and investment administration software specifically designed for the Life Assurance industry. It was founded in 1999 by actuaries and IT specialists and is one of the leading software providers in its sector.
-
-Its Invest|Pro™ product suite is a recognised leading benchmark in the life assurance investment administration market and clients are some of the biggest brands in Life Assurance and Third Party Administration including Accenture Insurance Services, MetLife, and IFDS.
-
-Invest|Pro™ is a modular software system for investment administration that can manage unit pricing and portfolio valuations, asset/liability unit matching, box management, trade order management, investment accounting, financial reporting and compliance with investment mandates in a single application.  Product types covered include unit-linked funds, portfolio bonds, self-invested/directed pensions, shareholder funds and with-profit funds.
-
-For more information visit http://www.frsltd.com
+{% include pr.html %}

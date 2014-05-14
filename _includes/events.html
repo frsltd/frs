@@ -1,0 +1,9 @@
+{% for event in site.data.events limit:3 %}
+
+{% if event.image %}<img src="{{ event.image }}"/>{% endif %}<br>
+<strong>{{ event.name }}</strong><br>
+	{{ event.location }}<br>
+	{{ event.date }}<br>
+	{% if event.url %}<a href="{{ event.url }}">See website</a>{% endif %}
+		<br/><br/>
+{% endfor %}

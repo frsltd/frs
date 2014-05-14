@@ -3,24 +3,20 @@ layout: default
 title: Clients
 ---
 
+<!-- Example row of columns -->
+<div class="row">
+	<div class="page-header">	
+		<h2>Clients</h2>
+	</div>
 
-<div class="container">
-	<!-- Example row of columns -->
-	<div class="row">
-		<div class="page-header">	
-			<h2>Clients</h2>
-		</div>
-
-<ul>
-{% for client in site.data.customers %}
-  <li>
-	  <img src=>
-      {{ client.name }} - {{ client.description }}
-    </a>
-  </li>
-{% if client.quote %} {{ client.quote }} {% endif %}
-{% endfor %}
+	<ul>
+		{% for client in site.data.customers %}
+		<li>
+			<img src=>
+			{{ client.name }} - {{ client.description }}
+		</a>
+	</li>
+	{% if client.quote %} {{ client.quote }} {% endif %}
+	{% endfor %}
 </ul>
-
-</div>
 </div>
