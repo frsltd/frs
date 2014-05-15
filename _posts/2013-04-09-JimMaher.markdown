@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Renowned Irish technology expert joins the board of Financial Risk Solutions Limited (FRS)"
+date:   2013-04-09 16:09:29
+categories: jekyll update
+image: 
+---
+
+Jim Maher co-founder and ex-CEO of Allfinanz joins board of FRS as non-executive Director
+
+- Appointment is part of international expansion drive
+
+
+**Dublin, {{ page.date | date_to_long_string }}** – Financial Risk Solutions (FRS), a leading provider of unit pricing and fund accounting software to the Life Assurance and Pensions industries, today announced the appointment of Jim Maher to its board of directors.
+
+Maher is a key contributor to the technology industry in Ireland. He is well known as co-founder and CEO of Allfinanz, a business software provider to the international financial services industry, which was acquired by Munich Re in 2007. Following the acquisition, Jim became a partner at Unison Consultants in Dublin and since then has pursued a vocation of mentoring a portfolio of high potential technology companies.
+
+Peter Caslin, CEO of FRS commented “FRS has been growing steadily and successfully since our inception back in 1999. We are now entering a new and very exciting expansion phase that will see us enter new markets, grow our international business significantly and offer a range of new products and services to our customers and markets. We are delighted that Jim has agreed to join our Board of Directors. His unique experience and skill set will be of great benefit to us as we move forward though this exciting phase of our development”
+
+Jim Maher commented “FRS is an exceptional company in how it has developed and in what is has achieved to date. Its Invest|Pro™ technology delivers real, tangible and significant business benefits to its clients – who are like a who’s-who of the leading life assurance companies and third party administrators in the UK, Ireland, the Isle of Man and Europe. FRS has a lot more to offer the market and I am looking forward to working with this very talented team.” Maher joins FRS as a non-executive director.
+
+**End**
+
+

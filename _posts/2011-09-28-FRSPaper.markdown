@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "FRS Director delivers paper on: Placing value on tax losses in the unit pricing of UK & Irish Life Company internal funds."
+date:   2011-09-28 16:09:29
+categories: jekyll update
+image: 
+---
+
+The paper [*"Placing Value on Tax Losses in the Unit Pricing of Life Company Internal Funds"*](http://www.frsltd.com/wp-content/uploads/2013/06/Placing-Value-on-Tax-Losses.pdf), examines for both expanding and contracting ‘I-E’ funds:
+
+- philosophical problems with some of the current approaches to placing value of tax losses;
+- the circumstances in which value may reasonably be placed on tax losses;
+- algorithms for placing a value on tax losses; and
+- methods for judging the merits of algorithms for placing value on tax losses.
+
+In the paper the unit pricing implications of using different tax loss value algorithms is illustrated graphically.
+
+
+**Authors:**
+John Caslin, FSAI and George McCutcheon, FSAI Biographical details:
+
+**John Caslin** is a director of Alder Capital Limited, a specialist currency fund management company, and is a former Chairman of the Education Committee and of the Investment & Finance Committee of the Society of Actuaries in Ireland.
+
+**George McCutcheon** is a director and co-founder of Financial Risk Solutions, an Irish software company specialising in the licensing of fund administration software to life assurance companies. Prior to joining FRS, he was an executive director of Irish Progressive Life Assurance Company.
+
+
+**End**
