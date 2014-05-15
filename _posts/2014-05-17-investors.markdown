@@ -21,7 +21,6 @@ Ariel Amigo, Chief Marketing Officer at Investors Trust, says, “With the launc
 Invest|Pro™ is already a well-recognised system in the life assurance investment administration market in Europe. FRS’s customers are some of the biggest brands in life assurance and business process outsourcing (BPO). 
 
 End
-
  
 
 {% include pr.html %}
