@@ -2,5 +2,5 @@ name: Your New Jekyll Site
 markdown: redcarpet
 pygments: false
 paginate: 5
-paginate_path: 
+paginate_path: "news/page:num"
 baseurl: "/frs"

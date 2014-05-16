@@ -3,16 +3,14 @@ layout: default
 title: News
 ---
 
+	<div class="page-header">
+		<h2>News</h2>
+	</div>
+				<div class="col-md-12">
+				<img src="{{ baseurl }}/images/bridge7_1170x400.jpg" />
+			</div>  
 
 <div class="col-md-9">
-	<div class="page-header">	
-		<div class="row">
-            <div class="col-md-12">
-                <img src="{{ site.baseurl }}/images/bridge7_1170x400.jpg" />
-            </div>            
-    	</div>
-	</div>
-
 
 	<!-- This loops through the paginated posts -->
 	{% for post in paginator.posts %}
@@ -65,4 +63,4 @@ title: News
 
 	
 
-		</div>
+</div>
