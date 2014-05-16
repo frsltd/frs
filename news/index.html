@@ -8,7 +8,7 @@ title: News
 	<div class="page-header">	
 		<div class="row">
             <div class="col-md-12">
-                <img src="/images/bridge7_1170x400.jpg" />
+                <img src="{{ site.baseurl }}/images/bridge7_1170x400.jpg" />
             </div>            
     	</div>
 	</div>
@@ -36,7 +36,7 @@ title: News
 	{% if paginator.total_pages > 1 %}
 	<div class="pagination">
 		{% if paginator.previous_page %}
-		<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+		<a href="{{ paginator.previous_page_path | prepend: '/' + site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
 		{% else %}
 		<span>&laquo; Prev</span>
 		{% endif %}
