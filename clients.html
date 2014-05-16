@@ -6,13 +6,15 @@ title: Clients
 <!-- Example row of columns -->
 <div class="row">
 	<div class="page-header">
-	<div class="row">
-            <div class="col-md-12">
-                <img src="{{ site.baseurl }}/images/bridge5_1170x400.jpg" />
-            </div>            
-    </div>
+		<h2>Clients</h2>
 	</div>
 
+	<div class="row">
+		<div class="col-md-12">
+			<img src="{{ site.baseurl }}/images/bridge5_1170x400.jpg" />
+		</div>            
+	</div>
+<br/>
 	<ul>
 		{% for client in site.data.customers %}
 
@@ -23,16 +25,18 @@ title: Clients
 			<div class="media-body">
 				<h4 class="media-heading">{{ client.name }}</h4>
 				{{ client.description }}<br><br>
+
+				{% if client.quote %} 
+				<div class="well">
+					<blockquote>
+						<p><span class="fa fa-quote-left fa-2x"> </span> {{ client.quote }}</p>
+						<footer><cite title="Source Title">{{ client.quotefrom }}</cite></footer>
+					</blockquote>
+				</div>
+				{% endif %}
+
 				<p><a href="{{ client.website }}">{{ client.website }}</a>
 
-					{% if client.quote %} 
-					<div class="well">
-						<blockquote>
-							<p>"{{ client.quote }}</p>
-							<footer><cite title="Source Title">{{ client.quotefrom }}</cite></footer>
-						</blockquote>
-					</div>
-					{% endif %}
 				</div>
 			</div>
 
@@ -41,3 +45,4 @@ title: Clients
 
 		</ul>
 	</div>
+</div>

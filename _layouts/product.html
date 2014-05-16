@@ -31,17 +31,11 @@
 
 								{{ page.intro }}
 
-								<h2>Benefits</h2>
+								<p>Here are some of the benefits</p>
+
 								{% for benefit in page.benefits %}
-								<div class="media">
-									<a class="pull-left" href="#">
-										<img class="size-full alignleft" src=""/>
-									</a>
-									<div class="media-body">
-										<h4 class="media-heading">{{ benefit.headline }}</h4>
-										{{ benefit.detail }}
-									</div>
-								</div>
+									<h4><i class="fa {{ benefit.icon }}"></i> {{ benefit.headline }}</h4>
+									{{ benefit.detail }}
 								{% endfor %}
 
 								<h3>Features</h3>
