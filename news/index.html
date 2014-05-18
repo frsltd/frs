@@ -1,14 +1,9 @@
 ---
 layout: default
 title: News
+page-header: News
+header-image: bridge7_1170x400.jpg
 ---
-
-	<div class="page-header">
-		<h2>News</h2>
-	</div>
-				<div class="col-md-12">
-				<img src="{{ baseurl }}/images/bridge7_1170x400.jpg" />
-			</div>  
 
 <div class="col-md-9">
 
@@ -19,7 +14,7 @@ title: News
 			<img src="{{ post.image }}">
 		</a>
 		<div class="media-body">
-			<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+			<h4><a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a></h4>
 			<p class="author">
 				<p><strong>{{ post.date | date_to_long_string }}</strong></p>
 			</p>

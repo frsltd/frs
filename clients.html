@@ -1,48 +1,38 @@
 ---
 layout: default
 title: Clients
+page-header: Join our ever growing list of clients
+header-image: bridge5_1170x400.jpg
 ---
 
-<!-- Example row of columns -->
-<div class="row">
-	<div class="page-header">
-		<h2>Clients</h2>
-	</div>
 
-	<div class="row">
-		<div class="col-md-12">
-			<img src="{{ site.baseurl }}/images/bridge5_1170x400.jpg" />
-		</div>            
-	</div>
 <br/>
-	<ul>
-		{% for client in site.data.customers %}
+<ul>
+	{% for client in site.data.customers %}
+	<div class="media">
+		<a class="pull-left" href="#">
+			<img class="size-full wp-image-1047 alignleft" alt="portrait" src="{{ site.baseurl }}/images/logos/{{ client.image }}" width="200" />
+		</a>
+		<div class="media-body">
+			<h4 class="media-heading">{{ client.name }}</h4>
+			{{ client.description }}<br><br>
 
-		<div class="media">
-			<a class="pull-left" href="#">
-				<img class="size-full wp-image-1047 alignleft" alt="portrait" src="{{ site.baseurl }}/images/logos/{{ client.image }}" width="200" />
-			</a>
-			<div class="media-body">
-				<h4 class="media-heading">{{ client.name }}</h4>
-				{{ client.description }}<br><br>
-
-				{% if client.quote %} 
-				<div class="well">
-					<blockquote>
-						<p><span class="fa fa-quote-left fa-2x"> </span> {{ client.quote }}</p>
-						<footer><cite title="Source Title">{{ client.quotefrom }}</cite></footer>
-					</blockquote>
-				</div>
-				{% endif %}
-
-				<p><a href="{{ client.website }}">{{ client.website }}</a>
-
-				</div>
+			{% if client.quote %} 
+			<div class="well">
+				<blockquote>
+					<p><span class="fa fa-quote-left fa-2x"> </span> {{ client.quote }}</p>
+					<footer><cite title="Source Title">{{ client.quotefrom }}</cite></footer>
+				</blockquote>
 			</div>
+			{% endif %}
 
-			<hr />
-			{% endfor %}
+			<p><a href="{{ client.website }}">{{ client.website }}</a>
 
-		</ul>
+		</div>
 	</div>
-</div>
+
+	<hr />
+	{% endfor %}
+
+</ul>
+
