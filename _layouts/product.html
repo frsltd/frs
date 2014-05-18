@@ -13,39 +13,68 @@
 			<h4>Core Modules</h4>
 			<div class="list-group">
 				<a href="#" class="list-group-item"><span class="glyphicon glyphicon-download"> Appropriations</a>
-					<a href="#" class="list-group-item"><span class="glyphicon glyphicon-stats"> Valuations</a>
-						<a href="#" class="list-group-item"><span class="glyphicon glyphicon-file"> Financial Reporting</a>
-						</div>
-						<h4>Optional Modules</h4>
-						<div class="list-group">
-							<a href="/modules/analytics.html" class="list-group-item {% if page.sub-title == 'Analytics' %}list-group-item-success{% endif %}"><span class="glyphicon glyphicon-search"> Analytics</span><span class="badge">standalone</span></a>
-							<a href="/modules/exceptions.html" class="list-group-item {% if page.sub-title == 'Exceptions' %}list-group-item-success{% endif %}"><span class="glyphicon glyphicon-flash"> Exceptions</span><span class="badge">standalone</span></a>
-							<a href="/modules/workflow.html" class="list-group-item {% if page.sub-title == 'Workflow' %}list-group-item-success{% endif %}"><span class="glyphicon glyphicon-user"> Workflow</span><span class="badge">June 14</span></a>	
-							<a href="/modules/retail.html" class="list-group-item {% if page.sub-title == 'Retail' %}list-group-item-success{% endif %}"><span class="glyphicon glyphicon-barcode"> Retail</a>
-								<a href="/modules/server.html" class="list-group-item {% if page.sub-title == 'Server' %}list-group-item-success{% endif %}"><span class="glyphicon glyphicon-cloud-upload"> Server</a>
-								</div>
-							</div>
-							<div class="col-md-9">
-								<h2>{{ page.headline1 }}</h2>
-								<h3>{{ page.headline2 }}</h3>
+				<a href="#" class="list-group-item"><span class="glyphicon glyphicon-stats"> Valuations</a>
+				<a href="#" class="list-group-item"><span class="glyphicon glyphicon-file"> Financial Reporting</a>
+			</div>
+			<h4>Optional Modules</h4>
+			<div class="list-group">
+				<a href="/modules/retail.html" class="list-group-item {% if page.sub-title == 'Retail' %}list-group-item-success{% endif %}"><span class="glyphicon glyphicon-barcode"> Retail</a>
+				<a href="/modules/server.html" class="list-group-item {% if page.sub-title == 'Server' %}list-group-item-success{% endif %}"><span class="glyphicon glyphicon-cloud-upload"> Server</a>
+			</div>
 
-								{{ page.intro }}
+			<h4>Standalone Modules</h4>
+			<div class="list-group">
+				<a href="/modules/analytics.html" class="list-group-item {% if page.sub-title == 'Analytics' %}list-group-item-success{% endif %}"><span class="glyphicon glyphicon-search"> Analytics</span></a>
+				<a href="/modules/exceptions.html" class="list-group-item {% if page.sub-title == 'Exceptions' %}list-group-item-success{% endif %}"><span class="glyphicon glyphicon-flash"> Exceptions</span><span class="badge">new</span></a>
+				<a href="/modules/workflow.html" class="list-group-item {% if page.sub-title == 'Workflow' %}list-group-item-success{% endif %}"><span class="glyphicon glyphicon-user"> Workflow</span><span class="badge">June 14</span></a>	
+			</div>
+		</div>
+		<div class="col-md-9">
+			<h2>{{ page.headline1 }} <small>{{ page.headline2 }}</small></h2>
 
-								<p>Here are some of the benefits</p>
+			{{ page.intro }}
 
-								{% for benefit in page.benefits %}
-									<h4><i class="fa {{ benefit.icon }}"></i> {{ benefit.headline }}</h4>
-									{{ benefit.detail }}
-								{% endfor %}
+			<h3>Benefits</h3>
+			<hr/>
 
-								<h3>Features</h3>
-								<ul>
-									{% for feature in page.features %}
-									<li>{{ feature }}</li>
-									{% endfor %}
-								</ul>
-							</div>
-						</div>
+
+			{% for benefit in page.benefits %}	
+			  {% assign loopindex = forloop.index | modulo: 2 %}
+			  {% if loopindex == 1 %}
+			  	<div class='row'>
+				    <div class="col-md-6">
+						<h4><i class="fa {{ benefit.icon }}"></i> {{ benefit.headline }}</h4>
+						{{ benefit.detail }}
 					</div>
+			  {% else %}
+			  		<div class="col-md-6">
+						<h4><i class="fa {{ benefit.icon }}"></i> {{ benefit.headline }}</h4>
+						{{ benefit.detail }}
+			    	</div>
+			    </div>
+			  {% endif %}
+			{% endfor %}
 
-					{% include footer.html %}
+
+			<h3>Features</h3>
+			<ul>
+				{% for feature in page.features %}
+			  {% assign loopindex = forloop.index | modulo: 2 %}
+			  {% if loopindex == 1 %}
+			  	<div class='row'>
+				    <div class="col-md-6">
+						<li>{{ feature }}</li>
+					</div>
+			  {% else %}
+			  		<div class="col-md-6">
+						<li>{{ feature }}</li>
+			    	</div>
+			    </div>
+			  {% endif %}
+			{% endfor %}
+			</ul>
+		</div>
+	</div>
+</div>
+
+{% include footer.html %}

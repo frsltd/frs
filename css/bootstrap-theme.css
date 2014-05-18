@@ -357,6 +357,13 @@ border-right-style:solid;
 border-color:#98bf21;
 }
 
+.homepage-container {
+  background: url(/images/city-of-london.jpg);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-attachment:fixed;
+}
+
 .event{margin-bottom:30px; position:relative;}
 .event .date{width:44px; height:53px; background:url(images/cal.gif) no-repeat; display:block; float:left; margin-bottom:14px;}
 .event .thumbnail{position:absolute; top:0px; left:52px;}

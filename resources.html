@@ -1,0 +1,23 @@
+---
+layout: default
+title: Resources
+page-header: Get the lastest industry resources here
+header-image: bridge3_1170x400.jpg
+---
+	
+
+
+{% for resource in site.data.resources %}	
+  {% assign loopindex = forloop.index | modulo: 2 %}
+  {% if loopindex == 1 %}
+  	<div class='row'>
+	    <div class="col-md-6">
+	      <a href="{{ resource.doc }}">{{ resource.doc }}</a>
+		</div>
+  {% else %}
+  		<div class="col-md-6">
+      		<a href="{{ post.url }}">{{ resource.doc }}</a>
+    	</div>
+    </div>
+  {% endif %}
+{% endfor %}
