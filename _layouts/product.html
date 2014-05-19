@@ -4,11 +4,12 @@
 	<div class="row">
 		<div class="page-header">	
 			<h2>Products</h2>
+			{{ page.bannerimage}}
 		</div>
 
 		<div class="col-md-3">
 			<div class="list-group">
-				<a href="/products.html" class="list-group-item {% if page.sub-title == 'InvestPro' %}list-group-item-success{% endif %}">Invest|Pro</a>
+				<a href="{{ baseurl }}/modules/investpro.html" class="list-group-item {% if page.sub-title == 'InvestPro' %}list-group-item-success{% endif %}">Invest|Pro</a>
 			</div>
 			<h4>Core Modules</h4>
 			<div class="list-group">
@@ -18,15 +19,15 @@
 			</div>
 			<h4>Optional Modules</h4>
 			<div class="list-group">
-				<a href="/modules/retail.html" class="list-group-item {% if page.sub-title == 'Retail' %}list-group-item-success{% endif %}"><span class="glyphicon glyphicon-barcode"> Retail</a>
-				<a href="/modules/server.html" class="list-group-item {% if page.sub-title == 'Server' %}list-group-item-success{% endif %}"><span class="glyphicon glyphicon-cloud-upload"> Server</a>
+				<a href="{{ baseurl }}/modules/retail.html" class="list-group-item {% if page.sub-title == 'Retail' %}list-group-item-success{% endif %}"><span class="glyphicon glyphicon-barcode"> Retail</a>
+				<a href="{{ baseurl }}/modules/server.html" class="list-group-item {% if page.sub-title == 'Server' %}list-group-item-success{% endif %}"><span class="glyphicon glyphicon-cloud-upload"> Server</a>
 			</div>
 
 			<h4>Standalone Modules</h4>
 			<div class="list-group">
-				<a href="/modules/analytics.html" class="list-group-item {% if page.sub-title == 'Analytics' %}list-group-item-success{% endif %}"><span class="glyphicon glyphicon-search"> Analytics</span></a>
-				<a href="/modules/exceptions.html" class="list-group-item {% if page.sub-title == 'Exceptions' %}list-group-item-success{% endif %}"><span class="glyphicon glyphicon-flash"> Exceptions</span><span class="badge">new</span></a>
-				<a href="/modules/workflow.html" class="list-group-item {% if page.sub-title == 'Workflow' %}list-group-item-success{% endif %}"><span class="glyphicon glyphicon-user"> Workflow</span><span class="badge">June 14</span></a>	
+				<a href="{{ baseurl }}/modules/analytics.html" class="list-group-item {% if page.sub-title == 'Analytics' %}list-group-item-success{% endif %}"><span class="glyphicon glyphicon-search"> Analytics</span></a>
+				<a href="{{ baseurl }}/modules/exceptions.html" class="list-group-item {% if page.sub-title == 'Exceptions' %}list-group-item-success{% endif %}"><span class="glyphicon glyphicon-flash"> Exceptions</span><span class="badge">new</span></a>
+				<a href="{{ baseurl }}/modules/workflow.html" class="list-group-item {% if page.sub-title == 'Workflow' %}list-group-item-success{% endif %}"><span class="glyphicon glyphicon-user"> Workflow</span><span class="badge">June 14</span></a>	
 			</div>
 		</div>
 		<div class="col-md-9">
@@ -34,28 +35,32 @@
 
 			{{ page.intro }}
 
-			<h3>Benefits</h3>
-			<hr/>
+			{% if page.benefits %}
+				<h3>Benefits</h3>
+				<hr/>
 
 
-			{% for benefit in page.benefits %}	
-			  {% assign loopindex = forloop.index | modulo: 2 %}
-			  {% if loopindex == 1 %}
-			  	<div class='row'>
-				    <div class="col-md-6">
-						<h4><i class="fa {{ benefit.icon }}"></i> {{ benefit.headline }}</h4>
-						{{ benefit.detail }}
-					</div>
-			  {% else %}
-			  		<div class="col-md-6">
-						<h4><i class="fa {{ benefit.icon }}"></i> {{ benefit.headline }}</h4>
-						{{ benefit.detail }}
-			    	</div>
-			    </div>
-			  {% endif %}
-			{% endfor %}
+				{% for benefit in page.benefits %}	
+				  {% assign loopindex = forloop.index | modulo: 2 %}
+				  {% if loopindex == 1 %}
+				  	<div class='row'>
+					    <div class="col-md-6">
+							<h4><i class="fa {{ benefit.icon }}"></i> {{ benefit.headline }}</h4>
+							{{ benefit.detail }}
+						</div>
+				  {% else %}
+				  		<div class="col-md-6">
+							<h4><i class="fa {{ benefit.icon }}"></i> {{ benefit.headline }}</h4>
+							{{ benefit.detail }}
+				    	</div>
+				    </div>
+				  {% endif %}
+				{% endfor %}
+
+			{% endif %}
 
 
+		{% if page.features %}
 			<h3>Features</h3>
 			<ul>
 				{% for feature in page.features %}
@@ -73,6 +78,8 @@
 			  {% endif %}
 			{% endfor %}
 			</ul>
+		{% endif %}
+
 		</div>
 	</div>
 </div>
