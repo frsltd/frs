@@ -8,10 +8,13 @@ header-image: bridge5_1170x400.jpg
 <div class="col-md-10 col-md-push-1">
 	{% for client in site.data.customers %}
 	<div class="media">
-		<a class="pull-left" href="#">
-			<img class="size-full wp-image-1047 alignleft" alt="portrait" src="{{ site.baseurl }}/images/logos/{{ client.image }}" width="200" />
-		</a>
+		<div class="hidden-xs" style="margin-right:15px;">
+			<a class="pull-left" href="#">	
+				<img alt="portrait" src="{{ site.baseurl }}/images/logos/{{ client.image }}" width="200" />
+			</a>
+		</div>
 		<div class="media-body">
+			<span class="visible-xs"><img alt="portrait" src="{{ site.baseurl }}/images/logos/{{ client.image }}" width="200" /></span>
 			<h4 class="media-heading">{{ client.name }}</h4>
 			{{ client.description }}<br><br>
 

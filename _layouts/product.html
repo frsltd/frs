@@ -13,31 +13,34 @@
 			</div>
 			<h4>Core Modules</h4>
 			<div class="list-group">
-				<a href="#" class="list-group-item"><span class="glyphicon glyphicon-download"> Appropriations</a>
-				<a href="#" class="list-group-item"><span class="glyphicon glyphicon-stats"> Valuations</a>
-				<a href="#" class="list-group-item"><span class="glyphicon glyphicon-file"> Financial Reporting</a>
+				<a href="#" class="list-group-item"><span class="glyphicon glyphicon-download"></span> Trading</a>
+				<a href="#" class="list-group-item"><span class="glyphicon glyphicon-download"></span> Unit Accounting</a>
+				<a href="#" class="list-group-item"><span class="glyphicon glyphicon-download"></span> Taxation</a>
+				<a href="#" class="list-group-item"><span class="glyphicon glyphicon-download"></span> Accounting</a>
+				<a href="#" class="list-group-item"><span class="glyphicon glyphicon-download"></span> Appropriations</a>
+				<a href="#" class="list-group-item"><span class="glyphicon glyphicon-stats"></span> Web Client</a>
 			</div>
 			<h4>Optional Modules</h4>
 			<div class="list-group">
-				<a href="{{ site.baseurl }}/modules/retail.html" class="list-group-item {% if page.sub-title == 'Retail' %}list-group-item-success{% endif %}"><span class="glyphicon glyphicon-barcode"> Retail</a>
-				<a href="{{ site.baseurl }}/modules/server.html" class="list-group-item {% if page.sub-title == 'Server' %}list-group-item-success{% endif %}"><span class="glyphicon glyphicon-cloud-upload"> Server</a>
+				<a href="{{ baseurl }}/modules/retail.html" class="list-group-item {% if page.sub-title == 'Retail' %}list-group-item-success{% endif %}"><span class="glyphicon glyphicon-barcode"></span> Retail</a>
+				<a href="{{ baseurl }}/modules/server.html" class="list-group-item {% if page.sub-title == 'Server' %}list-group-item-success{% endif %}"><span class="glyphicon glyphicon-cloud-upload"></span> Server</a>
 			</div>
 
 			<h4>Standalone Modules</h4>
 			<div class="list-group">
-				<a href="{{ site.baseurl }}/modules/analytics.html" class="list-group-item {% if page.sub-title == 'Analytics' %}list-group-item-success{% endif %}"><span class="glyphicon glyphicon-search"> Analytics</span></a>
-				<a href="{{ site.baseurl }}/modules/exceptions.html" class="list-group-item {% if page.sub-title == 'Exceptions' %}list-group-item-success{% endif %}"><span class="glyphicon glyphicon-flash"> Exceptions</span><span class="badge">new</span></a>
-				<a href="{{ site.baseurl }}/modules/workflow.html" class="list-group-item {% if page.sub-title == 'Workflow' %}list-group-item-success{% endif %}"><span class="glyphicon glyphicon-user"> Workflow</span><span class="badge">June 14</span></a>	
+				<a href="{{ baseurl }}/modules/analytics.html" class="list-group-item {% if page.sub-title == 'Analytics' %}list-group-item-success{% endif %}"><span class="glyphicon glyphicon-search"></span> Analytics</span></a>
+				<a href="{{ baseurl }}/modules/exceptions.html" class="list-group-item {% if page.sub-title == 'Exceptions' %}list-group-item-success{% endif %}"><span class="glyphicon glyphicon-flash"> </span>Exceptions</span><span class="badge">new</span></a>
+<!-- 				<a href="{{ baseurl }}/modules/workflow.html" class="list-group-item {% if page.sub-title == 'Workflow' %}list-group-item-success{% endif %}"><span class="glyphicon glyphicon-user"> Workflow</span><span class="badge">June 14</span></a>	 -->
 			</div>
 		</div>
 		<div class="col-md-9">
-			<h2>{{ page.headline1 }} <small>{{ page.headline2 }}</small></h2>
+			<h2 style="margin-top:0px">{{ page.headline1 }} <small>{{ page.headline2 }}</small></h2>
 
 			{{ page.intro }}
 
 			{% if page.benefits %}
-				<h3>Benefits</h3>
-				<hr/>
+<!-- 				<h3>Benefits</h3>
+				<hr/> --><br><br>
 
 
 				{% for benefit in page.benefits %}	
@@ -79,6 +82,8 @@
 			{% endfor %}
 			</ul>
 		{% endif %}
+
+		{{ content }}
 
 		</div>
 	</div>

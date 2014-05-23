@@ -5,18 +5,20 @@ page-header: Get the lastest industry resources here
 header-image: bridge3_1170x400.jpg
 ---
 	
-
+<h3>The following are brief summaries of the research data. To get the full versions contact support@frsltd.com</h3>
 
 {% for resource in site.data.resources %}	
   {% assign loopindex = forloop.index | modulo: 2 %}
   {% if loopindex == 1 %}
   	<div class='row'>
 	    <div class="col-md-6">
-	      <a href="{{ resource.src }}">{{ resource.doc }}</a>
-		</div>
+        <span class="fa fa-download fa-2x"></span> {{ resource.doc }}
+        <p>This is a brief summary<a href="{{ resource.src }}"> download</a></p>
+		  </div>
   {% else %}
   		<div class="col-md-6">
-      		<a href="{{ post.url }}">{{ resource.doc }}</a>
+        <span class="fa fa-download fa-2x"></span> {{ resource.doc }}
+        <p>This is a brief summary<a href="{{ resource.src }}"> download</a></p>
     	</div>
     </div>
   {% endif %}

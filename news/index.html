@@ -10,10 +10,13 @@ header-image: bridge7_1170x400.jpg
 	<!-- This loops through the paginated posts -->
 	{% for post in paginator.posts %}
 	<div class="media">
-		<a class="pull-left" href="#">
-			<img src="{{ post.image }}">
-		</a>
+		<div class="hidden-xs" style="margin-right:15px;">
+			<a class="pull-left" href="#">
+				<img src="{{ post.image }}">
+			</a>
+		</div>
 		<div class="media-body">
+			<span class="visible-xs"><img src="{{ post.image }}"></span>
 			<h4><a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a></h4>
 			<p class="author">
 				<p><strong>{{ post.date | date_to_long_string }}</strong></p>
