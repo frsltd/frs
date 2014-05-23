@@ -1,0 +1,26 @@
+<h4>Core Modules</h4>
+<div class="list-group">
+{% for p in site.pages %}
+    {% if p.url contains 'core' %}
+		<a href="{{ p.url }}" class="list-group-item {% if p.url == page.url %} list-group-item-success{% endif %}"><span class="glyphicon {{ p.icon }}"></span> {{ p.title }}</a>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<h4>Optional Modules</h4>
+<div class="list-group">
+	{% for p in site.pages %}
+	    {% if p.url contains 'optional' %}
+			<a href="{{ p.url }}" class="list-group-item {% if p.url == page.url %} list-group-item-success{% endif %}"><span class="glyphicon {{ p.icon }}"></span> {{ p.title }}</a>
+	    {% endif %}
+	{% endfor %}
+</div>
+
+<h4>Standalone Modules</h4>
+<div class="list-group">
+	{% for p in site.pages %}
+	    {% if p.url contains 'standalone' %}
+			<a href="{{ p.url }}" class="list-group-item {% if p.url == page.url %} list-group-item-success{% endif %}"><span class="glyphicon {{ p.icon }}"></span> {{ p.title }}</a>
+	    {% endif %}
+	{% endfor %}
+</div><!-- <span class="badge">new</span> -->

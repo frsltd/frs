@@ -354,7 +354,12 @@
 
 .div-border {
 border-right-style:solid;
-border-color:#98bf21;
+}
+
+.div-left-border {
+border-left-width: 1px;
+border-left-style: solid;
+border-left-color: rgb(238, 238, 238);
 }
 
 .homepage-container {
