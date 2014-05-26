@@ -1,25 +1,46 @@
 ---
 layout: default
-title: Resources
+title: Insights
 page-header: Get the lastest industry resources here
 header-image: bridge3_1170x400.jpg
 ---
-	
-<h3>The following are brief summaries of the research data. To get the full versions contact support@frsltd.com</h3>
 
-{% for resource in site.data.resources %}	
-  {% assign loopindex = forloop.index | modulo: 2 %}
-  {% if loopindex == 1 %}
-  	<div class='row'>
-	    <div class="col-md-6">
-        <span class="fa fa-download fa-2x"></span> {{ resource.doc }}
-        <p>This is a brief summary<a href="{{ resource.src }}"> download</a></p>
-		  </div>
-  {% else %}
-  		<div class="col-md-6">
-        <span class="fa fa-download fa-2x"></span> {{ resource.doc }}
-        <p>This is a brief summary<a href="{{ resource.src }}"> download</a></p>
-    	</div>
+<div class="row">
+  <div class="col-md-9">
+    <h3>White Papers</h3>
+    <p>The following are brief summaries of the research data. To get the full versions contact support@frsltd.com</p>
+    {% for resource in site.data.resources %}	
+    {% assign loopindex = forloop.index | modulo: 2 %}
+    {% if loopindex == 1 %}
+    <div class='row'>
+     <div class="col-md-6">
+      <span class="fa fa-download fa-2x"></span> {{ resource.doc }}
+      <p>This is a brief summary<a href="{{ resource.src }}"> download</a></p>
     </div>
+    {% else %}
+    <div class="col-md-6">
+      <span class="fa fa-download fa-2x"></span> {{ resource.doc }}
+      <p>This is a brief summary<a href="{{ resource.src }}"> download</a></p>
+    </div>
+  </div>
   {% endif %}
-{% endfor %}
+  {% endfor %}
+
+  <h3>Case Studies</h3>
+  <p>The following are case studies from some of our leading clients:</p>
+  <a href=""><img src="http://www.frsltd.com/wp-content/uploads/2014/01/rl360.jpg"></a>
+  <a href=""><img src="http://www.frsltd.com/wp-content/uploads/2013/05/mobus-life-logo.jpg"></a>
+  <a href=""><img src="http://www.frsltd.com/wp-content/uploads/2014/01/friends-first.jpg"></a>
+</div>
+
+
+
+<div class="col-md-3">
+  {% for quote in site.data.quotes %}
+  <blockquote>
+    <p>{{ quote.quote }}</p>
+    <footer><cite title="Source Title">{{ quote.title}}, {{ quote.company }}</cite></footer>
+  </blockquote>
+  {% endfor %}
+</div>
+</div>

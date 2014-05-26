@@ -7,9 +7,11 @@
 		</div>
 		<div class="col-md-9 div-left-border">
 			<h2 style="margin-top:0px">{{ page.sub-title }} <small>{{ page.headline2 }}</small></h2>
+			{% if page.intro %}
 			<div class="well">
 				{{ page.intro }}
 			</div>
+			{% endif %}
 
 			{{ page.schematic }}
 
