@@ -2,6 +2,7 @@
 <div class="list-group">
 {% for p in site.pages %}
     {% if p.url contains 'core' %}
+    {{ p.url }} {{ page.url }}
 		<a href="{{ p.url }}" class="list-group-item {% if p.url == page.url %} list-group-item-success{% endif %}"><span class="glyphicon {{ p.icon }}"></span> {{ p.sub-title }}</a>
     {% endif %}
   {% endfor %}
