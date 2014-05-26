@@ -1,13 +1,22 @@
-<h4>Core Modules</h4>
+<h4>Application Areas</h4>
 <div class="list-group">
 {% for p in site.pages %}
-    {% if p.url contains 'core' %}
-		<a href="{{ site.baseurl }}{{ p.url }}" class="list-group-item {% if p.url == page.url %} list-group-item-success{% endif %}"><span class="glyphicon {{ p.icon }}"></span> {{ p.sub-title }}</a>
+    {% if p.url contains 'application' %}
+		<a href="{{ site.baseurl }}{{ p.url }}" class="list-group-item {% if p.url == page.url %} list-group-item-success{% endif %}"><span class="glyphicon {{ p.icon }}"></span> {{ p.sub-title }}</a><span class="label label-default">{{ p.nav-label }}</span>
     {% endif %}
   {% endfor %}
 </div>
 
-<h4>Optional Modules</h4>
+<h4>Modules</h4>
+<div class="list-group">
+{% for p in site.pages %}
+    {% if p.url contains 'core' %}
+		<a href="{{ site.baseurl }}{{ p.url }}" class="list-group-item {% if p.url == page.url %} list-group-item-success{% endif %}"><span class="glyphicon {{ p.icon }}"></span> {{ p.sub-title }} <span class="label label-default">{{ p.nav-label }}</span></a>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<!-- <h4>Optional Modules</h4>
 <div class="list-group">
 	{% for p in site.pages %}
 	    {% if p.url contains 'optional' %}
@@ -20,7 +29,7 @@
 <div class="list-group">
 	{% for p in site.pages %}
 	    {% if p.url contains 'standalone' %}
-			<a href="{{ site.baseurl }}{{ p.url }}" class="list-group-item {% if p.url == page.url %} list-group-item-success{% endif %}"><span class="glyphicon {{ p.icon }}"></span> {{ p.sub-title }}<span class="label label-default">{{ p.nav-label }}</span></a>
+			<a href="{{ site.baseurl }}{{ p.url }}" class="list-group-item {% if p.url == page.url %} list-group-item-success{% endif %}"><span class="glyphicon {{ p.icon }}"></span> {{ p.sub-title }}</a><span class="label label-default">{{ p.nav-label }}</span>
 	    {% endif %}
 	{% endfor %}
 </div><!-- <span class="badge">new</span> -->
