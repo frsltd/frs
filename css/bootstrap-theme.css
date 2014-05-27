@@ -369,6 +369,11 @@ border-left-color: rgb(238, 238, 238);
   background-attachment:fixed;
 }
 
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
 .event{margin-bottom:30px; position:relative;}
 .event .date{width:44px; height:53px; background:url(images/cal.gif) no-repeat; display:block; float:left; margin-bottom:14px;}
 .event .thumbnail{position:absolute; top:0px; left:52px;}
