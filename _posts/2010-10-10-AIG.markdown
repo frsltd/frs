@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Isle of Man client implements Invest|Pro for portfolio valuations, investment accounting, client reporting & automated dealing with single-point access to global funds"
+date:   2010-10-10 16:09:29
+categories: jekyll update
+image: 
+---
+
+AIG Life International Isle of Man implements Invest|Pro for portfolio valuations, investment accounting, client reporting & automated dealing with single-point access to global funds.
+
+Financial Risk Solutions (FRS), a market leading provider of investment administration software  announced today that AIG Life International Ltd, the life assurance company has implemented Invest|Pro for portfolio valuations, client reporting, fees management, investment accounting and automated dealing.
+
+Commenting on the implementation Mr. Mark O Dwyer, General Manager at AIG Life International said;
+
+*We are very familiar with the high standard of the products and service that FRS provides. The solution implemented in the Isle of Man is ideal for our business, and provides us with superior operational and cost efficiencies.*
+
+The Invest|Pro system is widely used by life assurance companies – clients are based in the UK, the IOM,ItalyandIreland. Invest|Pro administers collective unitised funds, portfolio bonds and self-invested pensions. The system determines unit prices for unit linked funds and manages the unit matching process, performs valuations for life wrappers, accounts for tax, management charges, provides regulatory reporting, provides trade order management and investment and financial accounting for regulated life assurance companies.
+
+Commenting FRS CEO Peter Caslin said;
+
+*The Life insurance industry is experiencing enormous flux in the European context where Solvency II is driving a general review in controls and in many cases a re-think on business models and product sets. The focus on robust back office systems has never been greater in the eleven years since FRS was founded.*
+
+
+Sales & marketing director Frank Carr added;
+*FRS milestones over the past year were launching Invest|Pro automated dealing and settlement and launching a new complementary product, Invest|Retail, which is a self-service online web application for IFAs and policyholders alike.*

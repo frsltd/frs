@@ -8,7 +8,7 @@ image: http://www.frsltd.com/wp-content/uploads/2014/03/Analytics-logo-2.jpg
 * With specific relevance for the life insurance industry, Invest|Pro™Analytics is a new web-based reporting and control tool for fund administration. It provides real-time investment data for key decision makers and risk controllers.
 * The software allows life companies to connect data across various databases into customisable reports and dashboards for quick assimilation.
 
-Dublin 5th March 2014 – Financial Risk Solutions Limited (FRS), a leading provider of unit pricing and investment administration software for the life insurance industry, announces the launch of its new Business Intelligence software, Invest|Pro™Analytics.
+**Dublin, {{ page.date | date_to_long_string }}** – Financial Risk Solutions Limited (FRS), a leading provider of unit pricing and investment administration software for the life insurance industry, announces the launch of its new Business Intelligence software, Invest|Pro™Analytics.
 
 Invest|Pro™Analytics provides life company executives and operational staff with access to real-time investment administration data through its graphical, user specific and customisable dashboards. It was developed in response to market demand for more real-time actionable data and is already being implemented by 3 existing FRS clients.
 

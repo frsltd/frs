@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Italian life company selects Financial Risk Solutions (FRS) to automate its fund administration"
+date:   2003-05-13 16:09:29
+categories: jekyll update
+image: 
+---
+
+__*Area Life signs three-year deal with Irish fund administration software company.*__
+
+**Dublin, {{ page.date | date_to_long_string }}** — Area Life, an Irish IFSC life company and part of one of the largest Italian retail banks, has selected Financial Risk Solutions (FRS), a leading fund administration software company, to automate Area’s fund accounting and administration in a three-year deal, FRS announced today.
+
+Area Life chose InvestPro to replace its former system because of its powerful inbuilt unit pricing controls along with its strong fund accounting functionality. An additional requirement of the new system was to handle all taxation, regulatory and accounting aspects in a full multi-currency application; all key features of InvestPro .
+
+InvestPro is respected as being among the top fund administration system for life assurance companies due to its local taxation and regulatory functionality across Europe as standard and because it was designed by senior-level actuaries who integrated their industry know-how and investment product knowledge to address the challenges in fund administration.
+
+Speaking about the relationship, Francis O’Hara, Finance Manager, Area Life said:
+
+*“We are completely restructuring our processes, with the ability to handle growing trading volumes right across Area Life. Not only will InvestPro be able to meet our expansion plans but we have formed a close working relationship with the FRS implementation staff who understand the industry thoroughly.”*
+
+Commenting on the deal Frank Carr, Head of Sales & Marketing, FRS said:
+
+*“We are very proud to win and deliver to such an exciting customer. The installation was challenging with six major interfaces for InvestPro and a live delivery in both Milan and Dublin. Our success in delivering InvestPro within four weeks was down to two things: firstly, establishing a close and reliable working relationship with both Area Life and their IT support house, Getronics, in Dublin and in Milan, and secondly, our experience in installing numerous previous sites.”*
