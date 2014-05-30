@@ -352,8 +352,10 @@
   margin-bottom: 5px;
 }
 
-.div-border {
-border-right-style:solid;
+.div-right-border {
+border-right-width: 1px;
+border-right-style: solid;
+border-right-color: rgb(238, 238, 238);
 }
 
 .div-left-border {
@@ -361,6 +363,11 @@ border-left-width: 1px;
 border-left-style: solid;
 border-left-color: rgb(238, 238, 238);
 }
+
+.div-center {
+  text-align: center;
+}
+
 
 .homepage-container {
   background: url(/images/city-of-london.jpg);
