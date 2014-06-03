@@ -1,18 +1,8 @@
-- name: MetLife
-  description: Metlife are a pure asset management company managing $302 billion of third party assets from offices around the world as at 30 September 2012. Clients access investment expertise drawn from three main asset classes equities fixed income and property as well as tailored solutions.
-  image: metlife.png
-  website: www.metlife.com
-
-- name: Accenture
-  description: Accenture is a global management consulting, technology services and outsourcing company, with approximately 289,000 people serving clients in more than 120 countries. They develop and implement technology to improve their clients’ productivity and efficiency – and may run parts of their business. Accenture's clients span the full range of industries around the world and include 91 of the Fortune Global 100 and more than three-quarters of the Fortune Global 500. 
-  quote: 
-  image: accenture.png
-  website: www.accenture.com
-
 - name: Friends First
   description: Friends First has a long-standing presence in Ireland and a reputation as one of Ireland's leading financial services groups. They provide a comprehensive range of pension, investment and protection products and services to companies, organisations and individuals throughout Ireland. The company manages total assets of €4.6bn and generated Total Premiums of €430m in 2012.
   quote: Investment administration operations have changed so much over the years and our legacy systems were old and unable to provide the functionality we required.We chose Invest|Pro™ to automate and consolidate our administration functions and the 35% cost savings and efficiencies that have resulted have been exceptional. These efficiencies have also allowed us to provide our clients with better service and products – which is where our core competencies lie.
   quotefrom: Head of Group Finance, Friends First
+  download: /Resources/FF-case-study-2013-08-30.pdf
   image: ff.png
   website: www.friendsfirst.ie
 
@@ -20,8 +10,17 @@
   description: RL360° is an Isle of Man based company which provides a variety of savings, investment and protection products. The company operates globally and look after some £2.2 billion in assets for their clients. Last year RL 360 recorded 24% new business growth. Further they were voted Best Financial Adviser portal in the Professional Adviser International Fund and Product Awards 2013.
   quote: Prior to the implementation of Invest|Pro™ the preparation of a set of investment accounts from multiple different systems was quite inefficient. Having a single database of investment transactions and a single Invest|Pro™ general ledger from which to extract a trial balance has significantly reduced timescales and greatly improved the robustness of the process.Invest|Pro™ has completely transformed our operations.
   quotefrom: Financial Controller, RL360°
+  download: /Resources/RL360-case-study-june-2013.pdf
   image: rl360.png
   website: www.rl360.com  
+
+- name: Mobius Life
+  description: Mobius Life is a UK life insurance company. They operate an institutional investment platform specifically configured to meet the needs of advisers to defined benefit and defined contribution pension schemes. Further they specialize in fund management outsourcing. Mobius Life Limited offers a diverse range of funds from a life-company platform to enable pension schemes to easily access and tailor their investment choices to meet their own investment objectives.
+  quote: Invest|Pro™ provides a robust solution to manage Mobius Life pension scheme investments into our unit linked funds and onwards to the investment markets. Invest|Pro™ adds significant tangible value through increased automation and control.
+  quotefrom: Head of Business Development, Mobius Life
+  download: /Resources/ISL-case-study-21-8-2013.pdf
+  image: mobius.png
+  website: http://www.mobiuslife.co.uk/
 
 - name: LCL – International Life Assurance Company Limited
   description: The Isle of Man based company is part of the Charles Taylor plc group of companies. This is a leading international provider of professional services to clients in the global insurance market and has been providing services to insurance clients since 1885. It has 915 staff in 49 offices spread across 25 countries in the UK, the Americas, Asia Pacific, Europe and the Middle East.
@@ -59,3 +58,20 @@
   quote: 
   image: hansard.png
   website: http://www.hansard.com/
+
+- name: IFDS - International Financial Data Services
+  description: IFDS is a joint venture between affiliates of Boston-based State Street Corporation, the world’s leading provider of services to institutional investors, and DST Systems Inc., a Kansas City, Missouri-based leading provider of shareholder accounting services and proprietary systems. They are an administration and technology outsource provider in Canada, the UK and the USA respectively, with our market share continuing to grow throughout the rest of Europe and the Asia-Pacific region.
+  quote: 
+  image: ifds.png
+  website: http://www.ifdsgroup.com/
+
+- name: MetLife
+  description: Metlife are a pure asset management company managing $302 billion of third party assets from offices around the world as at 30 September 2012. Clients access investment expertise drawn from three main asset classes equities fixed income and property as well as tailored solutions.
+  image: metlife.png
+  website: www.metlife.com
+
+- name: Accenture
+  description: Accenture is a global management consulting, technology services and outsourcing company, with approximately 289,000 people serving clients in more than 120 countries. They develop and implement technology to improve their clients’ productivity and efficiency – and may run parts of their business. Accenture's clients span the full range of industries around the world and include 91 of the Fortune Global 100 and more than three-quarters of the Fortune Global 500. 
+  quote: 
+  image: accenture.png
+  website: www.accenture.com

@@ -15,14 +15,14 @@ header-image: countries.jpg
 		</div>
 		<div class="media-body">
 			<span class="visible-xs"><img alt="portrait" src="{{ site.baseurl }}/images/logos/{{ client.image }}" width="200" /></span>
-			<h4 class="media-heading">{{ client.name }}</h4>
+			<h4 class="media-heading"><strong>{{ client.name }}</strong></h4>
 			{{ client.description }}<br><br>
 
 			{% if client.quote %} 
 			<div class="well">
 				<blockquote>
 					<p><span class="fa fa-quote-left fa-2x"> </span> {{ client.quote }}</p>
-					<footer><cite title="Source Title">{{ client.quotefrom }} <a href=""> (<span class="fa fa-download"></span> Download Case study)</a></cite></footer>
+					<footer><cite title="Source Title">{{ client.quotefrom }} <a href="{{ client.download }}"> (<span class="fa fa-download"></span> View Case study)</a></cite></footer>
 				</blockquote>
 			</div>
 			{% endif %}
