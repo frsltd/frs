@@ -9,17 +9,8 @@ header-image:
 	<h3>News</h3>
 	<!-- This loops through the paginated posts -->
 	{% for post in paginator.posts %}
-	<div class="media">
-		<div class="media-body">
-						<h4><a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a></h4>
-			<p class="author">
-				<p><strong>{{ post.date | date_to_long_string }}</strong></p>
-			</p>
-			<div class="content">
-				{{ post.content | truncatewords:30 | strip_html }}
-			</div>
-		</div>
-	</div>
+		<p><a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a></p>
+		<p><strong>{{ post.date | date_to_long_string }}</strong> - {{ post.content | truncatewords:30 | strip_html }}</p>
 	<hr />
 	{% endfor %}
 
