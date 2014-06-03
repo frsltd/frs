@@ -5,7 +5,7 @@
 
 	{% if page.url contains 'individual' and p.url contains 'individual' %}
 	{% assign highlight = true %}
-	{% elsif page.url contains 'unitised' and p.url contains 'unitised' %}
+	{% elsif page.url contains 'collective' and p.url contains 'collective' %}
 	{% assign highlight = true %}
 	{% elsif page.url contains 'outsourcing' and p.url contains 'outsourcing' %}
 	{% assign highlight = true %}
@@ -34,7 +34,7 @@
 {% endif %}
 
 
-{% if page.url contains 'unitised' %}
+{% if page.url contains 'collective' %}
 <h4>Unitised Fund Modules</h4>
 <div class="list-group">
 
