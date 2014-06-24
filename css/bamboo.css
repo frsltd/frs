@@ -3,7 +3,7 @@
 	/*	Bamboo
 	=========================== */
 	.overflow { overflow: auto; -webkit-overflow-scrolling: touch; }
-	.loading { background-image: url(../img/loader.gif); background-position: center; background-repeat: no-repeat; background-size: 32px; }
+	.loading { background-image: url(../images/loader.gif); background-position: center; background-repeat: no-repeat; background-size: 32px; }
 	.loading.subview { min-height: 300px; }
 	#container { margin: 0; position: relative; z-index: 2; background-color: #f9f9f9 }
 	#cover { display: none; position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: rgba(255,255,255,0); z-index: 600; }
