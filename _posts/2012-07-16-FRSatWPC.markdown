@@ -10,7 +10,7 @@ image:
 With direct updates from Steve Ballmer and his colleagues on the latest from the Cloud, Dynamics Platform, Windows 8, Office 365, Azure and much more FRS had access to top executives at Microsoft to understand their commitment to the life assurance space now and into the future.
 
 
-![alt text]({{ site.baseurl }}/images/MicrosoftPartnerConference.jpg "FRS at Microsoft WPC") 
+![alt text]({{ site.baseurl }}/img/MicrosoftPartnerConference.jpg "FRS at Microsoft WPC") 
 
 
 

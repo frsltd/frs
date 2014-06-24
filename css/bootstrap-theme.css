@@ -370,7 +370,7 @@ border-left-color: rgb(238, 238, 238);
 
 
 .homepage-container {
-  background: url(/frs/images/city-of-london.jpg);
+  background: url(/frs/img/city-of-london.jpg);
   background-repeat:no-repeat;
   background-position:center;
   background-attachment:fixed;
@@ -382,7 +382,7 @@ img.displayed {
     margin-right: auto }
 
 .event{margin-bottom:30px; position:relative;}
-.event .date{width:44px; height:53px; background:url(images/cal.gif) no-repeat; display:block; float:left; margin-bottom:14px;}
+.event .date{width:44px; height:53px; background:url(img/cal.gif) no-repeat; display:block; float:left; margin-bottom:14px;}
 .event .thumbnail{position:absolute; top:0px; left:52px;}
 
 .event .date span{display:block; text-align:center;}

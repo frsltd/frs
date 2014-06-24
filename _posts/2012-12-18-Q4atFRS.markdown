@@ -10,7 +10,7 @@ Quarter 4 at FRS has been exhibition time with some of the core team on the road
 
 Berlin Bank Assurance conference – FRS and Barclays Capital presented a joint industry solution for Micro CPPI products at individual level using both companies technology.
 
-![alt text]({{ site.baseurl }}/images/Quarter4FRS1.jpg "Berlin Bank Assurance Conference") 
+![alt text]({{ site.baseurl }}/img/Quarter4FRS1.jpg "Berlin Bank Assurance Conference") 
 
 
 
@@ -19,23 +19,23 @@ The Association of Financial Mutuals in the Belfry in Birmingham was well attend
 
 AILO (Association of International Life Offices) 25th anniversary was marked at a splendid meeting and evening at Greenwich old royal naval college, London.
 
-![alt text]({{ site.baseurl }}/images/Quarter4FRS2.jpg "Old Royal Navy College, London") 
+![alt text]({{ site.baseurl }}/img/Quarter4FRS2.jpg "Old Royal Navy College, London") 
 
 
 
-![alt text]({{ site.baseurl }}/images/Quarter4FRS3.jpg "Life Convention, Brussels")
+![alt text]({{ site.baseurl }}/img/Quarter4FRS3.jpg "Life Convention, Brussels")
 
 
 The 2012 Life convention took place in Brussels with 1,100 actuaries debating the life industry.
 
-![alt text]({{ site.baseurl }}/images/Quarter4FRS4.jpg "FRS Stand Life Convention, Brussels")
+![alt text]({{ site.baseurl }}/img/Quarter4FRS4.jpg "FRS Stand Life Convention, Brussels")
 
 FRS & guests attended the Irish Embassy London Financial Services Dinner in November.
 
-![alt text]({{ site.baseurl }}/images/Quarter4FRS5.jpg "Irish Embassy, London")
+![alt text]({{ site.baseurl }}/img/Quarter4FRS5.jpg "Irish Embassy, London")
 
 FRS Annual user conference took place in Dublin in December – 50 customers attended from Italy, the UK, the Isle of Man & Ireland.
 
-![alt text]({{ site.baseurl }}/images/Quarter4FRS6.jpg "FRS User Conference, Dublin")
+![alt text]({{ site.baseurl }}/img/Quarter4FRS6.jpg "FRS User Conference, Dublin")
 
 FRS showcased its leading edge software at several of these outings and CTO Ceall O’Dunlaing shared the technology roadmap for 2013 at our December 12th user conference at the Herbert Park Hotel in Dublin.

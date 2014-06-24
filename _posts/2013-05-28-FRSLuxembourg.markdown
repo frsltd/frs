@@ -24,7 +24,7 @@ Paul Daelman says, “Technology plays a fundamental role in unit pricing and fu
 The partnership was launched  at the Residence of the Ambassador of Ireland in Luxembourg on Thursday May 16th.
 
 
-![alt text]({{ site.baseurl }}/images/NewPartnershipLuxembourg.jpg "EU Commissioner Charlie McCreevy") 
+![alt text]({{ site.baseurl }}/img/NewPartnershipLuxembourg.jpg "EU Commissioner Charlie McCreevy") 
 
 **End**
 

@@ -1,56 +1,66 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
-
-    <title>{{ page.title }}</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="{{ site.baseurl }}/css/bootstrap.css" rel="stylesheet">
-	<link href="{{ site.baseurl }}/css/bootstrap-theme.css" rel="stylesheet">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="{{ site.baseurl }}/jumbotron.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-
-<body>
-
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="{{ site.baseurl }}/index.html">FRS</a>
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>FRS</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="img/favicon.ico"> 
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/style.css">        
+        <link rel="stylesheet" href="/css/animate.css">
+        <link rel="stylesheet" href="/css/sidr.css">
+        <!-- Font Awesome -->
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <!-- Googe fonts Lato -->
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
+        <!-- Googe fonts Open Sans -->
+        <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>        <!-- Typekit-->
+        <script type="text/javascript" src="http://use.typekit.net/avd6alx.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header>
+        <div class="header-wrapper">
+            <div class="container">
+                    <div class="header"> 
+                        <a href="index.html"><img class="logo" src="/img/logo.png"></a>
+                        <div class="pull-right contact">
+                            <span class="contact-us">Contact Us</span>
+                            <span class="phone-number">+353 1 234 0000</span>
+                        </div>
+                        <a id="mobile-menu" href="#sidr" class="pull-right"><img src="/img/mob-menu.png"></a>
+                        <div id="sidr">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="#">Why FRS?</a></li>
+                                <li><a href="investpro.html">Invest|PRO™</a>
+                                </li>
+                                <div class="divider"></div>
+                                <li class="other"><a href="#">Insights</a></li>                                
+                                <li class="other"><a href="#">News</a></li>
+                                <li class="other"><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
             </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li {% if page.title == 'Why FRS' %}class="active"{% endif %}><a href="{{ site.baseurl }}/why_frs.html">Why FRS</a></li>
-                    <li {% if page.title == 'Invest|Pro' %}class="active"{% endif %}><a href="{{ site.baseurl }}/solutions.html">Invest|Pro</a></li>
-                    <li {% if page.title == 'Services' %}class="active"{% endif %}><a href="{{ site.baseurl }}/services.html">Services</a></li>
-					<li {% if page.title == 'Clients' %}class="active"{% endif %}><a href="{{ site.baseurl }}/clients.html">Clients</a></li>
-					<!-- <li {% if page.title == 'About' %}class="active"{% endif %}><a href="{{ site.baseurl }}/about.html">About</a></li> -->
-					<li {% if page.title == 'Insights' %}class="active"{% endif %}><a href="{{ site.baseurl }}/resources.html">Insights</a></li>
-                    <!-- <li {% if page.title == 'Contact' %}class="active"{% endif %}><a href="{{ site.baseurl }}/contact.html">Contact</a></li> -->
-                    <li {% if page.title == 'News' %}class="active"{% endif %}><a href="{{ site.baseurl }}/news">News</a></li>
+        </div><!-- END header-wrapper -->  
+        <div class="nav-wrapper">
+            <div class="container">
+               <ul class="nav primary">
+                    <li  class="active"><a href="index.html">Home</a></li>
+                    <li><a href="why_frs.html">Why FRS?</a></li>
+                    <li><a href="solutions.html" id="product-dropdown">Invest|PRO™</a></li>
+                    <li><a href="clients.html">Clients</a></li>
+                    <li><a href="resources.html">Insights</a></li>
+                    <li><a href="news">News</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
-            </div><!--/.navbar-collapse -->
-        </div>
-    </div>
+            </div>
+        </div><!-- END nav-wrapper -->
+    </header>

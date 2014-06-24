@@ -6,7 +6,7 @@ categories: jekyll update
 image: 
 ---
 
-![alt text]({{ site.baseurl }}/images/EUcommissioner.jpg "EU Commissioner Charlie McCreevy") 
+![alt text]({{ site.baseurl }}/img/EUcommissioner.jpg "EU Commissioner Charlie McCreevy") 
 
 EU Commissioner Charlie McCreevy called for new rules for players in the financial market to successfully reform European financial regulation, at the tenth anniversary celebrations of Irish company Financial Risk Solutions.
 
