@@ -1,67 +1,68 @@
 <!doctype html>
 <html class="no-js">
-    <head>
-        <meta charset="utf-8">
-        <title>FRS</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="img/favicon.ico"> 
-        <!-- Stylesheets -->
-        <link rel="stylesheet" href="/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/css/style.css">        
-        <link rel="stylesheet" href="/css/animate.css">
-        <link rel="stylesheet" href="/css/sidr.css">
-        <!-- Font Awesome -->
-        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-        <!-- Googe fonts Lato -->
-        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
-        <!-- Googe fonts Open Sans -->
-        <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>        <!-- Typekit-->
-        <script type="text/javascript" src="http://use.typekit.net/avd6alx.js"></script>
-        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-    </head>
-    <body>
+<head>
+    <meta charset="utf-8">
+    <title>FRS - {{ page.title }}</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{{ site.baseurl }}/img/favicon.ico"> 
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">        
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/animate.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/sidr.css">
+    <!-- Font Awesome -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Googe fonts Lato -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
+    <!-- Googe fonts Open Sans -->
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>        <!-- Typekit-->
+    <script type="text/javascript" src="http://use.typekit.net/avd6alx.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
         <!--[if lt IE 8]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        <header>
-        <div class="header-wrapper">
-            <div class="container">
-                    <div class="header"> 
-                        <a href="index.html"><img class="logo" src="/img/logo.png"></a>
-                        <div class="pull-right contact">
-                            <span class="contact-us">News</span>
-                            <span class="contact-us">Contact</span>
-                            <span class="contact-us">About</span>
-                        </div>
-                        <a id="mobile-menu" href="#sidr" class="pull-right"><img src="/img/mob-menu.png"></a>
-                        <div id="sidr">
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="#">Why FRS?</a></li>
-                                <li><a href="investpro.html">Invest|PRO™</a>
-                                </li>
-                                <div class="divider"></div>
-                                <li class="other"><a href="#">Insights</a></li>                                
-                                <li class="other"><a href="#">News</a></li>
-                                <li class="other"><a href="#">Contact</a></li>
-                            </ul>
+            <![endif]-->
+            <header>
+                <div class="header-wrapper">
+                    <div class="container">
+                        <div class="header"> 
+                            <a href="index.html"><img class="logo" src="{{ site.baseurl }}/img/logo.png"></a>
+                            <div class="pull-right contact">
+                                <span class="contact-us"><a href="{{ site.baserul }}/news">News</a></span>
+                                <span class="contact-us"><a href="{{ site.baserul }}/contact.html">Contact</a></span>
+                                <span class="contact-us"><a href="{{ site.baseurl }}/about.html">About</a></span>
+                            </div>
+                            <a id="mobile-menu" href="#sidr" class="pull-right"><img src="{{ site.baseurl }}/img/mob-menu.png"></a>
+                            <div id="sidr">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="#">Why FRS?</a></li>
+                                    <li><a href="investpro.html">Invest|PRO™</a>
+                                    </li>
+                                    <div class="divider"></div>
+                                    <li class="other"><a href="#">Insights</a></li>                                
+                                    <li class="other"><a href="#">News</a></li>
+                                    <li class="other"><a href="#">Contact</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-            </div>
-        </div><!-- END header-wrapper -->  
-        <div class="nav-wrapper">
-            <div class="container">
-               <ul class="nav primary">
-                    <li  class="active"><a href="index.html">Home</a></li>
-                    <li><a href="why_frs.html">Why FRS?</a></li>
-                    <li><a href="solutions.html" id="product-dropdown">Invest|PRO™</a></li>
-                    <li><a href="clients.html">Clients</a></li>
-                    <li><a href="resources.html">Insights</a></li>
+                </div><!-- END header-wrapper -->  
+                <div class="nav-wrapper">
+                    <div class="container">
+                     <ul class="nav primary">
+                        <li {% if page.title == 'Home' %}class="active"{% endif %}><a href="{{ site.baseurl }}/">Home</a></li>
+                        <li {% if page.title == 'Why FRS' %}class="active"{% endif %}><a href="{{ site.baseurl }}/why_frs.html">Why FRS</a></li>
+                        <li {% if page.title == 'Invest|Pro' %}class="active"{% endif %}><a href="{{ site.baseurl }}/solutions.html">Invest|Pro</a></li>
+                        <li {% if page.title == 'Services' %}class="active"{% endif %}><a href="{{ site.baseurl }}/services.html">Services</a></li>
+                        <li {% if page.title == 'Clients' %}class="active"{% endif %}><a href="{{ site.baseurl }}/clients.html">Clients</a></li>
+                        <li {% if page.title == 'Insights' %}class="active"{% endif %}><a href="{{ site.baseurl }}/resources.html">Insights</a></li>
 <!--                     <li><a href="news">News</a></li>
-                    <li><a href="contact.html">Contact</a></li> -->
-                </ul>
-            </div>
-        </div><!-- END nav-wrapper -->
-    </header>
+    <li><a href="contact.html">Contact</a></li> -->
+</ul>
+</div>
+</div><!-- END nav-wrapper -->
+</header>
