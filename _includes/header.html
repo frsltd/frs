@@ -25,39 +25,44 @@
         <!--[if lt IE 8]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
             <![endif]-->
-            <header>
-                <div class="header-wrapper">
-                    <div class="container">
-                        <div class="header"> 
-                            <a href="{{ site.baseurl }}/"><img class="logo" src="{{ site.baseurl }}/img/logo.png"></a>
-                            <div class="pull-right contact">
-                                <span class="contact-us"><a href="{{ site.baseurl }}/news">News</a></span>
-                                <span class="contact-us"><a href="{{ site.baseurl }}/contact.html">Contact</a></span>
-                            </div>
-                            <a id="mobile-menu" href="#sidr" class="pull-right"><img src="{{ site.baseurl }}/img/mob-menu.png"></a>
-                            <div id="sidr">
-                                <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="#">Why FRS?</a></li>
-                                    <li><a href="investpro.html">Invest|PRO™</a></li>
-                                    <li class="other"><a href="#">Insights</a></li>                                
-                                    <li class="other"><a href="#">News</a></li>
-                                    <li class="other"><a href="#">Contact</a></li>
-                                </ul>
-                            </div>
+            <div class="header-wrapper">
+                <div class="container">
+                    <div class="header"> 
+                        <a href="{{ site.baseurl }}/"><img class="logo" src="{{ site.baseurl }}/img/logo.png"></a>
+                        <div class="pull-right contact">
+                            <span class="contact-us"><a href="{{ site.baseurl }}/news">News</a></span>
+                            <span class="contact-us"><a href="{{ site.baseurl }}/contact.html">Contact</a></span>
+                        </div>
+                        <div id="sidr">
+                            <button class="closemenu"><i class="fa fa-times"></i></button>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="#">Why FRS?</a></li>
+                                <li><a href="investpro.html">Invest|PRO™</a></li>
+                                <li class="other"><a href="#">Insights</a></li>                                
+                                <li class="other"><a href="#">News</a></li>
+                                <li class="other"><a href="#">Contact</a></li>
+                            </ul>
                         </div>
                     </div>
-                </div><!-- END header-wrapper -->  
-                <div class="nav-wrapper">
-                    <div class="container">
-                     <ul class="nav primary">
-                        <li {% if page.title == 'Home' %}class="active"{% endif %}><a href="{{ site.baseurl }}/">Home</a></li>
-                        <li {% if page.title == 'Why FRS' %}class="active"{% endif %}><a href="{{ site.baseurl }}/why_frs.html">Why FRS</a></li>
-                        <li {% if page.title == 'Invest|Pro' %}class="active"{% endif %}><a href="{{ site.baseurl }}/solutions.html">Invest|Pro</a></li>
-                        <li {% if page.title == 'Services' %}class="active"{% endif %}><a href="{{ site.baseurl }}/services.html">Services</a></li>
-                        <li {% if page.title == 'Clients' %}class="active"{% endif %}><a href="{{ site.baseurl }}/clients.html">Clients</a></li>
-                        <li {% if page.title == 'Insights' %}class="active"{% endif %}><a href="{{ site.baseurl }}/resources.html">Insights</a></li>
-</ul>
-</div>
-</div><!-- END nav-wrapper -->
-</header>
+                </div>
+            </div><!-- END header-wrapper -->  
+            <div class="nav-wrapper">
+                <div class="container">
+                   <ul class="nav primary">
+                    <li {% if page.title == 'Home' %}class="active"{% endif %}><a href="{{ site.baseurl }}/">Home</a></li>
+                    <li {% if page.title == 'Why FRS' %}class="active"{% endif %}><a href="{{ site.baseurl }}/why_frs.html">Why FRS</a></li>
+                    <li {% if page.title == 'Invest|Pro' %}class="active"{% endif %}><a href="{{ site.baseurl }}/solutions.html">Invest|Pro</a></li>
+                    <li {% if page.title == 'Services' %}class="active"{% endif %}><a href="{{ site.baseurl }}/services.html">Services</a></li>
+                    <li {% if page.title == 'Clients' %}class="active"{% endif %}><a href="{{ site.baseurl }}/clients.html">Clients</a></li>
+                    <li {% if page.title == 'Insights' %}class="active"{% endif %}><a href="{{ site.baseurl }}/resources.html">Insights</a></li>
+                </ul>
+            </div>
+        </div><!-- END nav-wrapper -->
+        <div class="mobile-claim visible-xs">
+            <div class="container">
+                <span class="h1">Automated solutions for global life assurance companies.</span>
+                <a href="#" class="btn orange-btn">Our Products</a>
+                <a href="#" class="btn btn-blue">Why FRS?</a>
+            </div>
+        </div>
