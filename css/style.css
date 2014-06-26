@@ -811,7 +811,7 @@ img.rounded{
 
 .applications-area {
 	padding-top: 50px;
-	background:#efefef;
+	background:#fff;
 
 }
 
@@ -875,7 +875,7 @@ img.rounded{
 }
 
 #funds{
-	
+	background:url(../img/placeholder_f.jpg)100% top no-repeat;
 }
 
 #funds ul{
@@ -890,7 +890,7 @@ img.rounded{
 }
 
 #portfolios{
-	background:#EFEFEF /*url(../img/portfolios_bg.jpg)*/97% top no-repeat;
+	background:#EFEFEF url(../img/portfolios_bg.jpg)100% top no-repeat;
 }
 
 #portfolios li{
