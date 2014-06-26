@@ -1,13 +1,12 @@
 ---
 layout: default
 title: Insights
-page-header: Insights
-header-image: pier.jpg
+page-header: White Papers
+header-image:
 ---
 
-<div class="row">
+<div class="row" style="padding-bottom:20px;">
   <div class="col-md-9">
-    <h3>White Papers</h3>
     {% for resource in site.data.resources %}	
     {% assign loopindex = forloop.index | modulo: 2 %}
     {% if loopindex == 1 %}
@@ -15,13 +14,13 @@ header-image: pier.jpg
      <div class="col-md-6">
       <strong>{{ resource.doc }}</strong>
       <p class="text-muted">{{ resource.description }}</p>
-      <span class="fa fa-download fa"></span><a href="{{ resource.src }}" class="text-right"> download here...</a><br><br>
+      <span class="fa fa-download fa"></span><a href="{{ resource.src }}" class="text-right"> Download here...</a><br><br>
     </div>
     {% else %}
     <div class="col-md-6">
       <strong>{{ resource.doc }}</strong>
       <p class="text-muted">{{ resource.description }}</p>
-      <span class="fa fa-download fa"></span><a href="{{ resource.src }}"> download here...</a><br><br>
+      <span class="fa fa-download fa"></span><a href="{{ resource.src }}"> Download here...</a><br><br>
     </div>
   </div>
   {% endif %}

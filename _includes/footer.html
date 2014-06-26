@@ -35,6 +35,11 @@
                   $('.carousel').carousel({
                     interval: 8000
                 })
+                  $('.nav-wrapper').affix({
+                    offset: {
+                    top: 100
+                    }
+                });
                 $('#mobile-menu').sidr();               
                 $('.submenu').click(function(e) {
                     e.preventDefault();
@@ -48,7 +53,7 @@
                 $.sidr('close');
             }
 
-            $('body').click(function() {
+            $('body, .closemenu').click(function() {
               $.sidr('close');
             });
 
@@ -56,6 +61,6 @@
                 event.stopPropagation();
             }); 
         });
-    </script>    
+    </script>     
 </body>
 </html>

@@ -875,7 +875,7 @@ img.rounded{
 }
 
 #funds{
-	background:url(../img/placeholder_f.jpg)93% top no-repeat;
+	
 }
 
 #funds ul{
@@ -886,11 +886,11 @@ img.rounded{
 	background:url(../img/list-item_bg.jpg)left top no-repeat;
 	line-height:30px;
 	padding:0  0 12px 40px;
-	font-size:17px;
+	font-size:16px;
 }
 
 #portfolios{
-	background:#EFEFEF url(../img/portfolios_bg.jpg)97% top no-repeat;
+	background:#EFEFEF /*url(../img/portfolios_bg.jpg)*/97% top no-repeat;
 }
 
 #portfolios li{
@@ -901,7 +901,7 @@ img.rounded{
 .latestfeatures img{width:100%;}
 
 #governance{
-	background:#fff url(../img/governance_bg.jpg)-3% top no-repeat;
+	background:#fff /*url(../img/governance_bg.jpg)*/-3% top no-repeat;
 	background-size:contain;
 }
 #governance h4{
