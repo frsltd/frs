@@ -52,10 +52,20 @@
                    <ul class="nav primary">
                     <li {% if page.title == 'Home' %}class="active"{% endif %}><a href="{{ site.baseurl }}/">Home</a></li>
                     <li {% if page.title == 'Why FRS' %}class="active"{% endif %}><a href="{{ site.baseurl }}/why_frs.html">Why FRS?</a></li>
-                    <li {% if page.title == 'Invest|Pro' %}class="active"{% endif %}><a href="{{ site.baseurl }}/solutions.html">Invest|Pro™</a></li>
-                    <li {% if page.title == 'Services' %}class="active"{% endif %}><a href="{{ site.baseurl }}/services.html">Services</a></li>
-                    <li {% if page.title == 'Clients' %}class="active"{% endif %}><a href="{{ site.baseurl }}/clients.html">Clients</a></li>
-                    <li {% if page.title == 'Insights' %}class="active"{% endif %}><a href="{{ site.baseurl }}/resources.html">Insights</a></li>
+                    <li class="dropdown {% if page.title == 'Invest|Pro' %}active{% endif %}">
+                        <a href="{{ site.baseurl }}/solutions.html" class="dropdown-toggle" data-toggle="dropdown">Invest|Pro™ <b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="{{ site.baseurl }}/solutions.html">Overview</a></li>
+                        <li><a href="/modules/application/collective-funds.html">Collective Funds</a></li>
+                        <li><a href="/modules/application/individual-accounts.html">Individual Portfolios</a></li>
+                        <li><a href="/modules/application/outsourcing-oversight.html">Outsourcing Supervision</a></li>
+                        <li><a href="/modules/application/risk-management.html">Investment Governance</a></li>
+                    </ul>
+                </li>
+                <li {% if page.title == 'Services' %}class="active"{% endif %}><a href="{{ site.baseurl }}/services.html">Services</a></li>
+                <li {% if page.title == 'Clients' %}class="active"{% endif %}><a href="{{ site.baseurl }}/clients.html">Clients</a></li>
+                <li {% if page.title == 'Insights' %}class="active"{% endif %}><a href="{{ site.baseurl }}/resources.html">Insights</a></li>
+                    
                 </ul>
             </div>
         </div><!-- END nav-wrapper -->
