@@ -901,11 +901,18 @@ img.rounded{
 .latestfeatures img{width:100%;}
 
 #governance{
-	background:#fff url(../img/governance_bg.jpg)97% top no-repeat;
+	background:#fff url(../img/governance_bg.jpg)100% top no-repeat;
 	background-size:contain;
 }
 #governance h4{
 	margin:15px 0;
+}
+#supervision{
+	background:url(../img/outsourcer_bg.jpg)93% top no-repeat;
+}
+
+#services{
+	background:url(../img/services_diag.png)100% top no-repeat;
 }
 hr{
 	display:block;
@@ -1578,7 +1585,7 @@ img.footer-img{
 }
 
 @media (min-width:320px) and (max-width:1024px){
-	.applications, #funds, #supervision, #portfolios, #governance{background:none;}
+	.applications, #funds, #supervision, #portfolios, #governance{background:none;}, #services
 	#portfolios{background:#efefef;}
 	.margin35-25{display:block;margin:0 auto;}
 	.event{margin-bottom:40px;}
@@ -1594,8 +1601,11 @@ img.footer-img{
     background: url(../img/portfolios_bg.jpg) no-repeat 205% top #efefef;
 	}
 	#governance {
-    background: url(../img/governance_bg.jpg) no-repeat -600px top #ffffff;
+    background: url(../img/governance_bg.jpg) no-repeat 200% top #ffffff;
     background-size:contain;
+	}
+	#services {
+    background: url(../img/services_diag.png) no-repeat 141% top rgba(0, 0, 0, 0);
 	}
 }
 @media (min-width:1280px) and (max-width:1800px){
@@ -1606,8 +1616,11 @@ img.footer-img{
     background: url(../img/portfolios_bg.jpg) no-repeat 155% top #efefef;
 	}
 	#governance {
-    background: url(../img/governance_bg.jpg) no-repeat -600px top #ffffff;
+    background: url(../img/governance_bg.jpg) no-repeat 120% top #ffffff;
     background-size:contain;
+	}
+	#services {
+    background: url(../img/services_diag.png) no-repeat 130% top rgba(0, 0, 0, 0);
 	}
 }
 
