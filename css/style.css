@@ -328,6 +328,16 @@ header{
 	width: 86px;
 }
 
+.nav.primary .dropdown-menu li {
+	display: inline-block;
+	text-transform: lowercase;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+	border-left: 0px solid #231f20;
+	border-right: 0px solid #333030;
+}
+
 .nav-wrapper {
 	background: #231f20;
 }
@@ -458,6 +468,7 @@ header{
 
 .dropdown-menu>li>a {
 	padding: 8px 20px;
+	width: 230px;
 }
 
 .nav>li>a:hover, .nav>li>a:focus {
@@ -472,8 +483,13 @@ header{
 }
 
 .dropdown-menu {
-	padding: 0px;
+	padding: 10px;
+	width: auto;
 }
+.dropdown-menu li a:hover {
+            background-color: #a2a2a2;
+        }
+
 /** Mobile Nav **/
 #mobile-menu {
     display: none;
@@ -875,7 +891,8 @@ img.rounded{
 }
 
 #funds{
-	background:url(../img/placeholder_f.jpg)93% top no-repeat;
+	background:url(../img/graphic.jpg)100% top no-repeat;
+
 }
 
 #funds ul{
@@ -890,19 +907,20 @@ img.rounded{
 }
 
 #portfolios{
-	background:#EFEFEF url(../img/portfolios_bg.jpg)97% top no-repeat;
+	background:#fff url(../img/portfolio.jpg)100% top no-repeat;
+	padding-top:50px;
 }
 
 #portfolios li{
-	background:url(../img/list-itemwhite_bg.jpg)left top no-repeat;
+	background:url(../img/list-item_bg.jpg)left top no-repeat;
 }
 .latestfeatures{margin:50px 0 30px 0;}
 
 .latestfeatures img{width:100%;}
 
 #governance{
-	background:#fff url(../img/governance_bg.jpg)100% top no-repeat;
-	background-size:contain;
+	background:#fff url(../img/governance_bg.jpg)120% top no-repeat;
+	/*background-size:contain;*/
 }
 #governance h4{
 	margin:15px 0;
@@ -1595,10 +1613,10 @@ img.footer-img{
 }
 @media (min-width:1024px) and (max-width:1280px){
 	#funds {
-    background: url(../img/placeholder_f.jpg) no-repeat 141% top rgba(0, 0, 0, 0);
+    background: url(../img/graphic.jpg) no-repeat 141% top rgba(0, 0, 0, 0);
 	}
 	#portfolios {
-    background: url(../img/portfolios_bg.jpg) no-repeat 205% top #efefef;
+    background: url(../img/portfolio.jpg) no-repeat 205% top #fff;
 	}
 	#governance {
     background: url(../img/governance_bg.jpg) no-repeat 200% top #ffffff;
@@ -1610,10 +1628,10 @@ img.footer-img{
 }
 @media (min-width:1280px) and (max-width:1800px){
 	#funds {
-    background: url(../img/placeholder_f.jpg) no-repeat 130% top rgba(0, 0, 0, 0);
+    background: url(../img/graphic.jpg) no-repeat 130% top rgba(0, 0, 0, 0);
 	}
 	#portfolios {
-    background: url(../img/portfolios_bg.jpg) no-repeat 155% top #efefef;
+    background: url(../img/portfolio.jpg) no-repeat 155% top #fff;
 	}
 	#governance {
     background: url(../img/governance_bg.jpg) no-repeat 120% top #ffffff;
