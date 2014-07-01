@@ -816,7 +816,7 @@ img.rounded{
 /** Product Features **/
 
 .applications {
-		background: url('../img/applications.png') no-repeat top right;
+		background: /*url('../img/applications.png')*/ no-repeat top right;
 		background-size:contain;
 
 }
