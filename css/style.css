@@ -891,7 +891,7 @@ img.rounded{
 }
 
 #funds{
-	background:url(../img/graphic.jpg)100% top no-repeat;
+	background:/*url(../img/graphic.jpg)100% */top no-repeat;
 
 }
 
