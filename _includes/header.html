@@ -34,15 +34,16 @@
                             <span class="contact-us"><a href="{{ site.baseurl }}/contact.html">Contact</a></span>
                             <span class="contact-us"><a href="{{ site.baseurl }}/about.html">About</a></span>
                         </div>
+                        <a id="mobile-menu" href="#sidr" class="pull-right"><img src="img/mob-menu.png" alt=""></a>
                         <div id="sidr">
                             <button class="closemenu"><i class="fa fa-times"></i></button>
                             <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="#">Why FRS?</a></li>
-                                <li><a href="investpro.html">Invest|PRO™</a></li>
-                                <li class="other"><a href="#">Insights</a></li>                                
-                                <li class="other"><a href="#">News</a></li>
-                                <li class="other"><a href="#">Contact</a></li>
+                                <li> <a href="{{ site.baseurl }}/">Home</a></li>
+                                <li> <a href="{{ site.baseurl }}/why_frs.html">Why FRS?</a></li>
+                                <li> <a href="{{ site.baseurl }}/solutions.html">Invest|Pro™</a></li>
+                                <li> <a href="{{ site.baseurl }}/services.html">Services</a></li>
+                                <li> <a href="{{ site.baseurl }}/clients.html">Clients</a></li>
+                                <li> <a href="{{ site.baseurl }}/resources.html">Insights</a></li>                              
                             </ul>
                         </div>
                     </div>
@@ -54,17 +55,9 @@
                     <li {% if page.title == 'Home' %}class="active"{% endif %}><a href="{{ site.baseurl }}/">Home</a></li>
                     <li {% if page.title == 'Why FRS' %}class="active"{% endif %}><a href="{{ site.baseurl }}/why_frs.html">Why FRS?</a></li>
                     <li {% if page.title == 'Solutions' %}class="active"{% endif %}><a href="{{ site.baseurl }}/solutions.html">Invest|Pro™</a></li>
-                <li {% if page.title == 'Services' %}class="active"{% endif %}><a href="{{ site.baseurl }}/services.html">Services</a></li>
-                <li {% if page.title == 'Clients' %}class="active"{% endif %}><a href="{{ site.baseurl }}/clients.html">Clients</a></li>
-                <li {% if page.title == 'Insights' %}class="active"{% endif %}><a href="{{ site.baseurl }}/resources.html">Insights</a></li>
-                    
+                    <li {% if page.title == 'Services' %}class="active"{% endif %}><a href="{{ site.baseurl }}/services.html">Services</a></li>
+                    <li {% if page.title == 'Clients' %}class="active"{% endif %}><a href="{{ site.baseurl }}/clients.html">Clients</a></li>
+                    <li {% if page.title == 'Insights' %}class="active"{% endif %}><a href="{{ site.baseurl }}/resources.html">Insights</a></li>  
                 </ul>
             </div>
         </div><!-- END nav-wrapper -->
-        <div class="mobile-claim visible-xs">
-            <div class="container">
-                <span class="h1">Automated solutions for global life assurance companies.</span>
-                <a href="#" class="btn orange-btn">Our Products</a>
-                <a href="#" class="btn btn-blue">Why FRS?</a>
-            </div>
-        </div>

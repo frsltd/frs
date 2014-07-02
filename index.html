@@ -2,6 +2,14 @@
 layout: home
 title: Home
 ---
+
+<div class="mobile-claim visible-xs">
+    <div class="container">
+        <span class="h1">Automated solutions for global life assurance companies.</span>
+        <a href="#" class="btn orange-btn">Our Products</a>
+        <a href="#" class="btn btn-blue">Why FRS?</a>
+    </div>
+</div>
  
 <!-- Carousel -->
 <div id="frs-slider" class="carousel slide">
@@ -223,8 +231,12 @@ title: Home
             <div class="subscribe-wrapper">
                 <div class="container">
                     <h2>Subscribe to our research brief</h2>
-                    <input type="text" placeholder="Your name">
-                    <input type="text" placeholder="Your email">                    
-                    <a href="#" class="btn dark-orange-btn">Subscribe</a>
+                    <form method="POST" action="//forms.brace.io/chris.nicholson@frsltd.com">
+                        <input type="text" placeholder="Your name" name="name">
+                        <input type="text" placeholder="Your email" name="_replyto">  
+                        <input type="hidden" name="_next" value="/contact.html" />            
+                        <a href="#" class="btn dark-orange-btn">Subscribe</a>
+                        <input type="submit" value="Send">
+                    </form>
                 </div>
             </div>
