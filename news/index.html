@@ -9,7 +9,7 @@ header-image:
 	<h3>News</h3>
 	<!-- This loops through the paginated posts -->
 	{% for post in paginator.posts %}
-		<p><a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a></p>
+		<p><a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"><img src="{{ site.baseurl }}/img/news.png">{{ post.title }}</a></p>
 		<p><strong>{{ post.date | date_to_long_string }}</strong> - {{ post.content | truncatewords:30 | strip_html }}</p>
 	<hr />
 	{% endfor %}
