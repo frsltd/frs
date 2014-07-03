@@ -919,7 +919,7 @@ img.rounded{
 .latestfeatures img{width:100%;}
 
 #governance{
-	background:#fff url(../img/governance_bg.jpg)120% top no-repeat;
+	background:#fff /*url(../img/governance_bg.jpg)*/120% top no-repeat;
 	/*background-size:contain;*/
 }
 #governance h4{
@@ -1619,7 +1619,7 @@ img.footer-img{
     background: url(../img/portfolio.jpg) no-repeat 205% top #fff;
 	}
 	#governance {
-    background: url(../img/governance_bg.jpg) no-repeat 200% top #ffffff;
+    background: /*url(../img/governance_bg.jpg)*/ no-repeat 200% top #ffffff;
     background-size:contain;
 	}
 	#services {
@@ -1634,7 +1634,7 @@ img.footer-img{
     background: url(../img/portfolio.jpg) no-repeat 155% top #fff;
 	}
 	#governance {
-    background: url(../img/governance_bg.jpg) no-repeat 120% top #ffffff;
+    background: /*url(../img/governance_bg.jpg)*/ no-repeat 120% top #ffffff;
     background-size:contain;
 	}
 	#services {
