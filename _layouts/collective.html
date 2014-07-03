@@ -9,12 +9,12 @@
 			<div class="list-group">  
 				<a href="{{ site.baseurl }}/modules/collective-md/analytics.html" class="list-group-item {% if page.sub-title == 'Analytics' %}active{% endif %}"><span class="glyphicon glyphicon-search"></span> Analytics <span class="label label-default">new</span></a>
 				<a href="{{ site.baseurl }}/modules/collective-md/solvency.html" class="list-group-item {% if page.sub-title == 'Solvency II' %}active{% endif %}"><span class="glyphicon glyphicon-pencil"></span> Solvency II <span class="label label-default"></span></a>
-				<a href="{{ site.baseurl }}/modules/collective-md/exceptions.html" class="list-group-item {% if page.sub-title == 'Analytics' %}active{% endif %}"><span class="glyphicon glyphicon-flash"></span> Rules Management <span class="label label-default"></span></a>
+				<a href="{{ site.baseurl }}/modules/collective-md/exceptions.html" class="list-group-item {% if page.sub-title == 'Rules Management' %}active{% endif %}"><span class="glyphicon glyphicon-flash"></span> Rules Management <span class="label label-default"></span></a>
 				<a href="{{ site.baseurl }}/modules/collective-md/trading.html" class="list-group-item {% if page.sub-title == 'Trade Management' %}active{% endif %}"><span class="glyphicon glyphicon-globe"></span> Trade Management <span class="label label-default"></span></a>
-				<a href="{{ site.baseurl }}/modules/collective-md/cash-allocation.html" class="list-group-item {% if page.sub-title == 'Analytics' %}active{% endif %}"><span class="glyphicon glyphicon-download"></span> Cash Allocations - Appropriations <span class="label label-default"></span></a>
-				<a href="{{ site.baseurl }}/modules/collective-md/asset-reconciliations.html" class="list-group-item {% if page.sub-title == 'Analytics' %}active{% endif %}"><span class="glyphicon glyphicon-cloud-upload"></span> Asset Reconciliations <span class="label label-default"></span></a>
-				<a href="{{ site.baseurl }}/modules/collective-md/fund-accounting.html" class="list-group-item {% if page.sub-title == 'Analytics' %}active{% endif %}"><span class="glyphicon glyphicon-file"></span> Fund Accounts <span class="label label-default"></span></a>
-				<a href="{{ site.baseurl }}/modules/collective-md/taxation.html" class="list-group-item {% if page.sub-title == 'Analytics' %}active{% endif %}"><span class="glyphicon glyphicon-cloud-upload"></span> Tax Accruals <span class="label label-default"></span></a>
+				<a href="{{ site.baseurl }}/modules/collective-md/cash-allocation.html" class="list-group-item {% if page.sub-title == 'Cash Allocations - Appropriations' %}active{% endif %}"><span class="glyphicon glyphicon-download"></span> Cash Allocations - Appropriations <span class="label label-default"></span></a>
+				<a href="{{ site.baseurl }}/modules/collective-md/asset-reconciliations.html" class="list-group-item {% if page.sub-title == 'Asset Reconciliations' %}active{% endif %}"><span class="glyphicon glyphicon-cloud-upload"></span> Asset Reconciliations <span class="label label-default"></span></a>
+				<a href="{{ site.baseurl }}/modules/collective-md/fund-accounting.html" class="list-group-item {% if page.sub-title == 'Fund Accounts' %}active{% endif %}"><span class="glyphicon glyphicon-file"></span> Fund Accounts <span class="label label-default"></span></a>
+				<a href="{{ site.baseurl }}/modules/collective-md/taxation.html" class="list-group-item {% if page.sub-title == 'Tax Accruals' %}active{% endif %}"><span class="glyphicon glyphicon-cloud-upload"></span> Tax Accruals <span class="label label-default"></span></a>
 				<a href="{{ site.baseurl }}/modules/collective-md/charges-and-fees.html" class="list-group-item {% if page.sub-title == 'Charges and Fees' %}active{% endif %}"><span class="glyphicon glyphicon-cloud-upload"></span> Charges and Fees <span class="label label-default"></span></a>
 				<a href="{{ site.baseurl }}/modules/collective-md/scheduler.html" class="list-group-item {% if page.sub-title == 'Task Scheduler' %}active{% endif %}"><span class="glyphicon glyphicon-cloud-upload"></span> Task Scheduler <span class="label label-default"></span></a>
 				<a href="{{ site.baseurl }}/modules/collective-md/valuations.html" class="list-group-item {% if page.sub-title == 'Valuations' %}active{% endif %}"><span class="glyphicon glyphicon-stats"></span> Valuations <span class="label label-default"></span></a>
@@ -25,7 +25,8 @@
 			<h2 style="margin-top:0px;">{{ page.sub-title }}</h2>
 
 			{{ content }}
-
+			{{ label }}
+			{{ docs }}
 		</div>
 	</section>
 
