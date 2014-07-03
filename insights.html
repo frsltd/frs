@@ -15,13 +15,13 @@ show-subscribe: true
      <div class="col-md-6">
       <strong>{{ resource.doc }}</strong>
       <p class="text-muted">{{ resource.description }}</p>
-      <span class="fa fa-download fa"></span><a href="{{ resource.src }}" class="text-right"> Download here...</a><br><br>
+      <span class="fa fa-download fa"></span><a href="{{ site.baseurl }}/{{ resource.src }}" class="text-right"> Download here...</a><br><br>
     </div>
     {% else %}
     <div class="col-md-6">
       <strong>{{ resource.doc }}</strong>
       <p class="text-muted">{{ resource.description }}</p>
-      <span class="fa fa-download fa"></span><a href="{{ resource.src }}"> Download here...</a><br><br>
+      <span class="fa fa-download fa"></span><a href="{{ site.baseurl }}/{{ resource.src }}"> Download here...</a><br><br>
     </div>
   </div>
   {% endif %}
