@@ -1,0 +1,31 @@
+{% include header.html %}
+
+<section id="funds" class="productblock">
+	<div class="container">
+		<h1 class="portfolios">Individual Portfolios | <small>Empower your clients to invest how and when they want</small></h1>
+		<hr>
+		<div class="col-md-3">
+
+			<div class="list-group">  
+				<a href="{{ site.baseurl }}/modules/individual-md/analytics.html" class="list-group-item {% if page.sub-title == 'Analytics' %}active{% endif %}"><span class="glyphicon glyphicon-search"></span> Analytics <span class="label label-default">new</span></a>				
+				<a href="{{ site.baseurl }}/modules/individual-md/exceptions.html" class="list-group-item {% if page.sub-title == 'Rules Management' %}active{% endif %}"><span class="glyphicon glyphicon-flash"></span> Rules Management <span class="label label-default"></span></a>
+				<a href="{{ site.baseurl }}/modules/individual-md/trading.html" class="list-group-item {% if page.sub-title == 'Trade Management' %}active{% endif %}"><span class="glyphicon glyphicon-globe"></span> Trade Management <span class="label label-default"></span></a>				
+				<a href="{{ site.baseurl }}/modules/individual-md/asset-reconciliations.html" class="list-group-item {% if page.sub-title == 'Asset Reconciliations' %}active{% endif %}"><span class="glyphicon glyphicon-cloud-upload"></span> Asset Reconciliations <span class="label label-default"></span></a>
+				<a href="{{ site.baseurl }}/modules/individual-md/fund-accounting.html" class="list-group-item {% if page.sub-title == 'Fund Accounts' %}active{% endif %}"><span class="glyphicon glyphicon-file"></span> Fund Accounts <span class="label label-default"></span></a>
+				<a href="{{ site.baseurl }}/modules/individual-md/taxation.html" class="list-group-item {% if page.sub-title == 'Tax Accruals' %}active{% endif %}"><span class="glyphicon glyphicon-cloud-upload"></span> Tax Accruals <span class="label label-default"></span></a>
+				<a href="{{ site.baseurl }}/modules/individual-md/charges-and-fees.html" class="list-group-item {% if page.sub-title == 'Charges and Fees' %}active{% endif %}"><span class="glyphicon glyphicon-cloud-upload"></span> Charges and Fees <span class="label label-default"></span></a>
+				<a href="{{ site.baseurl }}/modules/individual-md/scheduler.html" class="list-group-item {% if page.sub-title == 'Task Scheduler' %}active{% endif %}"><span class="glyphicon glyphicon-cloud-upload"></span> Task Scheduler <span class="label label-default"></span></a>
+				<a href="{{ site.baseurl }}/modules/individual-md/valuations.html" class="list-group-item {% if page.sub-title == 'Valuations' %}active{% endif %}"><span class="glyphicon glyphicon-stats"></span> Valuations <span class="label label-default"></span></a>
+			</div>   
+		</div>
+
+		<div class="col-md-9">
+			<h2 style="margin-top:0px;">{{ page.sub-title }}</h2>
+
+			{{ content }}
+			{{ label }}
+			{{ docs }}
+		</div>
+	</section>
+
+	{% include footer.html %}

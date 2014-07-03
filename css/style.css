@@ -1613,7 +1613,7 @@ img.footer-img{
 }
 @media (min-width:1024px) and (max-width:1280px){
 	#funds {
-    background: url(../img/graphic.jpg) no-repeat 141% top rgba(0, 0, 0, 0);
+    background: /*url(../img/graphic.jpg)*/ no-repeat 141% top rgba(0, 0, 0, 0);
 	}
 	#portfolios {
     background: url(../img/portfolio.jpg) no-repeat 205% top #fff;
@@ -1628,7 +1628,7 @@ img.footer-img{
 }
 @media (min-width:1280px) and (max-width:1800px){
 	#funds {
-    background: url(../img/graphic.jpg) no-repeat 130% top rgba(0, 0, 0, 0);
+    background: /*url(../img/graphic.jpg)*/ no-repeat 130% top rgba(0, 0, 0, 0);
 	}
 	#portfolios {
     background: url(../img/portfolio.jpg) no-repeat 155% top #fff;
