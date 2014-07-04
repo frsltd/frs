@@ -163,26 +163,15 @@ title: Home
                         <h5><a href="http://www.actuaries.org.uk/events/residential/life-conference-and-exhibition-2014">Life Conference 2014, ICC Birmingham</a></h5>
                         <span class="date">Nov 9th 2014</p>
                     </div>
-                    <div class="col-md-3 col-sm-6  news-item wow fadeIn" data-wow-delay=".4s">
-                        <img src="img/news2.jpg" alt="news">
+                    {% for post in site.posts limit:3 %}
+                    <div class="col-md-3 col-sm-6  news-item wow fadeIn" data-wow-delay=".2s">
+                        <img src="img/news{{ forloop.index }}.jpg" alt="news">
                         <p class="news"><img src="img/news.png" alt="news">News</p>
-                        <h5><a href="{{ site.baseurl }}jekyll/update/2014/05/13/investors.html">Investors Trust adopts Invest|Pro™ software to launch new portfolio bond products in Latin America, Asia and Africa.</a></h5>
-                        <p>May 9th 2014</p>
+                        <h5><a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a></h5>
+                        <p>{{ post.date | date_to_long_string }}</p>
                     </div>
-                    <div class="col-md-3 col-sm-6 news-item wow fadeIn" data-wow-delay=".6s">
-                        <img src="img/news3.jpg" alt="news">
-                        <p class="news"><img src="img/news.png" alt="news">News</p>
-
-                        <h5><a href="{{ site.baseurl }}2014/05/09/actuarial-post.html">How business intelligence can be a real driver of competitive advantage for life insurers.</a></h5>
-                        <p>May 9th 2014</p>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6 news-item wow fadeIn" data-wow-delay=".8s">
-                        <img src="img/news4.jpg" alt="news">
-                        <p class="news"><img src="img/news.png" alt="news">News</p>
-                        <h5><a href="{{ site.baseurl }}2014/03/05/analytics.html">FRS launches Invest|Pro™ Analytics - a Business Intelligence tool for Life Insurers.</a></h5>
-                        <p>March 5th 2014</p>
-                    </div>
+                    {% endfor %}
+                    
                 </div>
             </div>
             {% include contact-form.html %}
