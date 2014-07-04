@@ -15,16 +15,7 @@
 </div>
 
 {% if page.show-subscribe %}
-<section>
-    <div class="subscribe-wrapper">
-        <div class="container">
-            <h2>Subscribe to our research brief</h2>
-            <input type="text" placeholder="Your name">
-            <input type="text" placeholder="Your email">                    
-            <a href="#" class="btn dark-orange-btn">Subscribe</a>
-        </div>
-    </div>
-</section>
+	{% include contact-form.html %}
 {% endif %}
 
 {% include footer.html %}
