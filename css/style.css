@@ -930,7 +930,7 @@ img.rounded{
 }
 
 #services{
-	background:/*url(../img/services_diag.png)*/100% top no-repeat;
+	background:url(../img/services_diag2.png)100% top no-repeat;
 }
 hr{
 	display:block;
@@ -1608,8 +1608,15 @@ img.footer-img{
 	.margin35-25{display:block;margin:0 auto;}
 	.event{margin-bottom:40px;}
 	.application-container{
-		width:100%;
-	}
+		width:100%;}
+		.wow {
+  visibility: visible !important;
+  -webkit-animation: none !important;
+     -moz-animation: none !important;
+       -o-animation: none !important;
+      -ms-animation: none !important;
+          animation: none !important;
+}
 }
 @media (min-width:1024px) and (max-width:1280px){
 	#funds {
@@ -1623,7 +1630,7 @@ img.footer-img{
     background-size:contain;
 	}
 	#services {
-    background: /*url(../img/services_diag.png)*/ no-repeat 141% top rgba(0, 0, 0, 0);
+    background: url(../img/services_diag2.png) no-repeat 141% top rgba(0, 0, 0, 0);
 	}
 }
 @media (min-width:1280px) and (max-width:1800px){
@@ -1638,7 +1645,7 @@ img.footer-img{
     background-size:contain;
 	}
 	#services {
-    background: /*url(../img/services_diag.png)*/ no-repeat 100% top rgba(0, 0, 0, 0);
+    background: url(../img/services_diag2.png) no-repeat 100% top rgba(0, 0, 0, 0);
 	}
 }
 
