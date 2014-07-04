@@ -1250,7 +1250,9 @@ img.footer-img{
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
-
+	.subscription-padding {
+		margin-bottom: 10px;
+	}
 	.nav.primary {
 		display: none;
 	}
