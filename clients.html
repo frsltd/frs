@@ -21,7 +21,7 @@ page-header: Join our ever growing list of clients
 			<div class="well">
 				<blockquote>
 					<p><span class="fa fa-quote-left fa-2x"> </span> {{ client.quote }}</p>
-					<footer><cite title="Source Title">{{ client.quotefrom }} <a href="{{ Site.baseurl }}{{ client.download }}"> {% if client.download %}(<span class="fa fa-download"></span> View Case study)</a>{% endif %}</cite></footer>
+					<footer><cite title="Source Title">{{ client.quotefrom }} <a href="{{ client.download }}"> {% if client.download %}(<span class="fa fa-download"></span> View Case study)</a>{% endif %}</cite></footer>
 				</blockquote>
 			</div>
 			{% endif %}
