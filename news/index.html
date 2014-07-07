@@ -5,7 +5,7 @@ page-header: Keep up to date with the latest news and events
 header-image: 
 ---
 
-<div class="col-md-8 div-right-border">
+<div class="col-md-9 div-right-border">
 	<h3>News</h3>
 	<!-- This loops through the paginated posts -->
 	{% for post in paginator.posts %}
@@ -42,7 +42,7 @@ header-image:
 
 </div>
 
-<div class="col-md-4">
+<div class="col-md-3">
 	<h3>Events</h3>
 
 {% for event in site.data.events limit:3 %}

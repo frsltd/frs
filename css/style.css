@@ -1694,3 +1694,9 @@ h4.orangeline{color:#df7a1c;}
 	.hero-text h1{font-size:40px;}
 	.hero-text h2{font-size:20px;}
 }
+
+.div-right-border {
+border-right-style:solid;
+border-right-width: 1px;
+border-color:#dbdbdb;
+}
