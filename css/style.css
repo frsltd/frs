@@ -96,12 +96,12 @@ hr {
 }
 /** Lists **/
 ul {
-	padding-left: 0px;
+	padding-left: 15px;
 }
 
-li{
+/*li{
 	list-style-type:none;
-}
+}*/
 
 /** Buttons **/
 .btn {
@@ -894,6 +894,7 @@ ul.whitebullets li, ul.greybullets li{
 	padding:0  0 12px 40px;
 	font-size:17px;
 	clear:both;
+	list-style-type: none;
 }
 ul.whitebullets li{background:url(../img/list-item_bg.jpg)left top no-repeat;}
 ul.greybullets li{	background:url(../img/list-itemwhite_bg.jpg)left top no-repeat;}
@@ -1188,7 +1189,7 @@ ul.modules{
 	font-size:17px;
 	clear:both;
 }
-ul.modules li{padding:5px 0;}
+ul.modules li{padding:5px 0; list-style-type: none;}
 ul.modules li a{color:#a2a2a2;color:#727272;}
 ul.modules li a span{color:#df7a1c;font-size:20px;padding-right:8px;}
 ul.modules li a span.label{font-size:12px;background:#0070cc; color:#fff;padding:3px 10px 5px 10px;}
