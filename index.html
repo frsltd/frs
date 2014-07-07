@@ -129,13 +129,6 @@ title: Home
                         </div>
                         <div class="quote">
                             <div class="row">
-
-                                {% assign random = site.time | date: "%s%N" | modulo: site.posts.size %}
-<div>Random post: <a href="{{ site.posts[random].url }}">{{ site.posts[random].title }}</a></div> 
-                                {{ random }}
-
-                                {{ site.data.quotes | jsonify }}
-                                
                                 <div class="col-md-12">
                                     <img src="img/quote-left.png" class="quote-left">
                                     <img src="img/quote-right.png" class="quote-right">
