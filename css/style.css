@@ -928,6 +928,14 @@ a.call{
 }
 a.call:after{content:""!important;}
 a.call + div.clearfix + p, a.call + p{margin-top:30px;}
+
+/** Module Pages **/
+#module-description h2{
+	font-size:35px;
+
+}
+
+
 /** Quote **/
 .quote p {
 	font-size: 16px;
