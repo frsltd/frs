@@ -1607,8 +1607,15 @@ h4.orangeline{color:#df7a1c;}
 	.margin35-25{display:block;margin:0 auto;}
 	.event{margin-bottom:40px;}
 	.application-container{
-		width:100%;
-	}
+				width:100%;}
+		.wow {
+  visibility: visible !important;
+  -webkit-animation: none !important;
+     -moz-animation: none !important;
+       -o-animation: none !important;
+      -ms-animation: none !important;
+          animation: none !important;
+}
 }
 @media (min-width:1024px) and (max-width:1280px){
 	#funds {
