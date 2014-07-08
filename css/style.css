@@ -928,6 +928,14 @@ a.call{
 }
 a.call:after{content:""!important;}
 a.call + div.clearfix + p, a.call + p{margin-top:30px;}
+
+/** Module Pages **/
+#module-description h2{
+	font-size:35px;
+
+}
+
+
 /** Quote **/
 .quote p {
 	font-size: 16px;
@@ -1288,6 +1296,9 @@ h4.orangeline{color:#df7a1c;}
 	.header {
 		padding-left: 30px;
 		padding-right: 30px;
+		border-bottom: 2px;
+		border-bottom-style: solid;
+		border-bottom-color: #000;
 	}
 	
 	.events {
@@ -1448,6 +1459,7 @@ h4.orangeline{color:#df7a1c;}
 		margin:10px 0;
 
 	}
+	#header-contact {visibility:hidden;}
 }
 
 @media (max-width: 940px) {
@@ -1599,9 +1611,16 @@ h4.orangeline{color:#df7a1c;}
 	.margin35-25{display:block;margin:0 auto;}
 	.event{margin-bottom:40px;}
 	.application-container{
-		width:100%;
-	}
+				width:100%;}
+		.wow {
+  visibility: visible !important;
+  -webkit-animation: none !important;
+     -moz-animation: none !important;
+       -o-animation: none !important;
+      -ms-animation: none !important;
+          animation: none !important;}     
 }
+
 @media (min-width:1024px) and (max-width:1280px){
 	#funds {
 	}
