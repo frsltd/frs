@@ -1,6 +1,9 @@
         <div class="footer-wrapper">
             <div class="container">
                 <div class="footer">
+                    <a class="to-top" href="#" title="Top">
+                        <i class="fa fa-chevron-up"></i>
+                    </a>
                     <img class="footer-img pull-left" src="{{ site.baseurl }}/img/logo_footer.png" alt="frs logo">
                     <div class="col-md-9">
                         <p>2-4 Clanwilliam Terrace, Grand Canal Quay, Dublin 2, Ireland. Registered in Ireland Registration no. 318216</p>
@@ -54,6 +57,14 @@
             var link = $(this).attr('href');
             $('body,html').animate({scrollTop:posi},700);
             });
+
+            $('#tabnavigation li > a').click(function(){
+             var link = $(this).attr('href');
+            var posi = $(link).offset().top-110;
+            var link = $(this).attr('href');
+            $('body,html').animate({scrollTop:posi},700);
+            });
+
             $('#tabnav').affix({
             offset: {
             top: $('.hero-productlanding').height()
@@ -61,7 +72,9 @@
             }); 
 
 
-                $('#mobile-menu').sidr();               
+                 $('#mobile-menu').sidr({
+                    side: 'right' 
+                });                
                 $('.submenu').click(function(e) {
                     e.preventDefault();
                     $(this).next().slideToggle();
@@ -71,16 +84,16 @@
             $(window).bind('resize', function () {
 
             if($('body').hasClass('sidr-open') && $(window).width() >= 768) {
-                $.sidr('close');
+                $.sidr('close', 'sidr');
             }
 
-            $('body, .closemenu').click(function() {
-              $.sidr('close');
-            });
-
-            $('#sidr').click(function(event){
-                event.stopPropagation();
-            }); 
+           $(document).bind("click", function () {
+             $.sidr('close', 'sidr');
+         });
+            $('.to-top').click(function(){
+                $('body,html').animate({scrollTop:0},700);
+            }) 
+             
         });
     </script>     
 </body>
