@@ -668,6 +668,7 @@ ul.frstabs{margin-top:100px;}
 	text-align:left;
 	top:8%;
 	text-shadow:none;
+	margin-left: 60px;
 }
 
 #frs-slider .carousel-control.left, #frs-slider .carousel-control.right{
@@ -942,6 +943,11 @@ a.call + div.clearfix + p, a.call + p{margin-top:30px;}
 /** Services **/
 #prof-services{
 	margin-bottom: 35px;
+}
+
+#prof-services p{
+	font-size: 17px;
+	font-family: "Droid Sans", sans-serif;
 }
 
 /** Quote **/

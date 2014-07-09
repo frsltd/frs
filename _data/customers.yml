@@ -1,6 +1,6 @@
 - name: Friends First
   description: Friends First has a long-standing presence in Ireland and a reputation as one of Ireland's leading financial services groups. They provide a comprehensive range of pension, investment and protection products and services to companies, organisations and individuals throughout Ireland. The company manages total assets of €4.6bn and generated Total Premiums of €430m in 2012.
-  quote: Investment administration operations have changed so much over the years and our legacy systems were old and unable to provide the functionality we required.We chose Invest|Pro™ to automate and consolidate our administration functions and the 35% cost savings and efficiencies that have resulted have been exceptional. These efficiencies have also allowed us to provide our clients with better service and products – which is where our core competencies lie.
+  quote: Investment administration operations have changed so much over the years and our legacy systems were old and unable to provide the functionality we required. We chose Invest|Pro™ to automate and consolidate our administration functions and the 35% cost savings and efficiencies that have resulted have been exceptional. These efficiencies have also allowed us to provide our clients with better service and products – which is where our core competencies lie.
   quotefrom: Head of Group Finance, Friends First
   download: /Resources/FF-case-study-2013-08-30.pdf
   image: ff.png
@@ -8,7 +8,7 @@
 
 - name: RL360°
   description: RL360° is an Isle of Man based company which provides a variety of savings, investment and protection products. The company operates globally and look after some £2.2 billion in assets for their clients. Last year RL 360 recorded 24% new business growth. Further they were voted Best Financial Adviser portal in the Professional Adviser International Fund and Product Awards 2013.
-  quote: Prior to the implementation of Invest|Pro™ the preparation of a set of investment accounts from multiple different systems was quite inefficient. Having a single database of investment transactions and a single Invest|Pro™ general ledger from which to extract a trial balance has significantly reduced timescales and greatly improved the robustness of the process.Invest|Pro™ has completely transformed our operations.
+  quote: Prior to the implementation of Invest|Pro™ the preparation of a set of investment accounts from multiple different systems was quite inefficient. Having a single database of investment transactions and a single Invest|Pro™ general ledger from which to extract a trial balance has significantly reduced timescales and greatly improved the robustness of the process. Invest|Pro™ has completely transformed our operations.
   quotefrom: Financial Controller, RL360°
   download: /Resources/RL360-case-study-june-2013.pdf
   image: rl360.png
@@ -22,15 +22,15 @@
   image: mobius.png
   website: www.mobiuslife.co.uk
 
-- name: LCL – International Life Assurance Company Limited
-  description: The Isle of Man based company is part of the Charles Taylor plc group of companies. This is a leading international provider of professional services to clients in the global insurance market and has been providing services to insurance clients since 1885. It has 915 staff in 49 offices spread across 25 countries in the UK, the Americas, Asia Pacific, Europe and the Middle East.
+- name: CTIS – Charles Taylor Insurance Services
+  description: CTIS provide a complete range of outsourced insurance and fund services to international life insurance companies. Their services enable their clients to operate and manage their businesses more effectively as well as reducing their costs.  CTIS are also one of the most active acquirers and consolidators of international life insurers through their sister company LCL International.
   quote: FRS’s unrivalled experience in the life assurance investment administration space is reflected in its Invest|Pro™ system. The broad range of functionality it provides for both unitised funds and portfolio bond administration is unique, and has hugely benefitted our business operationally. Given the number of life assurance companies we integrate into LCL international, having the ability to manage our own data migrations is a huge advantage to us. The integrated dealing platform which is part of the latest release is helping us further improve straight-through-processing, making our processes even more coordinated than before.
-  quotefrom: Business Support Director, LCL
+  quotefrom: Business Support Director, CTIS
   image: lcl.png
-  website: www.lcl-ila.com
+  website: www.ctplc.com
 
 - name: S|E|B
-  description: SEB is one of the largest institutional investors in the Nordic countries, investing in companies world-wide on behalf of over four million private customers as well as 400 000 small and medium sized corporate customers and over 2900 large corporate and institutional clients. All in all they manage over 2.4 trn total assets and 122.8bn of total equities. 
+  description: SEB Life International Assurance Company Limited, trading as SEB Life International is a life insurance company incorporated and regulated in Ireland which engages in the cross border distribution of insurance based investment products under the EU Third Life Directive.
   quote: 
   image: seb.png
   website: www.sebgroup.com
@@ -42,19 +42,19 @@
   website: www.foresters.com
 
 - name: Cardif Pinnacle
-  description: Cardif Pinnacle is the UK insurance arm of banking group BNP Paribas, a European leader in global financial services and one of the strongest banks in the world. They have established themselves as a leading specialist provider of Protection and Investment solutions. The Company is a subsidiary of BNP Paribas Cardif, a worldwide provider of insurance and savings products. The Company is part of the global banking group BNP Paribas SA, a European leader in banking and financial services, with a Standard and Poor's long term rating of A+ Negative.
+  description: Cardif Pinnacle is the UK insurance arm of banking group BNP Paribas, a European leader in global financial services and one of the strongest banks in the world. They have established themselves as a leading specialist provider of Protection and Investment solutions. The Company is a subsidiary of BNP Paribas Cardif, a worldwide provider of insurance and savings products. The Company is part of the global banking group BNP Paribas SA, a European leader in banking and financial services.
   quote: 
   image: cardif-pinnacle.png
   website: www.cardifpinnacle.com
 
 - name: MGM Advantage
-  description: MGM Advantage is a UK based, award-winning company which specialises in retirement income solutions. They currently have over £1.4bn of funds under their management by working closely with selected Fund Managers. 
+  description: MGM Advantage is a UK based, award-winning company which specialises in retirement income solutions. They currently have over £1.4bn of funds under their management by working closely with selected Fund Managers. MGM Advantage are true innovators in the retirement income market.
   quote: 
   image: mgm.png
   website: www.mgmadvantage.co.uk
 
 - name: Hansard Global Plc
-  description: Hansard offers a range of around 200 flexible, unit-linked, long term savings and investment funds in tax efficient life assurance policy wrappers. These are sold exclusively through more than 540 independent financial advisors to over 42,000 policyholders in over 120 countries. The administered assets exceed £ 1bn.
+  description: Hansard offers a range of around 200 flexible, unit-linked, long term savings and investment funds in tax efficient life assurance policy wrappers. These are sold exclusively through more than 540 independent financial advisors to over 42,000 policyholders in over 120 countries. The administered assets exceed £1bn.
   quote: 
   image: hansard.png
   website: www.hansard.com
@@ -66,15 +66,16 @@
   website: www.hawthornlife.com
 
 - name: IFDS - International Financial Data Services
-  description: IFDS is a joint venture between affiliates of Boston-based State Street Corporation, the world’s leading provider of services to institutional investors, and DST Systems Inc., a Kansas City, Missouri-based leading provider of shareholder accounting services and proprietary systems. They are an administration and technology outsource provider in Canada, the UK and the USA respectively, with our market share continuing to grow throughout the rest of Europe and the Asia-Pacific region.
+  description: IFDS’s focus is to deliver a new generation of value based outsourcing for the European marketplace that focuses on real transformation, modern technology and efficiency encompassed by operational and service excellence. IFDS Retirement and Insurance offers a variety of solutions from technology SaaS through to a complete end to end service model.  Their technology enables them to support the full range of products including closed books, group business and new product launches in highly regulated environments across multiple locations.
+
   quote: 
   image: ifds.png
   website: www.ifdsgroup.com
 
-- name: MetLife
-  description: Metlife are a pure asset management company managing $302 billion of third party assets from offices around the world as at 30 September 2012. Clients access investment expertise drawn from three main asset classes equities fixed income and property as well as tailored solutions.
+- name: MetLife Europe Limited
+  description: MetLife, Inc. is a leading global provider of insurance, annuities and employee benefit programs, in nearly 50 countries. Metlife Europe Limited In 2007 introduced its unique range of unit-linked guarantee products to the European market. Registered in Dublin, Ireland and with a UK branch with London and Brighton offices. The company's innovative range of Retirement and Investment products are available in the UK through Independent Financial advisers and provide clients with guaranteed peace of mind.
   image: metlife.png
-  website: www.metlife.com
+  website: www.metlife.co.uk
 
 - name: Accenture
   description: Accenture is a global management consulting, technology services and outsourcing company, with approximately 289,000 people serving clients in more than 120 countries. They develop and implement technology to improve their clients’ productivity and efficiency – and may run parts of their business. Accenture's clients span the full range of industries around the world and include 91 of the Fortune Global 100 and more than three-quarters of the Fortune Global 500. 
