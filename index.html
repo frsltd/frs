@@ -164,7 +164,7 @@ title: Home
                         <span class="date">Nov 9th 2014</p>
                     </div>
                     {% for post in site.posts limit:3 %}
-                    <div class="col-md-3 col-sm-6  news-item wow fadeIn" data-wow-delay=".2s">
+                    <div class="col-md-3 col-sm-6  news-item wow fadeIn" style="padding-left:15px;" data-wow-delay=".2s">
                         <img src="img/news{{ forloop.index }}.jpg" alt="news">
                         <p class="news"><img src="img/news.png" alt="news">News</p>
                         <h5><a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a></h5>
