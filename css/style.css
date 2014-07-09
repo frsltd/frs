@@ -668,7 +668,7 @@ ul.frstabs{margin-top:100px;}
 	text-align:left;
 	top:8%;
 	text-shadow:none;
-	margin-left: 60px;
+	margin-left: 80px;
 }
 
 #frs-slider .carousel-control.left, #frs-slider .carousel-control.right{
@@ -865,30 +865,36 @@ img.rounded{
 	padding:50px 0;
 }
 
-.productblock h2{
+.productblock h2, .moduleblock h2{
 	font-size:50px;
 	margin-top:10px;
 }
 
-.productblock h4{
+.productblock h4, .moduleblock h4{
 	color:#df7a1c;
 	margin-bottom:20px;
 	font-size:24px;
 }
 
-.productblock h2 + h3{margin-top:0;margin-bottom:30px;color:#a2a2a2;}
+.productblock h2 + h3, .moduleblock h2 + h3 {margin-top:0;margin-bottom:30px;color:#a2a2a2;}
 
-.productblock p{
+.productblock p, .moduleblock p{
 	color:#585858;
 	font-size:17px;
-	font-family:"Droid Sans", sans-serif;
+	font-family:"Lato", sans-serif;
 	line-height:1.6em;
 	margin-bottom:20px;
 }
-/* Added */#funds.productblock .col-md-3, #portfolios.productblock .col-md-3{min-height:174px;}
+/* Added */#funds.productblock .col-md-3, #portfolios.productblock .col-md-3
+{min-height:174px;}
 
-#funds{
+.moduleblock{
+	border-bottom:1px solid #dcdcdc;
+	padding:20px 0;
 }
+
+
+
 
 #funds ul{
 
@@ -947,7 +953,14 @@ a.call + div.clearfix + p, a.call + p{margin-top:30px;}
 
 #prof-services p{
 	font-size: 17px;
-	font-family: "Droid Sans", sans-serif;
+	font-family: "Lato", sans-serif;
+	line-height: 1.6em;
+}
+
+/** clients **/
+#testimonials
+{
+	padding-left: 55px;
 }
 
 /** Quote **/
@@ -1007,6 +1020,14 @@ a.call + div.clearfix + p, a.call + p{margin-top:30px;}
 	margin-top: 0;
 	background:#f2eded;
 }
+
+/** news page **/
+#events
+{
+	padding-left:15px;
+}
+
+
 
 /** Latest News **/
 
