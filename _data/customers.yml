@@ -29,12 +29,6 @@
   image: charles-taylor.png
   website: www.ctplc.com
 
-- name: S|E|B
-  description: SEB Life International Assurance Company Limited, trading as SEB Life International is a life insurance company incorporated and regulated in Ireland which engages in the cross border distribution of insurance based investment products under the EU Third Life Directive.
-  quote: 
-  image: seb.png
-  website: www.sebgroup.com
-
 - name: Foresters
   description: Forester Life provides a range of straightforward financial solutions to help address life's challenges for protection, saving, investing and pension planning. They are responsible for funds under management of over £3bn and is part of Foresters, the international financial services organisation. Internationally, Foresters has over £14bn assets under management and has been assigned an 'A' excellent rating by A.M. Best.
   quote: 
@@ -64,6 +58,24 @@
   quote: 
   image: hawthorn.png
   website: www.hawthornlife.com
+
+- name: Investors Trust
+  description: Investors Trust specializes in medium to long term unit-linked investment products tailored to international investors around the world. Investors Trust offers a range of flexible, tax-efficient products, designed to suit various income levels and financial planning needs.
+  quote:
+  image: investors-trust.png
+  website: www.investors-trust.com
+
+- name: Source Pensions
+  description: Source Pensions offers pension advisers and their clients access to Ireland's largest range of funds all on a single platform. With one pension application you can access 16 different fund managers representing over 200 funds along with state of the art online facilities to monitor every aspect of your pension.
+  quote:
+  image: sourcepensions.png
+  website: www.pensionsource.ie
+
+- name: S|E|B
+  description: SEB Life International Assurance Company Limited, trading as SEB Life International is a life insurance company incorporated and regulated in Ireland which engages in the cross border distribution of insurance based investment products under the EU Third Life Directive.
+  quote: 
+  image: seb.png
+  website: www.sebgroup.com
 
 - name: IFDS - International Financial Data Services
   description: 
