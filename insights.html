@@ -21,7 +21,7 @@ show-subscribe: true
     <div class="col-md-6">
       <strong>{{ resource.doc }}</strong>
       <p class="text-muted">{{ resource.description }}</p>
-      <span class="fa fa-download fa"></span><a href="{{ site.baseurl }}/{{ resource.src }}"> Download here...</a><br><br>
+      {% if resource.src %}<span class="fa fa-download fa"></span><a href="{{ site.baseurl }}/{{ resource.src }}"> Download here...</a>{% endif %}<br><br>
     </div>
   </div>
   {% endif %}
