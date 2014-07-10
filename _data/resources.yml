@@ -1,44 +1,8 @@
-- doc: UK Unit Linked Funds Thematic Review
-  description: Management and governance of unit-linked funds.
-  src: Resources/UK Unit Linked Funds Thematic Review.pdf
+- doc: Risk Management for Insurance Assets in a Solvency II World
+  description: George McCutcheon MSc FIA discusses the Solvency II risk management function 
+  src: Resources/Investment Risk Management.pdf
   author: George McCutcheon
-  publish-date: April 2013
-
-- doc: Unit-Linked Funds Unit Creation and Investment Processes
-  description: Securities lending issues for life companies.
-  src: Resources/Unit Linked Funds_Unit Creation and Investment Processes.pdf
-  author: George McCutcheon
-  publish-date: July 2013
-
-- doc: Securities Lending on Assets of Unit-Linked Funds
-  description: George McCutcheon MSc FIA discusses securities lending issues for life companies.
-  src: Resources/Securities Lending on Assets of Unit Linked Funds.pdf
-  author: George McCutcheon
-  publish-date: Aug 2013
-
-- doc: Summary FCA Findings
-  description: Findings of the FCA thematic review.
-  src: Resources/Summary FCA Findings.pdf
-  author: George McCutcheon
-  publish-date: Oct 2013
-
-- doc: Thematic Review of Unit Linked Funds FCA Findings
-  description: George McCutcheon MSc FIA discusses the findings of the FCA thematic review.
-  src: Resources/Thematic Review of Unit Linked Funds_FCA Findings.pdf
-  author: George McCutcheon
-  publish-date: Nov 2013
-
-- doc: Clean and Super Clean Share Classes
-  description: Clean and super clean share classes 
-  src: Resources/Clean and Super Clean Share Classes.pdf
-  author: George McCutcheon
-  publish-date: Dec 2013
-
-- doc: Revisions to ABI Guidelines following TR13/8
-  description: George McCutcheon MSc FIA discusses the ABI's revised draft “Guide to Good Practice for Unit-Linked Funds” 
-  src: Resources/ABI revised guidelines.pdf
-  author: George McCutcheon
-  publish-date: March 2014
+  publish-date: July 2014
 
 - doc: Tax Aspects of ABI Guide to Good Practice for Unit-Linked Funds
   description: George McCutcheon MSc FIA discusses the tax aspects of the “ABI Guide to Good Practice for Unit-Linked Funds” 
@@ -46,11 +10,47 @@
   author: George McCutcheon
   publish-date: May 2014
 
-- doc: Risk Management for Insurance Assets in a Solvency II World
-  description: George McCutcheon MSc FIA discusses the Solvency II risk management function 
-  src: Resources/Investment Risk Management.pdf
+- doc: Revisions to ABI Guidelines following TR13/8
+  description: George McCutcheon MSc FIA discusses the ABI's revised draft “Guide to Good Practice for Unit-Linked Funds” 
+  src: Resources/ABI revised guidelines.pdf
   author: George McCutcheon
-  publish-date: July 2014
+  publish-date: March 2014
+
+- doc: Clean and Super Clean Share Classes
+  description: Clean and super clean share classes 
+  src: Resources/Clean and Super Clean Share Classes.pdf
+  author: George McCutcheon
+  publish-date: Dec 2013
+
+- doc: Thematic Review of Unit Linked Funds FCA Findings
+  description: George McCutcheon MSc FIA discusses the findings of the FCA thematic review.
+  src: Resources/Thematic Review of Unit Linked Funds_FCA Findings.pdf
+  author: George McCutcheon
+  publish-date: Nov 2013
+
+- doc: Summary FCA Findings
+  description: Findings of the FCA thematic review.
+  src: Resources/Summary FCA Findings.pdf
+  author: George McCutcheon
+  publish-date: Oct 2013
+
+- doc: Securities Lending on Assets of Unit-Linked Funds
+  description: George McCutcheon MSc FIA discusses securities lending issues for life companies.
+  src: Resources/Securities Lending on Assets of Unit Linked Funds.pdf
+  author: George McCutcheon
+  publish-date: Aug 2013
+
+- doc: Unit-Linked Funds Unit Creation and Investment Processes
+  description: Securities lending issues for life companies.
+  src: Resources/Unit Linked Funds_Unit Creation and Investment Processes.pdf
+  author: George McCutcheon
+  publish-date: July 2013
+
+- doc: UK Unit Linked Funds Thematic Review
+  description: Management and governance of unit-linked funds.
+  src: Resources/UK Unit Linked Funds Thematic Review.pdf
+  author: George McCutcheon
+  publish-date: April 2013
 
 - doc: 
   description:
@@ -58,5 +58,5 @@
   author: 
   publish-date: 
 
- 
+
 
