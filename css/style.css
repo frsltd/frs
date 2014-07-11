@@ -170,6 +170,13 @@ ul {
 	font-size: 18px;
 }
 
+.btn.btn-action{
+	background: transparent;
+	padding-left: 10px !important;
+}
+
+
+
 /** Links **/
 a {
 	color: #df7a1c;
