@@ -7,19 +7,19 @@ header-image:
 		
 <div class="col-md-9">
 	<h3>Why FRS exists?</h3>
-	<p>Most life assurance professionals will be aware that In the (mutual) funds industry the investment manager, the transfer agent, the custodian and the valuation agent for a fund are distinct legal parties whereas in the life assurance industry a life company can fulfill all these roles. The life assurance industry therefore needs a single integrated system that can manage all these front-to-back office roles. That system is Invest|Pro™.</p>
+	<p>Most life assurance professionals will be aware that in the (mutual) funds industry the investment manager, the transfer agent, the custodian and the valuation agent for a fund are distinct legal parties whereas in the life assurance industry a life company can fulfill all these roles. The life assurance industry therefore needs a single integrated system that can manage all these front-to-back office roles. That system is Invest|Pro™.</p>
 
 	<h3>How FRS got started?</h3>
 
 	
-	<p>FRS was established in 1999 by four senior level actuaries who had spent years on the other side of the desk working with different investment administration systems. Unable to find an efficient system they began building numerous ‘work arounds’ and disjointed systems and quickly realised that there was a tremendous opportunity to develop a software system that could solve complex problems for life assurance companies. Launching FRS the founding actuaries combined their industry know-how and investment product knowledge  with the skills of leading software specialists to develop FRS’s flagship product: Invet|Pro™. Today twenty five Life assurance companies in Italy, the United Kingdom, Ireland and the US user Invest|Pro™ as their core investment administration and fund accounting system.</p>
+	<p>FRS was established in 1999 by four senior level actuaries who had spent years on the other side of the desk working with different investment administration systems. Unable to find an efficient system they began building numerous ‘work arounds’ and disjointed systems and quickly realised that there was a tremendous opportunity to develop a software system that could solve complex problems for life assurance companies. Launching FRS the founding actuaries combined their industry know-how and investment product knowledge with the skills of leading software specialists to develop FRS’s flagship product: Invest|Pro™. Today twenty five Life assurance companies in Italy, the United Kingdom, Ireland and the US user Invest|Pro™ as their core investment administration and fund accounting system.</p>
 
 <h2>Senior Management</h2>
 	{% for dir in site.data.directors %}
 
 	<div class="media">
 		<a class="pull-left" href="#">
-			<img class="size-full wp-image-1047 alignleft" alt="portrait" src="{{ dir.image }}" width="105" height="180" />
+			<img class="size-full wp-image-1047 alignleft" alt="portrait" src="{{ site.baseurl }}/img/{{ dir.image }}" width="105" height="180" />
 		</a>
 		<div class="media-body">
 			<h4 class="media-heading"><strong>{{ dir.name }} {{ dir.qualification }} - {{ dir.role }}</strong></h4>
@@ -36,7 +36,7 @@ header-image:
 	
 	<blockquote>
 		<p>Recruitment</p>
-		<img src="http://www.frsltd.com/wp-content/uploads/2013/05/RecruitmentNews-300x200.jpg"><br>
+		<img src="{{ site.baseurl }}/img/Recruitment.jpg"><br>
 		<p>As Europe’s emerging fund administration system leader, we’re always looking for exceptionally bright and motivated people to join our team.</p>
 		<footer><cite title="Source Title">If you are looking for an opportunity to use your skills in new ways, in an environment that promotes free thinking, presents extreme challenges, and makes real impact – Financial Risk Solutions is the place for you. Contact us about careers at FRS.</cite></footer>
 	</blockquote>
