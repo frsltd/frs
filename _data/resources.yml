@@ -1,3 +1,9 @@
+- doc: PRIIPs, Ongoing Charges & Soft Commissions
+  description: George McCutcheon MSc FIA discusses charge disclosure issues
+  src: Resources/Ongoing Charges.pdf
+  author: George McCutcheon
+  publish-date: July 2014
+
 - doc: Risk Management for Insurance Assets in a Solvency II World
   description: George McCutcheon MSc FIA discusses the Solvency II risk management function 
   src: Resources/Investment Risk Management.pdf
@@ -52,11 +58,12 @@
   author: George McCutcheon
   publish-date: April 2013
 
-- doc: 
-  description:
-  src: 
-  author: 
-  publish-date: 
+
+# - doc: 
+#   description:
+#   src: 
+#   author: 
+#   publish-date: 
 
 
 
