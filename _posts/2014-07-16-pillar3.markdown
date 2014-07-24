@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "More spending required for Life insurers to meet Pillar 3"
+date:   2014-07-16 16:09:29
+categories: jekyll update
+image: 
+---
+
+
+
+**Dublin, {{ page.date | date_to_long_string }}**  –  According to a paper published by Financial Risk Solutions (FRS), Life Insurers need to spend more money on performance analytics to support the risk management function of their business and meet the oversight requirements of pending Solvency II.
+
+ In the Solvency II world, there will be increased focus on management reporting and analytics. This is partly driven by Article 132 of the Solvency II Directive, which requires that companies only invest in assets and instruments that can be properly identified, measured, monitored, managed, controlled and reported. This means fundamental changes to how Risk Management and Compliance functions are carried out and will require an increase in spending on risk and performance analytics in order to improve their capabilities in this area.
+
+ QRT reporting, a specific asset-reporting requirement will entail real granular detail, regardless of whether company outsources or manages the fund administration internally and asset-reporting solutions around risk and reporting data will be key to meeting this requirement. The solutions should be browser-based with the capability to either look directly into the primary investment system or to deploy tools that operate from data from the primary investment system and market vendor data sources.
+
+ As well as meeting requirements within a solvency II world, enhanced data transparency will assist insurance companies in evaluating their risk-reward profiles in investment decision-making, which will also assist managers of fund-of-funds in selecting an appropriate range of asset managers and investment funds.
+
+ To read more [click here...]({{ site.baseurl }}/Resources/Investment Risk Management.pdf)
+
+End
+ 
+
+{% include pr.html %}
