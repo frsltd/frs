@@ -8,7 +8,9 @@ image:
 
 
 
-**Dublin, {{ page.date | date_to_long_string }}**  –  According to a paper published by Financial Risk Solutions (FRS), Life Insurers need to spend more money on performance analytics to support the risk management function of their business and meet the oversight requirements of pending Solvency II.
+**Dublin, {{ page.date | date_to_long_string }}**  –  
+George McCutcheon discusses PRIIPs, ongoing charges and soft commissions in The Acturial Post.
+According to a paper published by Financial Risk Solutions (FRS), Life Insurers need to spend more money on performance analytics to support the risk management function of their business and meet the oversight requirements of pending Solvency II.
 
  In the Solvency II world, there will be increased focus on management reporting and analytics. This is partly driven by Article 132 of the Solvency II Directive, which requires that companies only invest in assets and instruments that can be properly identified, measured, monitored, managed, controlled and reported. This means fundamental changes to how Risk Management and Compliance functions are carried out and will require an increase in spending on risk and performance analytics in order to improve their capabilities in this area.
 
