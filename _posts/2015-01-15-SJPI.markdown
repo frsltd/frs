@@ -1,0 +1,36 @@
+---
+layout: post
+title:  St. James’s Place International to adopt Solvency II asset-reporting software from Financial Risk Solutions (FRS)
+categories: jekyll update
+date:   2015-01-15 12:09:29
+
+---
+
+**Dublin, {{ page.date | date_to_long_string }}** –
+
+<br>
+To view coverage on this article click on the following links:
+
+* [Actuarial Post](http://www.actuarialpost.co.uk/article/st--james-place-int----039l-to-adopt-solvency-ii-software-from-frs-7084.htm) 
+* [Finextra](http://www.finextra.com/news/announcement.aspx?pressreleaseid=58155&topic=risk) 
+* [Waters Technology](http://www.waterstechnology.com/inside-reference-data/news/2389400/st-jamess-place-chooses-financial-risk-solutions-for-solvency-ii) 
+<br>
+<br>
+
+- Pillar 3 of the Solvency II Directive dictates that insurance companies must provide insight into the risk and return profile of the investments, with more granular and frequent reporting requirements  
+- St. James’s Place International has signed agreement for Financial Risk Solutions (FRS) asset-reporting software - an automated solution to mandatory QRT reporting requirement. (Quantitative Reporting Templates)  
+
+
+Financial Risk Solutions (FRS), a provider of investment administration and compliance oversight software solutions, has today announced that St. James’s Place International has signed a five year agreement to adopt its Invest|GRC™ product. 
+ 
+Invest|GRC™, the investment governance, risk management and compliance software solution for life assurance companies allows for the fully-automated production of Pillar 3 D1, D2, D3 (investments data) and D4 (investment funds) reports. The on-site or cloud-hosted solution consumes and enriches data from various sources and formats; then produces reports in the prescribed QRT (Quantitative Reporting Templates) format.  Specific and pre-determined rules and breaches are configured and then reported if they occur.  
+
+Fintan McKeon, Finance Director at St. James’s Place International comments “Invest|GRC™ will enable us to meet our Solvency II investment reporting requirements in an easy-to-use format.  The cloud-based solution is easy to deploy so there is minimum disruption for the team yet maximum benefit for the business. Both the technical and the actuarial teams at FRS really understand our business and the impact of Solvency II on our operations which should contribute to a smooth implementation.”  
+
+Frank Carr, Chief Marketing Officer at FRS says “QRT reporting remains a challenge for investment managers and life companies, especially because of the volume of data from disparate sources that needs to be integrated and regularly reported.  Having a life company like St. James’s Place International join our expanding client base is testament to the integrity of our system.  It also puts them at a real advantage in terms of Solvency II readiness, with minimum impact on their current operations and growth.”
+
+
+
+**End**
+
+
