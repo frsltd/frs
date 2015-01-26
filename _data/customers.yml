@@ -65,11 +65,12 @@
   image: investors-trust.png
   website: www.investors-trust.com
 
-- name: Source Pensions
-  description: Source Pensions offers pension advisers and their clients access to Ireland's largest range of funds all on a single platform. With one pension application you can access 16 different fund managers representing over 200 funds along with state of the art online facilities to monitor every aspect of your pension.
-  quote:
-  image: sourcepensions.png
-  website: www.pensionsource.ie
+#- name: Source Pensions
+ # description: Source Pensions offers pension advisers and their clients access to Ireland's largest range of funds all on a single platform. With one pension application you can access 16 different fund managers representing over 200 funds along with state of the art online facilities to monitor every aspect of your pension.
+ # quote:
+ # image: sourcepensions.png
+ # website: www.pensionsource.ie
+
 
 - name: S|E|B
   description: SEB Life International Assurance Company Limited, trading as SEB Life International is a life insurance company incorporated and regulated in Ireland which engages in the cross border distribution of insurance based investment products under the EU Third Life Directive.
