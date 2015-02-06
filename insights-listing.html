@@ -1,0 +1,50 @@
+---
+layout: default
+title: Insights
+page-header: White Papers
+header-image:
+show-subscribe: true
+---
+
+<div class="row" style="padding-bottom:20px; margin-left:-0px;">
+  <div class="col-md-9">
+    {% for resource in site.data.resources %}	
+    {% assign loopindex = forloop.index | modulo: 2 %}
+    {% if loopindex == 1 %}
+    <div class='row' style="margin-left:-0px;">
+     <div class="col-md-6">
+      <strong>{{ resource.doc }}</strong>
+      <p class="text-muted">{{ resource.description }}</p>
+      <span class="fa fa-download fa"></span><a href="{{ site.baseurl }}/{{ resource.src }}" class="text-right"> Download here...</a><br><br>
+    </div>
+    {% else %}
+    <div class="col-md-6">
+      <strong>{{ resource.doc }}</strong>
+      <p class="text-muted">{{ resource.description }}</p>
+      {% if resource.src %}<span class="fa fa-download fa"></span><a href="{{ site.baseurl }}/{{ resource.src }}"> Download here...</a>{% endif %}<br><br>
+    </div>
+  </div>
+  {% endif %}
+  {% endfor %}
+
+  <h3>Case Studies</h3>
+  <p>The following are case studies from some of our leading clients:</p>
+  <span class="col-xs-12 col-md-3" style="margin-bottom:10px"><a href="{{ site.baseurl }}/Resources/RL360-case-study-June-2013.pdf"><img src="{{ site.baseurl }}/img/rl360-grey.jpg"></a></span>
+  <span class="col-xs-12 col-md-3" style="margin-bottom:10px;"><a href="{{ site.baseurl }}/Resources/Mobius-case-study-2013-08-21.pdf"><img src="{{ site.baseurl }}/img/mobus-life-grey.jpg"></a></span>
+  <span class="col-xs-12 col-md-3" style="margin-bottom:10px"><a href="{{ site.baseurl }}/Resources/FF-case-study-2013-08-30.pdf"><img src="{{ site.baseurl }}/img/friends-first-grey.jpg"></a></span>
+</div>
+
+
+
+<div class="col-md-3">
+  {% for quote in site.data.quotes %}
+  <blockquote>
+    <p>{{ quote.quote }}</p>
+    <footer><cite title="Source Title">{{ quote.title}}, {{ quote.company }}</cite></footer>
+  </blockquote>
+  {% endfor %}
+</div>
+</div>
+
+
+

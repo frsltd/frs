@@ -80,7 +80,6 @@
 
 - name: IFDS - International Financial Data Services
   description: 
-
   quote: 
   image: ifds.png
   website: www.ifdsgroup.com
@@ -95,3 +94,21 @@
   quote: 
   image: accenture.png
   website: www.accenture.com
+
+- name: Aegon
+  description: 
+  quote: 
+  image: Aegon.png
+  website: www.Aegon.com
+
+- name: Zurich
+  description: 
+  quote: 
+  image: Zurich.png
+  website: www.Zurich.com
+
+- name: SJPI
+  description: 
+  quote: 
+  image: SJPI.png
+  website: www1.sjp.co.uk/find-a-partner/london-city-location-office

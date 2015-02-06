@@ -3,35 +3,76 @@ layout: default
 title: Clients
 page-header: Join our ever growing list of clients today
 ---
-
+<link rel="stylesheet" href="{{ site.baseurl }}/css/owl.carousel.css">
+<div class="clients-companies">
+    <div class="row">
+        <div id="owl-logos">
+            {% for client in site.data.customers reversed %}
+            <div class="item">
+                <a href="#{{ client.name | replace: ' ', ''| replace: '|', ''}}">
+                    <img alt="portrait" src="{{ site.baseurl }}/img/logos/{{ client.image }}" width="200" />
+                </a>
+            </div>
+                {% endfor %}
+            </div>
+    </div>
+</div>
+<hr class="mt-0 hr-clients">
 <div class="col-md-11">
-	{% for client in site.data.customers %}
-	<div class="media">
-		<div class="hidden-xs" style="margin-right:15px;">
-			<a class="pull-left" href="#">	
-				<img alt="portrait" src="{{ site.baseurl }}/img/logos/{{ client.image }}" width="200" />
-			</a>
-		</div>
-		<div class="media-body">
-			<span class="visible-xs"><img alt="portrait" src="{{ site.baseurl }}/img/logos/{{ client.image }}" width="200" /></span>
-			<h2 class="media-heading">{{ client.name }}</h2>
-			{{ client.description }}<br><br>
+	{% for client in site.data.customers  reversed %}
+    <div class="media" id="{{ client.name | replace: ' ', ''| replace: '|', '' }}">
+        <div class="hidden-xs">
+            <a class="pull-left" href="#">
+                <img alt="portrait" src="{{ site.baseurl }}/img/logos/{{ client.image }}" width="200" style="margin-right:30px" />
+            </a>
+        </div>
+        <div class="media-body">
+            <span class="visible-xs"><img alt="portrait" src="{{ site.baseurl }}/img/logos/{{ client.image }}" width="200" /></span>
+            <h2 class="media-heading">{{ client.name }}</h2>
+            {{ client.description }}<br><br>
+            {% if client.quote %}
+            <div class="well">
+                <blockquote>
+                    <p><span class="fa fa-quote-left fa-2x"> </span> {{ client.quote }}</p>
+                    <footer><cite title="Source Title">{{ client.quotefrom }} <a href="{{ site.baseurl }}{{ client.download }}"> {% if client.download %}(<span class="fa fa-download"></span> View Case study)</a>{% endif %}</cite></footer>
+                </blockquote>
+            </div>
+            {% endif %}
 
-			{% if client.quote %} 
-			<div class="well">
-				<blockquote>
-					<p><span class="fa fa-quote-left fa-2x"> </span> {{ client.quote }}</p>
-					<footer><cite title="Source Title">{{ client.quotefrom }} <a href="{{ site.baseurl }}{{ client.download }}"> {% if client.download %}(<span class="fa fa-download"></span> View Case study)</a>{% endif %}</cite></footer>
-				</blockquote>
-			</div>
-			{% endif %}
-
-			<p><a href="http://{{ client.website }}">{{ client.website }}</a></p>
-
-		</div>
-	</div>
+            <p><a href="http://{{ client.website }}">{{ client.website }}</a></p>
+        </div>
+    </div>
 
 	<hr />
 	{% endfor %}
 </div>
 
+<script src="/js/owl.carousel.min.js"></script>
+<script>
+
+
+    $(document).ready(function () {
+
+        $("#owl-logos").owlCarousel({
+
+            autoPlay: 1000, //Set AutoPlay to 1 seconds
+            
+            loop:true,
+            nav:true,
+            slideBy:5,
+            items: 8,
+            itemsDesktop: [1199, 8],
+            itemsDesktopSmall: [979, 8]
+
+        });
+     
+});
+    $("#owl-logos a").click(function (e) {
+        e.preventDefault();
+      
+        $('html, body').animate({
+            scrollTop: $($(this).attr("href")).offset().top-150
+        }, 2000);
+    });
+
+</script>
