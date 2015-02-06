@@ -1017,7 +1017,7 @@ a.call + div.clearfix + p, a.call + p{margin-top:30px;}
 }
 
 .quote {
-	padding: 40px 25px 40px 25px;
+	padding: 52px 25px 52px 25px;
 	border: 1px solid #c2bebe;
 	box-shadow: 0 0px 0px #e2e3e3, 
 		    0 -1px 6px #e2e3e3, 
@@ -1352,9 +1352,17 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 		width: 1200px;
 	}	
 }*/
+@media  (max-width:300px) {
+    .product-features {
+        padding-left: 0;
+        padding-right: 0;
+    }
 
-
-
+    .case-studies-feature {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
 /** Media Queries **/
 @media (min-width: 1200px) {
 	.container {
@@ -1373,14 +1381,28 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 	.hero-text {
 		width: 100%;
 	}
-	
-
+    .product-features {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .case-studies-feature {
+         padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 @media (max-width: 420px) {
 	.hero-text p {
 		display: none;
 	}
+    .product-features {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .case-studies-feature {
+         padding-left: 0;
+        padding-right: 0;
+    }
 }
  
 @media (min-width: 480px) and (max-width:768px) {
@@ -1685,6 +1707,14 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 		right:15px;
 		top:15px;
 	}
+    .product-features {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .case-studies-feature {
+         padding-left: 0;
+        padding-right: 0;
+    }
 	.contact-us{font-size:15px;}
 	.phone-number{font-size:17px;}
 	a.call{font-size:14px;padding-left:0;}
