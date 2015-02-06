@@ -1392,6 +1392,8 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
          padding-left: 0;
         padding-right: 0;
     }
+    .partners ul li {width:100%;
+    }
 }
 
 @media (max-width: 420px) {
@@ -1405,6 +1407,8 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
     .case-studies-feature {
          padding-left: 0;
         padding-right: 0;
+    }
+    .partners ul li {width:100%;
     }
 }
  
@@ -1717,6 +1721,8 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
     .case-studies-feature {
          padding-left: 0;
         padding-right: 0;
+    }
+    .partners ul li {width:100%;
     }
 	.contact-us{font-size:15px;}
 	.phone-number{font-size:17px;}
