@@ -1017,7 +1017,7 @@ a.call + div.clearfix + p, a.call + p{margin-top:30px;}
 }
 
 .quote {
-	padding: 52px 25px 52px 25px;
+	padding: 52px 25px 55px 25px;
 	border: 1px solid #c2bebe;
 	box-shadow: 0 0px 0px #e2e3e3, 
 		    0 -1px 6px #e2e3e3, 
@@ -1033,7 +1033,7 @@ a.call + div.clearfix + p, a.call + p{margin-top:30px;}
 
 .quote-right {
 	right: 20px;
-	bottom: 0px;
+	bottom: 30px;
 }
 
 .quote-section {
