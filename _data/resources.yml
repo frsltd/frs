@@ -1,3 +1,9 @@
+- doc: Solvency II Look Through
+  description: George McCutcheon reviews the three strands to look-through from the perspective of both Asset Managers and Life insurers.
+  src: Resources/Sol II Look Through.pdf
+  author: George McCutcheon
+  publish-date: Feb 2015
+
 - doc: Asset Manager Oversight of Service Providers
   description: George McCutcheon MSc FIA discusses outsourcing oversight for asset managers
   src: Resources/asset management oversight oct 14.pdf
@@ -65,11 +71,11 @@
   publish-date: April 2013
 
 
-- doc: 
-  description:
-  src: 
-  author: 
-  publish-date: 
+#- doc: 
+#  description:
+#  src: 
+#  author: 
+#  publish-date: 
 
 
 
