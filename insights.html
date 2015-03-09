@@ -11,17 +11,37 @@ show-subscribe: true
     {% for resource in site.data.resources %}	
     {% assign loopindex = forloop.index | modulo: 2 %}
     {% if loopindex == 1 %}
-    <div class='row' style="margin-left:-0px;">
-     <div class="col-md-6">
+<div class='row' style="margin-left:-0px;">
+    <div class="col-md-6">
       <strong>{{ resource.doc }}</strong>
       <p class="text-muted">{{ resource.description }}</p>
-      <span class="fa fa-download fa"></span><a href="{{ site.baseurl }}/{{ resource.src }}" class="text-right"> Download here...</a><br><br>
+        {% if resource.src %}
+        <div class="normal-download">
+             <span class="fa fa-download fa"></span><a href="{{ site.baseurl }}/{{ resource.src }}" class="text-right"> Download here...</a>
+        </div>
+        <div class="modal-download">
+                 <span class="fa fa-download fa"></span>
+                 <a class="file-download-btn" data-name="{{ site.baseurl }}/{{ resource.src }}" href="#" data-toggle="modal" data-target="#GSCCModal">
+                     Download here...
+                 </a>
+        </div>
+        {% endif %}<br><br>
     </div>
     {% else %}
     <div class="col-md-6">
       <strong>{{ resource.doc }}</strong>
       <p class="text-muted">{{ resource.description }}</p>
-      {% if resource.src %}<span class="fa fa-download fa"></span><a href="{{ site.baseurl }}/{{ resource.src }}"> Download here...</a>{% endif %}<br><br>
+      {% if resource.src %}
+        <div class="normal-download">
+            <span class="fa fa-download fa"></span><a href="{{ site.baseurl }}/{{ resource.src }}" class="text-right"> Download here...</a>
+        </div>
+        <div class="modal-download">
+            <span class="fa fa-download fa"></span>
+            <a class="file-download-btn" data-name="{{ site.baseurl }}/{{ resource.src }}" href="#" data-toggle="modal" data-target="#GSCCModal">
+                Download here...
+            </a>
+        </div>
+      {% endif %}<br><br>
     </div>
   </div>
   {% endif %}
@@ -45,6 +65,177 @@ show-subscribe: true
   {% endfor %}
 </div>
 </div>
+<div id="GSCCModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+           
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title"><i class="fa fa-cloud-download"></i> Download File</h4>
+                </div>
+                <div class="modal-body">
+
+                    <p>
+                        Please fill this form to download the file.
+                    </p>
+
+                    <div class="form">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Name</label><span style="color:#ff0000">*</span>
+                            <input type="hidden" id="client-file-name" value="" />
+                            <input type="text" placeholder="Your name" name="name" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email</label><span style="color:#ff0000">*</span>
+                            <input type="text" placeholder="Your email" name="_replyto" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Company</label>
+                            <input type="text" class="form-control" id="client-company" placeholder="Enter Company" >
+                        </div>
+
+
+                    </div>
+                    <div class="alert alert-danger" id="errors" style="display:none;">
+                        <span id="nameError" style="display:none;">Required: Please enter your name</span><br />
+                        <span id="emailError" style="display:none;">Required: Please enter your email address</span><br />
+                        <span id="emailInvalid" style="display:none;">Please enter a valid email address</span>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>Cancel</button>
+                    <input type="submit" value="Download File" id="PDFId" class="btn" style="background:#df7a1c;color:#fff;" onclick="SendEmailAndDownload()">
+                    
+                    <!--<a href="" class="btn btn-primary" id="PDFId"><i class="fa fa-cloud-download"></i>Download File</a>-->
+                </div>
+            
+        </div>
+        
+    </div>
+</div>
+<!-- /.modal -->
+<script>
+    $(document).ready(function () {
+        if (readCookie("EmailSent") != null) {
+            $(".normal-download").show();
+            $(".modal-download").hide();
+            
+
+        }
+        else
+        {
+            $(".normal-download").hide();
+            $(".modal-download").show();
+        }
+    });
+    $(document).on("click", ".file-download-btn", function () {
+        var myPdfLink = $(this).data('name');
+       // $(".modal-body #PDFId").val(myPdfLink);
+        $("#PDFId").attr("download",myPdfLink);
+        //alert(myPdfLink);
+        // As pointed out in comments, 
+        // it is superfluous to have to manually call the modal.
+        // $('#addBookDialog').modal('show');
+    });
+    function SendEmailAndDownload() {
+        // Empty our Master View (remove any "Customer" <div> records we've previously appended into it)
+        // $("#divMasterView").empty();
+
+        // Call our WCF Web Service to load a JSON list of "Customer" records
+        var FromEmailAddress = $("#email").val();
+        var subject = "Downloaded an Insight Article";
+        var body = $("#name").val() + " (" + $("#email").val() + ")"
+        if ($("#client-company").val() != "")
+        {
+            body += " from " + $("#client-company").val();
+        }
+        body += " downloaded an insight document";
+        var emailSent = "";
+        var commandURL = "http://frswebservice.mediaonesupport.com/Service1.svc/GetData/Frank.Carr@frsltd.com/" + FromEmailAddress + "/" + subject + "/" + body;
+
+        if (FromEmailAddress != "" && $("#name").val() != "" && validateEmail(FromEmailAddress)) {
+            $.ajax({
+                url: commandURL,
+                type: 'GET',
+                cache: false,
+                dataType: "json",
+                success: function (JSON) {
+                    emailSent = "success";
+
+                    //close modal and download file
+                    $('#GSCCModal').modal('hide')
+                    createCookie("EmailSent", FromEmailAddress, "30");
+                    window.location.href = $("#PDFId").attr("download");
+
+                    // We've successfully loaded our JSON data
+                    //$.each(JSON.GetAllCustomersResult, function (inx) {
+
+                    //    // Create one <div> per JSON record, and append it to our "Master View" <div>.
+                    //    var newDiv = CreateCustomerDiv(this);
+                    //    $("#divMasterView").append(newDiv);
+
+                    //    // If the user left-clicks on this <div>, load the Orders that this Customer has made
+                    //    //var CustomerID = this.CustomerID;
+                    //    //$(newDiv).click(function (event) {
+                    //    //    LoadOrderDetails(newDiv, CustomerID);
+                    //    //});
+
+                    //    // By default, we'll select the first "Company" record, and display its Orders
+                    //    //if (inx == 0) {
+                    //    //    LoadOrderDetails(newDiv, CustomerID);
+                    //    //}
+                    //});// End of our $.each loop
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    alert("$.ajax error: " + xhr.status + " " + thrownError);
+                    emailSent = "failure";
+                }
+            });
+        }
+        else
+        {
+            if ($("#name").val() == "") {
+                $("#errors").show();
+                $("#nameError").show();
+            }
+            else { $("#nameError").hide();  }
+            if (FromEmailAddress == "")
+            { $("#emailError").show(); $("#errors").show(); }
+            else { $("#emailError").hide();  }
+            if (!validateEmail(FromEmailAddress))
+            { $("#emailInvalid").show(); $("errors").show(); }
+            else { $("#emailInvalid").hide();  }
+
+        }
+       
+    }
+    function validateEmail($email) {
+        var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+        return emailReg.test($email);
+    }
+    function createCookie(name, value, days) {
+        var expires;
+
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            expires = "; expires=" + date.toGMTString();
+        } else {
+            expires = "";
+        }
+        document.cookie = escape(name) + "=" + escape(value) + expires + "; path=/";
+    }
+    function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+        }
+        return null;
+    }
+</script>
 
 
 
