@@ -193,8 +193,9 @@ title: Home
                         <span class="date">{{ event.date | date_to_long_string }}</span>
                        
                         {% endfor %}
-                        {% for media in site.data.medias limit:2 %}
                         <p class="event-text">FRS in the media</p>
+                        {% for media in site.data.medias limit:2 %}
+                        
                         <h5>
                             {% if media.url %}
                             <a href="{{ media.url }}" target="_blank">{{ media.title }}</a>
