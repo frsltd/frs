@@ -177,11 +177,35 @@ title: Home
             <div class="news-events">
                 <div class="container">
                     <h3>Latest News <span class="amp">&amp;</span> Events</h3>
-                    <div class="col-md-3 event wow fadeIn" data-wow-delay=".2s">
-                        <h1>Nov</h1>
+                    <div class="col-md-3 event wow fadeIn home-feature-event" data-wow-delay=".2s" style="padding-bottom:96px;">
+                        {% for event in site.data.events limit:1 %}
                         <p class="event-text">Event</p>
-                        <h5>Solvency II - Asset Look Through, Isle of Man</h5>
-                        <span class="date">Jan 28th 2015</span>
+                        
+                            <h5>
+                                {% if event.url %}
+                                <a href="{{ event.url }}" target="_blank">{{ event.name }} | {{ event.location }}</a>
+                                {% else %}
+                                {{ event.name }} | {{ event.location }}
+                                {% endif %}
+                            </h5>
+
+                       
+                        <span class="date">{{ event.date }}</span>
+                       
+                        {% endfor %}
+                        {% for media in site.data.medias limit:1 %}
+                        <p class="event-text">FRS in the media</p>
+                        <h5>
+                            {% if media.url %}
+                            <a href="{{ media.url }}" target="_blank">{{ media.title }}</a>
+                            {% else %}
+                            {{ media.title }}
+                            {% endif %}
+                        </h5>
+                        <span class="date">{{ media.source }} | {{ media.date | date_to_long_string }}</span>
+                       
+                        {% endfor %}
+                            
                     </div>
                     {% for post in site.posts limit:3 %}
                     <div class="col-md-3 col-sm-6  news-item wow fadeIn" style="padding-left:15px;" data-wow-delay=".2s">

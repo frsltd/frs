@@ -52,7 +52,7 @@ header-image:
 </div>
 <div id="events" class="col-md-3">
         <h2>Events</h2>
-        {% for event in site.data.events limit:3 %}
+        {% for event in site.data.events %}
 
         <strong>{{ event.name }}</strong><br>
         {{ event.location }}<br>

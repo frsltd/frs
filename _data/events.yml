@@ -1,34 +1,54 @@
-- name: Solvency II - Asset Look Through
-  date: Jan 28th
-  location: Isle of Man
+- name: EY Sol II
+  location: EY Office, London            
+  date: 12th March                         
   url: 
 
-- name: Oversight of Service Providers to Funds
-  date: Feb 26th
-  location: Conrad Hotel, Dublin
-  url: 
-
-- name: The Future of Fund Management  
-  date: Mar 10th
-  location: One Whitehall Place, London
-  url: http://marketforce.eu.com/events?sectors=7
-
-- name: ILAG Technology Practitioner Group 
-  date: Mar 18th
+- name: ILAG Tech            
   location: London
+  date: 18th March
   url: 
 
-- name: The Future of Life & Pensions 2015
-  date: May 9th & 10th
-  location: Radisson Blu Portman, London
-  url: http://marketforce.eu.com/events?sectors=7
+- name: Life Ins Forum 
+  location: Rome, Fleming Group    
+  date: 15/16 April          
+  url: http://finance.flemingeurope.com/life-insurance-forum/thank-you-download-agenda-special
 
-- name: FRS User Conference
-  date: May 14th
-  location: Conrad Hotel, Dublin
+- name: FRS User Conference     
+  location: Conrad, Dublin  FRS
+  date: 14th May
   url: 
 
-- name: Life Conference 2015
-  date: Nov 8th - 10th
-  location: International Convention Centre, Dublin
-  url: 
+- name: Future of Life & Pensions             
+  location: London, Radisson Blu Portman, Marketforce
+  date: 9th/10th June                    
+  url: http://www.nowpensions.com/events/marketforce-future-life-pensions-conference/
+
+- name: Insurance asset Risk       
+  location: London Insurance ERM
+  date: 15th June                            
+  url: https://www.insuranceerm.com/content/events/insurance-asset-risk/registration.html
+
+- name: Fund Forum Int                 
+  location: Monaco ICBI
+  date: 29 - 2 July                            
+  url: http://www.fundforuminternational.com/
+
+- name: Global Insurance Supervision 
+  location: Frankfurt, EIOPA
+  date: Sept 8-9th                           
+  url: https://eiopa.europa.eu/Pages/Conferences/4TH-CONFERENCE-ON-GLOBAL-INSURANCE-SUPERVISION.aspx
+
+- name: Insurance Risk Europe   
+  location: London
+  date: 7th/8th Oct                             
+  url: http://www.insuranceriskeurope.com/
+
+- name: Insurance Risk & Capital Insurance ERM
+  date: 3-4 Nov 
+  location: London                 
+  url: https://www.insuranceerm.com/content/events/insurance-risk-and-capital-2015.html
+
+- name: The Life Conference Celebrates its 30th Year in 2015!
+  location: Convention Centre Dublin
+  date: 18-20 November              
+  url: http://www.actuaries.org.uk/events/residential/life-conference-2015

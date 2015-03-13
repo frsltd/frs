@@ -6,11 +6,20 @@ header-image:
 ---
 
 <div class="col-md-9 div-right-border">
-	<h2>Media Coverage</h2>
+    <ul id="media-logos">
+        <li><img alt="acturial post" src="/img/logos/acturialpost.png"></li>
+        <li><img alt="financial times" src="/img/logos/financialtimes.png"></li>
+        <li><img alt="waters media" src="/img/logos/waters.png"></li>
+        <li><img alt="insurance asset risk" src="/img/logos/iar.png"></li>
+    </ul>
+    <hr class="mt-0 hr-clients">
+
+	
 	<!-- This loops through the paginated posts -->
+
     {% for media in site.data.medias %}
     <p><a href="{{ media.url }}" target="_blank"><img src="{{ site.baseurl }}/img/news.png">{{ media.title }}</a></p>
-    <p><strong>{{ media.date | media_to_long_string }}</strong> </p>
+    <p>{{ media.source  }} | <strong>{{ media.date | media_to_long_string }}</strong> </p>
    
    
     <br /><br />
@@ -19,7 +28,7 @@ header-image:
 
 <div id="events" class="col-md-3">
     <h2>Events</h2>
-    {% for event in site.data.events limit:3 %}
+    {% for event in site.data.events %}
 
     <strong>{{ event.name }}</strong><br>
     {{ event.location }}<br>

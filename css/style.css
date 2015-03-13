@@ -837,6 +837,13 @@ padding-top: 38px;
 .media-feature .event a {color:#868484;
 }
 /** Home Page features **/
+.home-feature-event p.event-text {
+line-height:normal;padding-top:20px;}
+.home-feature-event h5 {
+margin-bottom:0px;}
+.home-feature-event .date {
+font-size:12px;}
+
 .case-studies-feature {
 padding-left:10px;}
 .case-studies-feature .event p {
@@ -1088,6 +1095,11 @@ margin-bottom:30px;}
 	padding-left:15px;
 }
 
+/*Media*/
+ul#media-logos {
+padding-left:0px;display:inline-block;margin-bottom: 32px;}
+ul#media-logos li {
+float:left;list-style:none; padding-right:40px;}
 
 
 /** Latest News **/
