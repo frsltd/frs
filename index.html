@@ -190,10 +190,10 @@ title: Home
                             </h5>
 
                        
-                        <span class="date">{{ event.date }}</span>
+                        <span class="date">{{ event.date | date_to_long_string }}</span>
                        
                         {% endfor %}
-                        {% for media in site.data.medias limit:1 %}
+                        {% for media in site.data.medias limit:2 %}
                         <p class="event-text">FRS in the media</p>
                         <h5>
                             {% if media.url %}
