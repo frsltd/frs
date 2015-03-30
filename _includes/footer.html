@@ -73,7 +73,8 @@
 
                  $('#mobile-menu').sidr({
                     side: 'right' 
-                });                
+                 });
+                 $("#mobile-menu").removeAttr("style");
                 $('.submenu').click(function(e) {
                     e.preventDefault();
                     $(this).next().slideToggle();
