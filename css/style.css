@@ -834,7 +834,7 @@ text-transform: none; font-size: 14px;}
 .media-feature .event h1 {padding-bottom:0px;line-height: 0.5em; padding-bottom: 20px;font-size:51px;color: #df7a1c;
 padding-top: 38px;
 }
-.media-feature .event a {color:#868484;
+.media-feature .event a {color:#fff;
 }
 /** Home Page features **/
 .home-feature-event p.event-text {
