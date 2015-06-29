@@ -1,14 +1,20 @@
-- doc: Solvency II Unit Matching & capital management
-  description: George McCutcheon describes how an appropriate unit matching policy would release cash and minimise volatility of Solvency II own funds.
-  src: Resources/Sol II Unit Matching Capital Management.pdf
+- doc: Litigation risk on unit-linked business under Solvency II
+  description: George McCutcheon reviews the introduction of the prudent person principle of Article 132 of the Solvency II directive.
+  src: Resources/FRS Research Unit Linked Litigation Risk.pdf
   author: George McCutcheon
-  publish-date: Feb 2015
+  publish-date: Jun 2015
 
 - doc: Solvency II Look Through
   description: George McCutcheon reviews the three strands to look-through from the perspective of both Asset Managers and Life insurers.
   src: Resources/Sol II Look Through.pdf
   author: George McCutcheon
   publish-date: Mar 2015
+
+- doc: Solvency II Unit Matching & capital management
+  description: George McCutcheon describes how an appropriate unit matching policy would release cash and minimise volatility of Solvency II own funds.
+  src: Resources/Sol II Unit Matching Capital Management.pdf
+  author: George McCutcheon
+  publish-date: Feb 2015
 
 - doc: Asset Manager Oversight of Service Providers
   description: George McCutcheon MSc FIA discusses outsourcing oversight for asset managers
@@ -77,11 +83,11 @@
   publish-date: April 2013
 
 
-- doc: 
-  description:
-  src: 
-  author: 
-  publish-date: 
+#- doc: 
+#  description:
+#  src: 
+#  author: 
+#  publish-date: 
 
 
 
