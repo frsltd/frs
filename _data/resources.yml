@@ -1,8 +1,8 @@
-- doc: Litigation risk on unit-linked business under Solvency II
-  description: George McCutcheon reviews the introduction of the prudent person principle of Article 132 of the Solvency II directive.
-  src: Resources/FRS Research Unit Linked Litigation Risk.pdf
+- doc: Assets GRC (Governance, Risk, Compliance) under Solvency II
+  description: George McCutcheon reviews the assets GRC component in more detail.
+  src: Resources/FRS RS PRA Assets GRC.pdf
   author: George McCutcheon
-  publish-date: Jun 2015
+  publish-date: Aug 2015
 
 - doc: Solvency II Look Through
   description: George McCutcheon reviews the three strands to look-through from the perspective of both Asset Managers and Life insurers.
