@@ -1,0 +1,47 @@
+---
+layout: post
+title:  Aegon Ireland delivers a more streamlined customer user experience  
+categories: jekyll update
+date:   2016-02-02 12:09:29
+
+---
+
+**Dublin, {{ page.date | date_to_long_string }}** –
+
+
+- Aegon Ireland has streamlined customer experience by improving its accounting software for automating and managing its unit-linked funds and portfolio bonds
+- Irish Prime Minister an Taioseach congratulates Aegon Ireland and its software supplier Financial Risk Solutions (FRS) on their new business relationship in the Netherlands.
+
+
+Aegon Ireland has deployed its newly acquired software on a five year license to automate daily unit pricing, box management, trade order management and unit accounting for thousands of its individual portfolio bonds and hundreds of internal funds - all via a single Invest|Pro™ system from FRS. As a result, Aegon Ireland provides a more streamlined and simple user experience.
+ 
+Speaking from Amsterdam, the Taoiseach Enda Kenny said “I am delighted to announce this significant agreement between Aegon and Financial Risk Solutions. I am also particularly pleased as innovation in the Financial Services sector is a key area focus for Government as part of our IFS2020 strategy and this is an excellent example of innovation in the financial services sector by two Irish companies.”
+
+Marco Groot Wassink, CFO at Aegon Ireland says, “Aegon set up the Dublin-based centre of excellence to provide unit linked guarantee solutions across Europe in 2002. This development continues our track record of delivering innovation - helping support our customers’ decisions around transforming their financial futures. 
+
+Having one single dedicated system allows us to manage both our unit linked funds and portfolio bonds while streamlining our business processes and providing a better user experience. The Invest|Pro™ system delivers an integrated asset and fund management system.”
+
+Frank Carr, CMO at FRS comments, “We welcome Aegon Ireland as extensive Invest|Pro™ and Invest|Retail™ users. Financial Risk Solutions and Aegon have built a great relationship during the implementation. The entire Aegon Ireland unit linked and portfolio bond business went live on FRS software in January 2016.” 
+
+
+![An Taoiseach The Prime Minister hosts FRS with Aegon]({{ site.baseurl }}/img/AnTaoiseachFRSandAegon.jpg)
+
+
+**End**
+
+**Notes to Editor:**
+About Aegon Ireland
+Aegon Ireland first opened their doors in 2002 and have been helping people prepare for their financial future ever since, with a wide range of innovative investment solutions – including the manufacture of guaranteed propositions in the UK, Germany and France – as well as traditional offshore bonds. Today, they manage approximately £4 billion of funds for nearly 24,000 customers. For more information visit: https://www.aegon.ie
+Aegon Ireland is of Aegon N.V. Aegon’s roots go back more than 170 years – to the first half of the nineteenth century. Since then, Aegon has grown into an international company, with businesses in more than 20 countries in the Americas, Europe and Asia. Today, Aegon is one of the world’s leading financial services organizations, providing life insurance, pensions and asset management. Aegon’s purpose is to help people achieve a lifetime of financial security. More information: aegon.com.
+
+About Financial Risk Solutions (FRS)
+Founded in 1999 by actuaries and IT specialists, Financial Risk Solutions Ltd (FRS) is a leading provider of unit pricing, investment administration, asset reporting and compliance oversight software specifically designed for the Life Assurance and Asset Management industries. 
+FRS offer a proven range of modular, intuitive technology solutions which allow customers to pro-actively monitor and administer investments as well as mitigate risk by continually monitoring breaches and exceptions to critical investment processes. These solutions include:
+Invest|Pro™ securely automates multiple complex fund administration processes within a single application. Invest|Pro™ unit-pricing and investment administration software is scalable, modular and flexible. 
+
+Invest|GRC™ empowers insurers and asset managers to meet Pillar III asset reporting standards in the Solvency II world via a single, analytics-driven database, combining data from internal and external sources. 
+
+Invest|OPS™ automates the validation of operational activity performed by outsourcing partners, enabling firms to supervise outsourced functions, data and to manage the associated risks. 
+For more information visit [http://www.frsltd.com](http://www.frsltd.com) or follow FRS on [LinkedIn](http://www.linkedin.com/company/frs-ltd)
+
+
