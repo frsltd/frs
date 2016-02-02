@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Financial Risk Solutions (FRS) set to expand operations in 2016 
+title:  Financial Risk Solutions (FRS) set to expand operations in 20162 
 categories: jekyll update
 date:   2016-01-19 12:09:29
 
