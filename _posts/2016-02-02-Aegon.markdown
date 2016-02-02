@@ -24,8 +24,8 @@ Having one single dedicated system allows us to manage both our unit linked fund
 Frank Carr, CMO at FRS comments, “We welcome Aegon Ireland as extensive Invest|Pro™ and Invest|Retail™ users. Financial Risk Solutions and Aegon have built a great relationship during the implementation. The entire Aegon Ireland unit linked and portfolio bond business went live on FRS software in January 2016.” 
 
 
-<!--![An Taoiseach The Prime Minister hosts FRS with Aegon]({{ site.baseurl }}/img/AnTaoiseachFRSandAegon.jpg)
-Pictured are Julie Sinnamon, EI CEO, Frank Carr, CMO FRS, Leo Bloemhard, Vice President, CTO Corporate Center and Aegon Asia, Enda Kenny TD, An Taoiseach (Irish Prime Minister) and Pat Curtin CRO Aegon Holdings Company-->
+![An Taoiseach The Prime Minister hosts FRS with Aegon]({{ site.baseurl }}/img/AnTaoiseachFRSandAegon.jpg)
+Pictured are Julie Sinnamon, EI CEO, Frank Carr, CMO FRS, Leo Bloemhard, Vice President, CTO Corporate Center and Aegon Asia, Enda Kenny TD, An Taoiseach (Irish Prime Minister) and Pat Curtin CRO Aegon Holdings Company
 
 
 **End**
