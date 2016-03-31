@@ -1,20 +1,20 @@
 
-- name: Insurance Risk Europe   
+- name: 4th Annual Life Insurance Forum  
+  location: Barcelona
+  date: 13th-14th April                             
+  url: https://fleming.events/en/events/finance/life-insurance-forum
+
+- name: The Future of Life and Pensions
   location: London
-  date: 7th-8th Oct                             
-  url: http://www.insuranceriskeurope.com/
+  date: 8th-9th June              
+  url: http://www.marketforce.eu.com/events/life-investments/life-pensions
 
-- name: NAPF Annual Conference & Exhibition 2015
-  location: Manchester Central
-  date: 14th-16th Oct              
-  url: http://www.napf.co.uk/Conferences_and_Seminars/Annual_Conference_And_Exhibition.aspx
+- name: Life Conference 2016
+  date: 2nd-4th Nov 
+  location: Edinburgh EICC                 
+  url: https://www.actuaries.org.uk/learn-and-develop/current-and-past-events/life-conference-2016
 
-- name: Insurance Risk & Capital Insurance ERM
-  date: 3rd-4th Nov 
-  location: London                 
-  url: https://www.insuranceerm.com/content/events/insurance-risk-and-capital-2015.html
-
-- name: The Life Conference Celebrates its 30th Year in 2015!
-  location: Convention Centre Dublin
-  date: 18th-20th Nov             
-  url: http://www.actuaries.org.uk/events/residential/life-conference-2015
+- name: The Retirement Solutions Forum
+  location: London
+  date: 23rd-24th Nov             
+  url: http://www.marketforce.eu.com/events/life-investments/retirement-solutions-forum
