@@ -19,7 +19,6 @@
   quote: Invest|Pro™ provides a robust solution to manage Mobius Life pension scheme investments into our unit linked funds and onwards to the investment markets. Invest|Pro™ adds significant tangible value through increased automation and control.
   quotefrom: Head of Business Development, Mobius Life
   download: /Resources/Mobius Life_FRS InvestPro Case Study.pdf
-  #/Resources/Mobius-case-study-2013-08-21.pdf 
   image: mobius.png
   website: www.mobiuslife.co.uk
 
@@ -62,7 +61,9 @@
 
 - name: Investors Trust
   description: Investors Trust specializes in medium to long term unit-linked investment products tailored to international investors around the world. Investors Trust offers a range of flexible, tax-efficient products, designed to suit various income levels and financial planning needs.
-  quote:
+  quote: Working with FRS and their technology allowed Investors Trust Assurance to launch a successful portfolio bond into the market securely and in a short period of time. This offering is currently being scaled in several markets, which is one of the many benefits of the technology solutions that they provide. Working with the team at FRS helped us benefit from their experience and knowledge of the life assurance industry and we look forward to a long relationship into the future.
+  quotefrom: Managing Director, Investors Trust
+  download: /Resources/Investors Trust - FRS InvestPro Case Study.pdf
   image: investors-trust.png
   website: www.investors-trust.com
 
@@ -119,3 +120,21 @@
   quote: 
   image: msv.png
   website: www.msvlife.com
+
+- name: Generali
+  description: 
+  quote: 
+  image: generali-logo_small.png
+  website: www.generalipaneurope.ie
+
+- name: Harcourt Life
+  description: 
+  quote: 
+  image: harcourt-logo2.png
+  website: www.harcourtlife.ie
+
+- name: New Ireland
+  description: 
+  quote: 
+  image: New-Ireland.png
+  website: www.newireland.ie
