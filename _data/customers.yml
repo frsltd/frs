@@ -124,7 +124,7 @@
 - name: Generali
   description: 
   quote: 
-  image: generali-logo_small.png
+  image: Generali-logo_small.png
   website: www.generalipaneurope.ie
 
 - name: Harcourt Life
@@ -136,5 +136,5 @@
 - name: New Ireland
   description: 
   quote: 
-  image: New-Ireland.png
+  image: new-ireland.png
   website: www.newireland.ie
