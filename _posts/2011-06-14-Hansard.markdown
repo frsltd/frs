@@ -6,18 +6,18 @@ categories: jekyll update
 image: 
 ---
 
-Financial Risk Solutions (FRS), a market leading provider of investment administration software announced today that Hansard Global Plc has selected and implemented Invest|Pro for its Isle of Man and Dublin books of business.
+Financial Risk Solutions (FRS), a market leading provider of investment administration software announced today that Hansard Global Plc has selected and implemented InvestPro for its Isle of Man and Dublin books of business.
 
 Through its regulated insurance companies, Hansard offers a range of around 200 flexible, long term savings and investment unit funds in tax efficient unit linked life assurance policy wrappers. These are sold exclusively through over 540 independent financial advisers to more than 43,000 policyholders in over 170 countries.
 
 Commenting on the announcement Deb Byron, Director of IT said;
 
-*We have watched FRS develop its services over time and have been impressed with not only their understanding of the issues facing life companies, but their willingness and initiative in developing solutions. Equally as important, the Invest|Pro teams pre-implementation support was of a very high quality and undoubtedly contributed to a smooth implementation.*
+*We have watched FRS develop its services over time and have been impressed with not only their understanding of the issues facing life companies, but their willingness and initiative in developing solutions. Equally as important, the InvestPro teams pre-implementation support was of a very high quality and undoubtedly contributed to a smooth implementation.*
 
-The Invest|Pro system is widely used by life assurance companies, clients are based inEngland, the Isle of Man,ItalyandIreland. Invest|Pro administers collective unitised funds, portfolio bonds and self-invested pensions.
+The InvestPro system is widely used by life assurance companies, clients are based inEngland, the Isle of Man,ItalyandIreland. Invest|Pro administers collective unitised funds, portfolio bonds and self-invested pensions.
 
 FRS sales & marketing director Frank Carr added:
 
-*We are very encouraged by the number of new clients adopting Invest|Pro into their operations as a core asset to their investment administration. We continue to receive extremely positive interest in our offering particularly from life offices writing increasing amounts of business and also because regulators are increasing their activity with the life assurance sector.*
+*We are very encouraged by the number of new clients adopting InvestPro into their operations as a core asset to their investment administration. We continue to receive extremely positive interest in our offering particularly from life offices writing increasing amounts of business and also because regulators are increasing their activity with the life assurance sector.*
 
 

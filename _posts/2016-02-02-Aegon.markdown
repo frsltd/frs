@@ -13,15 +13,15 @@ date:   2016-02-02 12:09:29
 - Irish Prime Minister an Taioseach congratulates Aegon Ireland and its software supplier Financial Risk Solutions (FRS) on their new business relationship in the Netherlands.
 
 
-Aegon Ireland has deployed its newly acquired software on a five year license to automate daily unit pricing, box management, trade order management and unit accounting for thousands of its individual portfolio bonds and hundreds of internal funds - all via a single Invest|Pro™ system from FRS. As a result, Aegon Ireland provides a more streamlined and simple user experience.
+Aegon Ireland has deployed its newly acquired software on a five year license to automate daily unit pricing, box management, trade order management and unit accounting for thousands of its individual portfolio bonds and hundreds of internal funds - all via a single InvestPro™ system from FRS. As a result, Aegon Ireland provides a more streamlined and simple user experience.
  
 Speaking from Amsterdam, the Taoiseach Enda Kenny said “I am delighted to announce this significant agreement between Aegon and Financial Risk Solutions. I am also particularly pleased as innovation in the Financial Services sector is a key area focus for Government as part of our IFS2020 strategy and this is an excellent example of innovation in the financial services sector by two Irish companies.”
 
 Marco Groot Wassink, CFO at Aegon Ireland says, “Aegon set up the Dublin-based centre of excellence to provide unit linked guarantee solutions across Europe in 2002. This development continues our track record of delivering innovation - helping support our customers’ decisions around transforming their financial futures. 
 
-Having one single dedicated system allows us to manage both our unit linked funds and portfolio bonds while streamlining our business processes and providing a better user experience. The Invest|Pro™ system delivers an integrated asset and fund management system.”
+Having one single dedicated system allows us to manage both our unit linked funds and portfolio bonds while streamlining our business processes and providing a better user experience. The InvestPro™ system delivers an integrated asset and fund management system.”
 
-Frank Carr, CMO at FRS comments, “We welcome Aegon Ireland as extensive Invest|Pro™ and Invest|Retail™ users. Financial Risk Solutions and Aegon have built a great relationship during the implementation. The entire Aegon Ireland unit linked and portfolio bond business went live on FRS software in January 2016.” 
+Frank Carr, CMO at FRS comments, “We welcome Aegon Ireland as extensive InvestPro™ and InvestRetail™ users. Financial Risk Solutions and Aegon have built a great relationship during the implementation. The entire Aegon Ireland unit linked and portfolio bond business went live on FRS software in January 2016.” 
 
 
 ![An Taoiseach The Prime Minister hosts FRS with Aegon]({{ site.baseurl }}/img/AnTaoiseachFRSandAegon.jpg)
@@ -66,7 +66,7 @@ Founded in 1999 by actuaries and IT specialists, Financial Risk Solutions Ltd (F
 FRS offer a proven range of modular, intuitive technology solutions which allow customers to pro-actively monitor and administer investments as well as mitigate risk by continually monitoring breaches and exceptions to critical investment processes. These solutions include:
 Invest|Pro™ securely automates multiple complex fund administration processes within a single application. Invest|Pro™ unit-pricing and investment administration software is scalable, modular and flexible. 
 
-Invest|GRC™ empowers insurers and asset managers to meet Pillar III asset reporting standards in the Solvency II world via a single, analytics-driven database, combining data from internal and external sources. 
+InvestGRC™ empowers insurers and asset managers to meet Pillar III asset reporting standards in the Solvency II world via a single, analytics-driven database, combining data from internal and external sources. 
 
 Invest|OPS™ automates the validation of operational activity performed by outsourcing partners, enabling firms to supervise outsourced functions, data and to manage the associated risks. 
 For more information visit [http://www.frsltd.com](http://www.frsltd.com) or follow FRS on [LinkedIn](http://www.linkedin.com/company/frs-ltd)

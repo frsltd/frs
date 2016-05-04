@@ -6,12 +6,12 @@ categories: jekyll update
 image: 
 ---
 
-- Financial Risk Solutions (FRS) software – Invest|Pro™ – replaced legacy system at Friends First for Fund Valuations, Unit Pricing and other investment administration functions.
+- Financial Risk Solutions (FRS) software – InvestPro™ – replaced legacy system at Friends First for Fund Valuations, Unit Pricing and other investment administration functions.
 - 35% cost savings realised within 6 months because of fewer systems and licencing.
 - New efficiencies mean that Friends First can now provide better value products to its clients.
 
 
-**Dublin, {{ page.date | date_to_long_string }}** – Friends First Life Assurance Company, a wholly-owned subsidiary of Dutch insurance group Achmea, has reduced its investment administration costs by 35% since implementing Invest|Pro™ accounting software.
+**Dublin, {{ page.date | date_to_long_string }}** – Friends First Life Assurance Company, a wholly-owned subsidiary of Dutch insurance group Achmea, has reduced its investment administration costs by 35% since implementing InvestPro™ accounting software.
 
 The specialist investment administration software from FRS was implemented in September 2012 to automate Fund Valuations and Unit Pricing, Fund Accounting, Unit Accounting, Asset Trading, Investment Manager Links, Bank Reconciliations, Market Data Links and Custodian Reconciliations.
 

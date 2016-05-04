@@ -6,19 +6,19 @@ categories: jekyll update
 image: 
 ---
 
-- New licensing agreement extends LCL Isle of Man’s use of investment administration software Invest|Pro™ to manage several of its life assurance books.
+- New licensing agreement extends LCL Isle of Man’s use of investment administration software InvestPro™ to manage several of its life assurance books.
 - The latest software provides direct links to external dealing platforms as part of fund management process as well as automated corporate actions.
 - Operationally has resulted in a more integrated and efficient platform for managing unitised funds and portfolio bond investment administration.
 
-**Dublin, {{ page.date | date_to_long_string }}** – LCL, a third-party administrator, has extended its use of FRS’s Invest|Pro™ software to manage the investment administration of several of its life assurance books.  These include Aberdeen International, Premium Life, Finistere Life, ALICO IOM, Global Life & LCL International.
+**Dublin, {{ page.date | date_to_long_string }}** – LCL, a third-party administrator, has extended its use of FRS’s InvestPro™ software to manage the investment administration of several of its life assurance books.  These include Aberdeen International, Premium Life, Finistere Life, ALICO IOM, Global Life & LCL International.
 
-In a new 5-year license agreement, Isle of Man-based LCL, which is part of the Charles Taylor plc group of companies, has implemented the latest version of Invest|Pro™ software from Financial Risk Solutions (FRS).
+In a new 5-year license agreement, Isle of Man-based LCL, which is part of the Charles Taylor plc group of companies, has implemented the latest version of InvestPro™ software from Financial Risk Solutions (FRS).
 
 The software is used to automate the investment administration of unitised funds and portfolio bonds.  The latest version provides access to automated corporate actions as well as direct links to external dealing platforms for pricing.  This allows for straight-through-processing across a range of fund types, ensuring a completely integrated investment administration process.
 
-Paul Rowlands LCL Business Support Director said, “‘FRS’s unrivalled experience in the life assurance investment administration space is reflected in its Invest|Pro™ system.  The broad range of functionality it provides for both unitised funds and portfolio bond administration is unique, and has hugely benefitted our business operationally.  Given the number of life assurance companies we integrate into LCL international, having the ability to manage our own data migrations is a huge advantage to us. The integrated dealing platform which is part of the latest release is helping us further improve straight-through-processing, making our processes even more coordinated than before.”
+Paul Rowlands LCL Business Support Director said, “‘FRS’s unrivalled experience in the life assurance investment administration space is reflected in its InvestPro™ system.  The broad range of functionality it provides for both unitised funds and portfolio bond administration is unique, and has hugely benefitted our business operationally.  Given the number of life assurance companies we integrate into LCL international, having the ability to manage our own data migrations is a huge advantage to us. The integrated dealing platform which is part of the latest release is helping us further improve straight-through-processing, making our processes even more coordinated than before.”
 
-Frank Carr, sales & marketing director at FRS said; “LCL are experts in acquiring and absorbing international life insurance companies closed to new business. Using Invest|Pro™ allows them to integrate new portfolios into their business and manage the investment administration function efficiently and expertly. Extending their licensing agreement with us is testament to the benefits of using Invest|Pro™, and will allow them to continue to expand their business.”
+Frank Carr, sales & marketing director at FRS said; “LCL are experts in acquiring and absorbing international life insurance companies closed to new business. Using InvestPro™ allows them to integrate new portfolios into their business and manage the investment administration function efficiently and expertly. Extending their licensing agreement with us is testament to the benefits of using InvestPro™, and will allow them to continue to expand their business.”
 
 **End**
 

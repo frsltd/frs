@@ -6,11 +6,11 @@ categories: jekyll update
 image: 
 ---
 
-The worlds largest insurance group has implemented Financial Risk Solutions (FRS) fund administration system Invest|Pro for the investment administration of its UK, Irish and the Isle of Man life assurance businesses.
+The worlds largest insurance group has implemented Financial Risk Solutions (FRS) fund administration system InvestPro for the investment administration of its UK, Irish and the Isle of Man life assurance businesses.
 
 Dublin based FRS specialises in providing investment administration systems for the life assurance industry.
 
-Invest|Pro administers collective unitised funds, portfolio bonds and self invested pensions. The system calculates unit prices, accounts for tax, management charges, provides regulatory reporting and manages investment and financial accounting.
+InvestPro administers collective unitised funds, portfolio bonds and self invested pensions. The system calculates unit prices, accounts for tax, management charges, provides regulatory reporting and manages investment and financial accounting.
 
 Frank Carr, sales & marketing director at FRS commenting said;
 
