@@ -8,7 +8,7 @@ image:
 
 Sanpaolo Life, a leading Italian life assurer that distributes its products through 2,400 branches in Italy and a 1,300-strong tied agent sales force, today announced it had chosen Financial Risk Solutions (FRS), a leading fund administration software company, to administer its funds. The key reason for choosing FRS’s InvestPro™ was the impressive controls coupled with the experience of the providers.
 
-“Invest|Pro™ is a fund administration system that really delivers measurable efficiencies in a clear and controlled environment,” said Matt Coffey, Managing Director, Sanpaolo Life.
+“InvestPro™ is a fund administration system that really delivers measurable efficiencies in a clear and controlled environment,” said Matt Coffey, Managing Director, Sanpaolo Life.
 
 ### H3  InvestPro™ rollout continues – 3.1 is Launched
 
