@@ -1,0 +1,67 @@
+---
+layout: post
+title:  Capita, in partnership with FRS, awarded fund administration contract by Hawthorn Life  
+categories: jekyll update
+date:   2016-05-27 12:09:29
+
+---
+
+**Dublin, {{ page.date | date_to_long_string }}** –
+
+<br>
+To view coverage on this article click on the following link:
+
+* [Actuarial Post](http://www.actuarialpost.co.uk/article/capita---frs-awarded-fund-contract-by-hawthorn-life-9540.htm) 
+
+<br>
+
+Capita’s life and pensions business in Ireland, in partnership with Financial Risk Solutions (FRS), has been awarded a five-year contract to provide fund administration for Hawthorn Life.
+ 
+Capita will provide secure cloud-based investment fund management using FRS’s InvestPro software. The solution allows complex and critical business processes to be managed via one single system using Microsoft Azure Cloud, delivering simplicity and cost efficiencies for Hawthorn Life.
+
+Hawthorn Life’s head of investment operations, Brian Aherne, said: “This robust, secure and scalable solution has improved our ability to manage our investment administration requirements from an operational perspective.  
+
+The experience of the specialist implementation teams from HLL, FRS and Capita and the deployment in the cloud could enable us to scale up these operations with minimum disruption to our ongoing business.”
+
+Sean Holland, managing director of Capita’s life and pensions business in Ireland, said: “The Hawthorn Life investment administration delivery is a landmark in a new era of cloud based computing.
+“Capita, working with FRS, is leading this industry and is proud of the delivery of this ambitious project.” 
+
+FRS chief marketing officer, Frank Carr, said: “Our InvestPro solution is now live in 30 life assurance companies, and is highly configurable to the needs of each client.
+“In this instance, we have worked with Capita to help deliver a solution for its client in a speed-to-market delivery that is unparalleled in the market.”
+
+Art Coughlan, cloud and enterprise lead for Microsoft Ireland, added: “We are delighted with this new partnership between FRS, Capita and Hawthorn Life
+“We are seeing customers move to the Microsoft Azure Cloud from every part of the finance industry, and are delighted with the work Financial Risk Solutions are doing by making InvestPro available on Azure.”  
+
+
+**End**
+
+<br>
+
+**Notes to Editor:**
+
+
+For further information please contact:
+
+
+Simon Coughlin 0207 6542 192
+Simon.coughlin@capita.co.uk
+
+Kirsty Sewter 0207 654 2386
+Kirsty.sewter@capita.co.uk
+
+Capita Press Office out of hours 0207 654 2399
+
+**About Capita Life and Pensions** <br>
+Capita Life and Pensions (Ireland) is a leading provider of services in the international life assurance market with Dublin being at the heart of the business. With over 400 people in Ireland providing services for over 250 products in 12 different countries, Capita uses its expert service provision, infrastructure, systems and financial capability to deliver scale, drive quality and reduce cost and risk for its clients. 
+
+Capita is a leading UK provider of technology-enabled customer and business process services and integrated professional support services. With 75,000 people at over 500 sites, including 94 business centres across the UK, Europe, India and South Africa, Capita uses its expertise, infrastructure and scale benefits to transform its clients' services, driving down costs and adding value. Capita is quoted on the London Stock Exchange (CPI.L), and is a constituent of the FTSE 100 with 2015 revenue of £4.7 billion. Further information on Capita can be found at: [www.capita.com](www.capita.com)
+
+**About Financial Risk Solutions (FRS)** <br>
+Founded in 1999 by actuaries and IT specialists, Financial Risk Solutions Ltd (FRS) is a leading provider of unit pricing, investment administration, asset reporting and compliance oversight software specifically designed for the Life Assurance and Asset Management industries. 
+FRS offer a proven range of modular, intuitive technology solutions which allow customers to pro-actively monitor and administer investments as well as mitigate risk by continually monitoring breaches and exceptions to critical investment processes: For more information visit [www.frsltd.com](www.frsltd.com) or follow FRS on [LinkedIn](https://www.linkedin.com/company/frs-ltd).
+
+**About Hawthorn Life** <br>
+Hawthorn Life is a Dublin-based life assurance company, which focuses on supporting and managing an existing book of variable annuities (investment and retirement products) for a UK customer base. 
+<br>
+<br>
+
