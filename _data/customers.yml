@@ -35,17 +35,17 @@
   image: foresters.png
   website: www.foresters.com
 
-- name: Cardif Pinnacle
-  description: Cardif Pinnacle is the UK insurance arm of banking group BNP Paribas, a European leader in global financial services and one of the strongest banks in the world. They have established themselves as a leading specialist provider of Protection and Investment solutions. The Company is a subsidiary of BNP Paribas Cardif, a worldwide provider of insurance and savings products. The Company is part of the global banking group BNP Paribas SA, a European leader in banking and financial services.
-  quote: 
-  image: cardif-pinnacle.png
-  website: www.cardifpinnacle.com
+#- name: Cardif Pinnacle
+#  description: Cardif Pinnacle is the UK insurance arm of banking group BNP Paribas, a European leader in global financial services and one of the strongest banks in the world. They have established themselves as a leading specialist provider of Protection and Investment solutions. The Company is a subsidiary of BNP Paribas Cardif, a worldwide provider of insurance and savings products. The Company is part of the global banking group BNP Paribas SA, a European leader in banking and financial services.
+#  quote: 
+#  image: cardif-pinnacle.png
+#  website: www.cardifpinnacle.com
 
-- name: MGM Advantage
-  description: MGM Advantage is a UK based, award-winning company which specialises in retirement income solutions. They currently have over £1.4bn of funds under their management by working closely with selected Fund Managers. MGM Advantage are true innovators in the retirement income market.
+- name: Retirement Advantage
+  description: Retirement Advantage is a UK based, award-winning company which specialises in retirement income solutions. They currently have over £1.4bn of funds under their management by working closely with selected Fund Managers. Retirement Advantage are true innovators in the retirement income market.
   quote: 
-  image: mgm.png
-  website: www.mgmadvantage.co.uk
+  image: retirementAdvantage.png
+  website: www.retirementadvantage.com
 
 - name: Hansard Global Plc
   description: Hansard offers a range of around 200 flexible, unit-linked, long term savings and investment funds in tax efficient life assurance policy wrappers. These are sold exclusively through more than 540 independent financial advisors to over 42,000 policyholders in over 120 countries. The administered assets exceed £1bn.
