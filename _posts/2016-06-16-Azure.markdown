@@ -21,6 +21,8 @@ The ability to deploy both software applications in the cloud, either individual
 “Hosting our solutions on Microsoft Azure allows us to provide our clients with a speedy and straightforward implementation process which provides a robust, flexible solution without the need for additional infrastructure or resources. This is extremely valuable for many life assurance companies today in assisting them with their increasing administration, reporting and compliance demands while supporting their growth objectives.” added Financial Risk Solutions, CMO, Frank Carr.
  
 
+**Related Press Release:**<br>
+[FRS delivers fully-automated Solvency II asset-reporting solution for Hawthorn Life using Morningstar data, 15 months ahead of the Jan 2016 deadline](http://www.frsltd.com/jekyll/update/2014/11/04/Hawthorn.html) 
 
 **End**
 
