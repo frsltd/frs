@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Capita, in partnership with FRS, awarded fund administration contract by Hawthorn Life  
+title:  Capita, in partnership with FRS, awarded fund administration contract by Hawthorn Life
 categories: jekyll update
 date:   2016-05-27 12:09:29
 

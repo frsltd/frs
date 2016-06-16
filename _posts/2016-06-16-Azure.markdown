@@ -1,0 +1,48 @@
+---
+layout: post
+title:  Leading Life Assurance Businesses Advance Industry Standards by Adopting Cloud-Based Technologies 
+categories: jekyll update
+date:   2016-06-16 09:09:28
+
+---
+
+**Dublin, {{ page.date | date_to_long_string }}** –
+
+- Clients praise FRS’s delivery of scalability, enhanced security and advanced standards in the life assurance market with cloud-hosted fund investment administration and compliance solutions using Microsoft Azure.
+
+Financial Risk Solutions (FRS), a provider of investment administration and compliance oversight software, has announced the significant uptake of its hosted software offerings by life assurance companies including Prudential International, St James Place International and Hawthorn Life.  
+
+The recent launch of FRS’s InvestPro™ and InvestGRC™ solutions in the cloud using Microsoft Azure now allows life assurance companies to administer and automate mutual fund unit pricing /net asset values (NAV’s), investment accounting and solvency II compliance reporting in a rigorously controlled and scalable environment. 
+
+The ability to deploy both software applications in the cloud, either individually or as a combined solution, not only helps life companies to automate processes and compliance reporting, it also powers the enrichment and integration of vital data for monitoring purposes and breach alerts – and all in an easily accessible, easy to deploy, robust format.
+
+“The cloud is transforming whole industries, and the financial industry is no exception. Through the reliability and scalability of Microsoft Azure, FRS’s InvestPro™ and InvestGRC™ solutions are helping life companies optimize their businesses and get more value out of their data in the cloud.” commented Andrea Carl, Director, Commercial Communications, Microsoft Corp. 
+
+“Hosting our solutions on Microsoft Azure allows us to provide our clients with a speedy and straightforward implementation process which provides a robust, flexible solution without the need for additional infrastructure or resources. This is extremely valuable for many life assurance companies today in assisting them with their increasing administration, reporting and compliance demands while supporting their growth objectives.” added Financial Risk Solutions, CMO, Frank Carr.
+ 
+
+
+**End**
+
+<br>
+
+**Notes to Editor:**
+
+
+**About Financial Risk Solutions (FRS)**
+Founded in 1999 by actuaries and IT specialists, Financial Risk Solutions Ltd (FRS) is a leading provider of unit pricing, investment administration, asset reporting and compliance oversight software specifically designed for the Life Assurance and Asset Management industries. 
+FRS offer a proven range of modular, intuitive technology solutions which allow customers to pro-actively monitor and administer investments as well as mitigate risk by continually monitoring breaches and exceptions to critical investment processes. These solutions include:
+InvestPro™ securely automates multiple complex fund administration processes within a single application. InvestPro™ unit-pricing and investment administration software is scalable, modular and flexible. 
+
+InvestGRC™ empowers insurers and asset managers to meet Pillar III asset reporting standards in the Solvency II world via a single, analytics-driven database, combining data from internal and external sources. 
+
+InvestOPS™ automates the validation of operational activity performed by outsourcing partners, enabling firms to supervise outsourced functions, data and to manage the associated risks. 
+For more information visit [www.frsltd.com](www.frsltd.com) or follow FRS on [LinkedIn](https://www.linkedin.com/company/frs-ltd).
+
+Disclaimer: The names of actual companies and products mentioned herein may be the trademarks of their respective owners.  
+
+**For Media enquiries:**
+Alice Thomas<br>
+MD Consulting <br>
+Tel: +44 (0) 7788 298560 <br>
+Email: alice@mdconsulting.com
