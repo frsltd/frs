@@ -99,7 +99,9 @@
 
 - name: Aegon
   description: 
-  quote: 
+  quote: Having one single dedicated system allows us to manage both our unit linked funds and portfolio bonds while streamlining our business processes and providing a better user experience. The Invest|Pro™ system delivers an integrated asset and fund management system. The team at FRS are dedicated specialists in this area. We look forward to a long and rewarding relationship.
+  quotefrom: CFO, Aegon Ireland
+  download: /Resources/FRS - Aegon Ireland Case Study.pdf
   image: Aegon.png
   website: www.Aegon.com
 
@@ -138,3 +140,12 @@
   quote: 
   image: new-ireland.png
   website: www.newireland.ie
+
+- name: Capita
+  description: 
+  quote: The Hawthorn Life investment administration delivery is a landmark in a new era of cloud based computing. Capita, working with FRS, is leading this industry and is proud of the delivery of this ambitious project.
+  quotefrom: Managing Director, Capita
+  download: /Resources/FRS Case Study - Hawthorn Life_Capita_Microsoft.pdf
+  image: capita.png
+  website: www.capita.ie
+

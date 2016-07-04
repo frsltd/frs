@@ -1,18 +1,9 @@
 
-- name: 4th Annual Life Insurance Forum  
-  location: Barcelona
-  date: 13th-14th April                             
-  url: https://fleming.events/en/events/finance/life-insurance-forum
-
-- name: The Future of Life and Pensions
-  location: London
-  date: 8th-9th June              
-  url: http://www.marketforce.eu.com/events/life-investments/life-pensions
-
 - name: Life Conference 2016
   date: 2nd-4th Nov 
   location: Edinburgh EICC                 
-  url: https://www.actuaries.org.uk/learn-and-develop/current-and-past-events/life-conference-2016
+  url: https://www.actuaries.org.uk/learn-and-develop/events-calendar/life-conference-2016
+  
 
 - name: The Retirement Solutions Forum
   location: London
