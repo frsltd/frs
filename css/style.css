@@ -702,13 +702,14 @@ ul.frstabs{margin-top:100px;}
 #frs-slider .carousel-control .glyphicons-chevron-left, .carousel-control .glyphicons-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next{
 	font-size:60px;
 }
-/** Vision **/
+/** Vision & Delivery **/
 .vision {
 	background: #ffffff;
 	padding: 60px 0;
 }
 
-.vision h2 {
+
+.vision h2{
 	text-align: center;
 	margin-top: 0px;
 	padding-left: 50px;
@@ -717,7 +718,7 @@ ul.frstabs{margin-top:100px;}
 	font-size: 34px;
 }
 
-.vision img {
+.vision img{
 	max-width: 100%;
  	-webkit-transition: -webkit-transform .5s linear;
 	-moz-transition: -moz-transform  .5s linear;
@@ -726,7 +727,7 @@ ul.frstabs{margin-top:100px;}
 	transition: transform .5s linear;	
 }
 
-.vision .img-container img:hover {
+.vision .img-container img:hover{
 	-webkit-transform: scale(1.15);
 	-moz-transform: scale(1.15);
 	-o-transform: scale(1.15);
@@ -746,7 +747,7 @@ ul.frstabs{margin-top:100px;}
 }
 
 
-.vision a:hover {
+.vision a:hover{
 	color: #c76102 !important;
 }
 
