@@ -1,96 +1,3 @@
-- name: Friends First
-  description: Friends First has a long-standing presence in Ireland and a reputation as one of Ireland's leading financial services groups. They provide a comprehensive range of pension, investment and protection products and services to companies, organisations and individuals throughout Ireland. The company manages total assets of €4.6bn and generated Total Premiums of €430m in 2012.
-  quote: Investment administration operations have changed so much over the years and our legacy systems were old and unable to provide the functionality we required. We chose Invest|Pro™ to automate and consolidate our administration functions and the 35% cost savings and efficiencies that have resulted have been exceptional. These efficiencies have also allowed us to provide our clients with better service and products – which is where our core competencies lie.
-  quotefrom: Head of Group Finance, Friends First
-  download: /Resources/Friends First_FRS InvestPro Case Study.pdf
-  image: ff.png
-  website: www.friendsfirst.ie
-
-- name: RL360°
-  description: RL360° is an Isle of Man based company which provides a variety of savings, investment and protection products. The company operates globally and look after some £2.2 billion in assets for their clients. Last year RL 360 recorded 24% new business growth. Further they were voted Best Financial Adviser portal in the Professional Adviser International Fund and Product Awards 2013.
-  quote: Prior to the implementation of Invest|Pro™ the preparation of a set of investment accounts from multiple different systems was quite inefficient. Having a single database of investment transactions and a single Invest|Pro™ general ledger from which to extract a trial balance has significantly reduced timescales and greatly improved the robustness of the process. Invest|Pro™ has completely transformed our operations.
-  quotefrom: Financial Controller, RL360°
-  download: /Resources/RL360_FRS InvestPro Case Study.pdf
-  image: rl360.png
-  website: www.rl360.com  
-
-- name: Mobius Life
-  description: Mobius Life is a UK life insurance company. They operate an institutional investment platform specifically configured to meet the needs of advisers to defined benefit and defined contribution pension schemes. Further they specialize in fund management outsourcing. Mobius Life Limited offers a diverse range of funds from a life-company platform to enable pension schemes to easily access and tailor their investment choices to meet their own investment objectives.
-  quote: Invest|Pro™ provides a robust solution to manage Mobius Life pension scheme investments into our unit linked funds and onwards to the investment markets. Invest|Pro™ adds significant tangible value through increased automation and control.
-  quotefrom: Head of Business Development, Mobius Life
-  download: /Resources/Mobius Life_FRS InvestPro Case Study.pdf
-  image: mobius.png
-  website: www.mobiuslife.co.uk
-
-- name: CTIS – Charles Taylor Insurance Services
-  description: CTIS provide a complete range of outsourced insurance and fund services to international life insurance companies. Their services enable their clients to operate and manage their businesses more effectively as well as reducing their costs.  CTIS are also one of the most active acquirers and consolidators of international life insurers through their sister company LCL International.
-  quote: FRS’s unrivalled experience in the life assurance investment administration space is reflected in its Invest|Pro™ system. The broad range of functionality it provides for both unitised funds and portfolio bond administration is unique, and has hugely benefitted our business operationally. Given the number of life assurance companies we integrate into LCL international, having the ability to manage our own data migrations is a huge advantage to us. The integrated dealing platform which is part of the latest release is helping us further improve straight-through-processing, making our processes even more coordinated than before.
-  quotefrom: Business Support Director, CTIS
-  image: charles-taylor.png
-  website: www.ctplc.com
-
-- name: Foresters
-  description: Forester Life provides a range of straightforward financial solutions to help address life's challenges for protection, saving, investing and pension planning. They are responsible for funds under management of over £3bn and is part of Foresters, the international financial services organisation. Internationally, Foresters has over £14bn assets under management and has been assigned an 'A' excellent rating by A.M. Best.
-  quote: 
-  image: foresters.png
-  website: www.foresters.com
-
-#- name: Cardif Pinnacle
-#  description: Cardif Pinnacle is the UK insurance arm of banking group BNP Paribas, a European leader in global financial services and one of the strongest banks in the world. They have established themselves as a leading specialist provider of Protection and Investment solutions. The Company is a subsidiary of BNP Paribas Cardif, a worldwide provider of insurance and savings products. The Company is part of the global banking group BNP Paribas SA, a European leader in banking and financial services.
-#  quote: 
-#  image: cardif-pinnacle.png
-#  website: www.cardifpinnacle.com
-
-- name: Retirement Advantage
-  description: Retirement Advantage is a UK based, award-winning company which specialises in retirement income solutions. They currently have over £1.4bn of funds under their management by working closely with selected Fund Managers. Retirement Advantage are true innovators in the retirement income market.
-  quote: 
-  image: retirementAdvantage.png
-  website: www.retirementadvantage.com
-
-- name: Hansard Global Plc
-  description: Hansard offers a range of around 200 flexible, unit-linked, long term savings and investment funds in tax efficient life assurance policy wrappers. These are sold exclusively through more than 540 independent financial advisors to over 42,000 policyholders in over 120 countries. The administered assets exceed £1bn.
-  quote: 
-  image: hansard.png
-  website: www.hansard.com
-
-- name: Hawthorn Life
-  description: Hawthron Life Based in Swords, Co Dublin, Ireland, Hawthorn Life Limited ("HLL") is a European subsidiary of Columbia Insurance Company, a Berkshire Hathaway company. HLL focuses on supporting and managing an existing book of variable annuities (investment and retirement products) for a UK customer base.
-  quote: 
-  image: hawthorn.png
-  website: www.hawthornlife.com
-
-- name: Investors Trust
-  description: Investors Trust specializes in medium to long term unit-linked investment products tailored to international investors around the world. Investors Trust offers a range of flexible, tax-efficient products, designed to suit various income levels and financial planning needs.
-  quote: Working with FRS and their technology allowed Investors Trust Assurance to launch a successful portfolio bond into the market securely and in a short period of time. This offering is currently being scaled in several markets, which is one of the many benefits of the technology solutions that they provide. Working with the team at FRS helped us benefit from their experience and knowledge of the life assurance industry and we look forward to a long relationship into the future.
-  quotefrom: Managing Director, Investors Trust
-  download: /Resources/Investors Trust - FRS InvestPro Case Study.pdf
-  image: investors-trust.png
-  website: www.investors-trust.com
-
-#- name: Source Pensions
- # description: Source Pensions offers pension advisers and their clients access to Ireland's largest range of funds all on a single platform. With one pension application you can access 16 different fund managers representing over 200 funds along with state of the art online facilities to monitor every aspect of your pension.
- # quote:
- # image: sourcepensions.png
- # website: www.pensionsource.ie
-
-
-- name: S|E|B
-  description: SEB Life International Assurance Company Limited, trading as SEB Life International is a life insurance company incorporated and regulated in Ireland which engages in the cross border distribution of insurance based investment products under the EU Third Life Directive.
-  quote: 
-  image: seb.png
-  website: www.sebgroup.com
-
-- name: IFDS - International Financial Data Services
-  description: 
-  quote: 
-  image: ifds.png
-  website: www.ifdsgroup.com
-
-- name: MetLife Europe Limited
-  description: 
-  image: metlife.png
-  website: www.metlife.co.uk
-
 - name: Accenture
   description: 
   quote: 
@@ -105,42 +12,6 @@
   image: Aegon.png
   website: www.Aegon.com
 
-- name: Zurich
-  description: 
-  quote: 
-  image: Zurich.png
-  website: www.Zurich.com
-
-- name: SJPI
-  description: 
-  quote: 
-  image: SJPI.png
-  website: www1.sjp.co.uk/find-a-partner/london-city-location-office
-
-- name: MSV
-  description: 
-  quote: 
-  image: msv.png
-  website: www.msvlife.com
-
-- name: Generali
-  description: 
-  quote: 
-  image: Generali-logo_small.png
-  website: www.generalipaneurope.ie
-
-- name: Harcourt Life
-  description: 
-  quote: 
-  image: harcourt-logo2.png
-  website: www.harcourtlife.ie
-
-- name: New Ireland
-  description: 
-  quote: 
-  image: new-ireland.png
-  website: www.newireland.ie
-
 - name: Capita
   description: 
   quote: The Hawthorn Life investment administration delivery is a landmark in a new era of cloud based computing. Capita, working with FRS, is leading this industry and is proud of the delivery of this ambitious project.
@@ -149,3 +20,130 @@
   image: capita.png
   website: www.capita.ie
 
+- name: CTIS – Charles Taylor Insurance Services
+  description: CTIS provide a complete range of outsourced insurance and fund services to international life insurance companies. Their services enable their clients to operate and manage their businesses more effectively as well as reducing their costs.  CTIS are also one of the most active acquirers and consolidators of international life insurers through their sister company LCL International.
+  quote: FRS’s unrivalled experience in the life assurance investment administration space is reflected in its Invest|Pro™ system. The broad range of functionality it provides for both unitised funds and portfolio bond administration is unique, and has hugely benefitted our business operationally. Given the number of life assurance companies we integrate into LCL international, having the ability to manage our own data migrations is a huge advantage to us. The integrated dealing platform which is part of the latest release is helping us further improve straight-through-processing, making our processes even more coordinated than before.
+  quotefrom: Business Support Director, CTIS
+  image: charles-taylor.png
+  website: www.ctplc.com
+
+- name: Foresters
+  description: Forester Life provides a range of straightforward financial solutions to help address life's challenges for protection, saving, investing and pension planning. They are responsible for funds under management of over £3bn and is part of Foresters, the international financial services organisation. Internationally, Foresters has over £14bn assets under management and has been assigned an 'A' excellent rating by A.M. Best.
+  quote: 
+  image: foresters.png
+  website: www.foresters.com
+
+- name: Friends First
+  description: Friends First has a long-standing presence in Ireland and a reputation as one of Ireland's leading financial services groups. They provide a comprehensive range of pension, investment and protection products and services to companies, organisations and individuals throughout Ireland. The company manages total assets of €4.6bn and generated Total Premiums of €430m in 2012.
+  quote: Investment administration operations have changed so much over the years and our legacy systems were old and unable to provide the functionality we required. We chose Invest|Pro™ to automate and consolidate our administration functions and the 35% cost savings and efficiencies that have resulted have been exceptional. These efficiencies have also allowed us to provide our clients with better service and products – which is where our core competencies lie.
+  quotefrom: Head of Group Finance, Friends First
+  download: /Resources/Friends First_FRS InvestPro Case Study.pdf
+  image: ff.png
+  website: www.friendsfirst.ie
+
+- name: Generali
+  description: 
+  quote: 
+  image: Generali-logo_small.png
+  website: www.generalipaneurope.ie
+
+- name: Hansard Global Plc
+  description: Hansard offers a range of around 200 flexible, unit-linked, long term savings and investment funds in tax efficient life assurance policy wrappers. These are sold exclusively through more than 540 independent financial advisors to over 42,000 policyholders in over 120 countries. The administered assets exceed £1bn.
+  quote: 
+  image: hansard.png
+  website: www.hansard.com
+
+- name: Harcourt Life
+  description: 
+  quote: 
+  image: harcourt.png
+  website: www.harcourtlife.ie
+
+- name: Hawthorn Life
+  description: Hawthron Life Based in Swords, Co Dublin, Ireland, Hawthorn Life Limited ("HLL") is a European subsidiary of Columbia Insurance Company, a Berkshire Hathaway company. HLL focuses on supporting and managing an existing book of variable annuities (investment and retirement products) for a UK customer base.
+  quote: 
+  image: hawthorn.png
+  website: www.hawthornlife.com
+
+- name: IFDS - International Financial Data Services
+  description: 
+  quote: 
+  image: ifds.png
+  website: www.ifdsgroup.com
+
+- name: Investors Trust
+  description: Investors Trust specializes in medium to long term unit-linked investment products tailored to international investors around the world. Investors Trust offers a range of flexible, tax-efficient products, designed to suit various income levels and financial planning needs.
+  quote: Working with FRS and their technology allowed Investors Trust Assurance to launch a successful portfolio bond into the market securely and in a short period of time. This offering is currently being scaled in several markets, which is one of the many benefits of the technology solutions that they provide. Working with the team at FRS helped us benefit from their experience and knowledge of the life assurance industry and we look forward to a long relationship into the future.
+  quotefrom: Managing Director, Investors Trust
+  download: /Resources/Investors Trust - FRS InvestPro Case Study.pdf
+  image: investors-trust.png
+  website: www.investors-trust.com
+
+- name: MetLife Europe Limited
+  description: 
+  image: metlife.png
+  website: www.metlife.co.uk
+
+- name: Mobius Life
+  description: Mobius Life is a UK life insurance company. They operate an institutional investment platform specifically configured to meet the needs of advisers to defined benefit and defined contribution pension schemes. Further they specialize in fund management outsourcing. Mobius Life Limited offers a diverse range of funds from a life-company platform to enable pension schemes to easily access and tailor their investment choices to meet their own investment objectives.
+  quote: Invest|Pro™ provides a robust solution to manage Mobius Life pension scheme investments into our unit linked funds and onwards to the investment markets. Invest|Pro™ adds significant tangible value through increased automation and control.
+  quotefrom: Head of Business Development, Mobius Life
+  download: /Resources/Mobius Life_FRS InvestPro Case Study.pdf
+  image: mobius.png
+  website: www.mobiuslife.co.uk
+
+- name: MSV
+  description: 
+  quote: 
+  image: msv.png
+  website: www.msvlife.com
+
+- name: New Ireland
+  description: 
+  quote: 
+  image: new-ireland.png
+  website: www.newireland.ie
+
+- name: Retirement Advantage
+  description: Retirement Advantage is a UK based, award-winning company which specialises in retirement income solutions. They currently have over £1.4bn of funds under their management by working closely with selected Fund Managers. Retirement Advantage are true innovators in the retirement income market.
+  quote: 
+  image: retirementAdvantage.png
+  website: www.retirementadvantage.com
+
+- name: RL360°
+  description: RL360° is an Isle of Man based company which provides a variety of savings, investment and protection products. The company operates globally and look after some £2.2 billion in assets for their clients. Last year RL 360 recorded 24% new business growth. Further they were voted Best Financial Adviser portal in the Professional Adviser International Fund and Product Awards 2013.
+  quote: Prior to the implementation of Invest|Pro™ the preparation of a set of investment accounts from multiple different systems was quite inefficient. Having a single database of investment transactions and a single Invest|Pro™ general ledger from which to extract a trial balance has significantly reduced timescales and greatly improved the robustness of the process. Invest|Pro™ has completely transformed our operations.
+  quotefrom: Financial Controller, RL360°
+  download: /Resources/RL360_FRS InvestPro Case Study.pdf
+  image: rl360.png
+  website: www.rl360.com  
+
+- name: S|E|B
+  description: SEB Life International Assurance Company Limited, trading as SEB Life International is a life insurance company incorporated and regulated in Ireland which engages in the cross border distribution of insurance based investment products under the EU Third Life Directive.
+  quote: 
+  image: seb.png
+  website: www.sebgroup.com
+
+- name: SJPI
+  description: 
+  quote: 
+  image: SJPI.png
+  website: www1.sjp.co.uk/find-a-partner/london-city-location-office
+
+- name: Zurich
+  description: 
+  quote: 
+  image: Zurich.png
+  website: www.Zurich.com
+
+#- name: Cardif Pinnacle
+#  description: Cardif Pinnacle is the UK insurance arm of banking group BNP Paribas, a European leader in global financial services and one of the strongest banks in the world. They have established themselves as a leading specialist provider of Protection and Investment solutions. The Company is a subsidiary of BNP Paribas Cardif, a worldwide provider of insurance and savings products. The Company is part of the global banking group BNP Paribas SA, a European leader in banking and financial services.
+#  quote: 
+#  image: cardif-pinnacle.png
+#  website: www.cardifpinnacle.com
+
+#- name: Source Pensions
+ # description: Source Pensions offers pension advisers and their clients access to Ireland's largest range of funds all on a single platform. With one pension application you can access 16 different fund managers representing over 200 funds along with state of the art online facilities to monitor every aspect of your pension.
+ # quote:
+ # image: sourcepensions.png
+ # website: www.pensionsource.ie
