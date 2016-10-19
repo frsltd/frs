@@ -7,7 +7,8 @@ page-header: Join our ever growing list of clients today
 <div class="clients-companies">
     <div class="row">
         <div id="owl-logos">
-            {% for client in site.data.customers reversed %}
+            <!--{% for client in site.data.customers reversed %}-->
+            {% for client in site.data.customers %}
             <div class="item">
                 <a href="#{{ client.name | replace: ' ', ''| replace: '|', ''}}">
                     <img alt="portrait" src="{{ site.baseurl }}/img/logos/{{ client.image }}" width="200" />
@@ -19,7 +20,8 @@ page-header: Join our ever growing list of clients today
 </div>
 <hr class="mt-0 hr-clients">
 <div class="col-md-11">
-	{% for client in site.data.customers  reversed %}
+	<!--{% for client in site.data.customers  reversed %}-->
+    {% for client in site.data.customers %}
     <div class="media" id="{{ client.name | replace: ' ', ''| replace: '|', '' }}">
         <div class="hidden-xs">
             <a class="pull-left" href="#">
