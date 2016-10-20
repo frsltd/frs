@@ -7,7 +7,7 @@
 	{% assign highlight = true %}
 	{% elsif page.url contains 'collective' and p.url contains 'collective' %}
 	{% assign highlight = true %}
-	{% elsif page.url contains 'DCProcessing' and p.url contains 'DCProcessing' %}
+	{% elsif page.url contains 'outsourcing' and p.url contains 'outsourcing' %}
 	{% assign highlight = true %}
 	{% elsif page.url contains 'risk' and p.url contains 'risk' %}
 	{% assign highlight = true %}
@@ -48,13 +48,13 @@
 {% endif %}
 
 
-{% if page.url contains 'DCProcessing' %}
-<h4>DC Processing Modules</h4>
+{% if page.url contains 'outsourcing' %}
+<h4>Outsourcing Modules</h4>
 <div class="list-group">
 
 	{% for p in site.pages | sort "p.sub-title" %}
 
-	{% if p.url contains 'DCProcessing' %}
+	{% if p.url contains 'outsourcing-md' %}
 	<a href="{{ site.baseurl }}{{ p.url }}" class="list-group-item {% if p.url == page.url %} list-group-item-success{% endif %}"><span class="glyphicon {{ p.icon }}"></span> {{ p.sub-title }} <span class="label label-default">{{ p.nav-label }}</span></a>
 	{% endif %}
 	{% endfor %}
