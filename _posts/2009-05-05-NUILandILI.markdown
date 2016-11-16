@@ -6,7 +6,7 @@ categories: jekyll update
 image: 
 ---
 
-Norwich Union International Life (NUIL) and Irish life International (ILI) both signed contracts for Financial Risk Solutions (FRS) system Invest|Pro to administer all portfolio bonds and unitised funds business. InvestPro replaced other proprietary external fund administration systems at both sites.
+Norwich Union International Life (NUIL) and Irish life International (ILI) both signed contracts for Financial Risk Solutions (FRS) system InvestPro to administer all portfolio bonds and unitised funds business. InvestPro replaced other proprietary external fund administration systems at both sites.
 
 Tim Madigan, Finance director at NUIL commenting said, We are satisfied that in implementing InvestPro we have implemented the best system on the market for administering our Unitised Funds and our new Premier Portfolio product. Furthermore it was delivered on-time and on-budget.
 

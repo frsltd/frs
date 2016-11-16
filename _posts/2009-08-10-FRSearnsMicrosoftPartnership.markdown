@@ -14,6 +14,6 @@ FRS was founded by a group of senior actuaries and IT professionals nine years a
 
 Assisting specialist software companies deliver excellence in their chosen markets is an important strategic role at Microsoft, we are always happy to assist and see success at other software companies and to see wide usage of systems that have addressed key needs in this case in the life and pensions industry, said Colin Cassidy, Partner Strategy and Programmes Manager, Microsoft Ireland.
 
-Invest|Pro is used by life assurance companies, fund administrators and third party administrators across Europe. InvestPro is a pricing, accounting and investment administration system. Clients include Aviva, Eureko and Accenture Insurance Services.
+InvestPro is used by life assurance companies, fund administrators and third party administrators across Europe. InvestPro is a pricing, accounting and investment administration system. Clients include Aviva, Eureko and Accenture Insurance Services.
 
 Microsoft Partners are required to meet rigorous requirements for certification and expertise. FRS InvestPro has reached the status of Certified Partner for independent software vendor and software solution by demonstrating increased levels of developer certification, deep real-world experience, and by providing completed customer reference projects that were independently verified by Microsoft.

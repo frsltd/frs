@@ -8,7 +8,7 @@ image: http://www.frsltd.com/wp-content/uploads/2014/05/ITA-logo.jpg
 
 
 
-**Dublin, {{ page.date | date_to_long_string }}**  – Investors Trust, a Cayman-regulated international life assurance company, which specialises in unit-linked investment products, has adopted Invest|Pro™ software.  Under an initial 5-year license, the software will be used to manage all investment administration including daily valuations, trading, charges and corporate actions for its new portfolio bond business in Latin America, Asia and Africa.  It is the first Cayman-regulated life assurance company to adopt InvestPro™.
+**Dublin, {{ page.date | date_to_long_string }}**  – Investors Trust, a Cayman-regulated international life assurance company, which specialises in unit-linked investment products, has adopted InvestPro™ software.  Under an initial 5-year license, the software will be used to manage all investment administration including daily valuations, trading, charges and corporate actions for its new portfolio bond business in Latin America, Asia and Africa.  It is the first Cayman-regulated life assurance company to adopt InvestPro™.
 
 The InvestPro™ software is developed and licensed by Dublin Company Financial Risk Solutions (FRS). The system was delivered and installed for testing 24 hours after the license agreement was concluded.
 
@@ -18,7 +18,7 @@ Ariel Amigo, Chief Marketing Officer at Investors Trust, says, “With the launc
 
 “Having an international life company like Investors Trust is testament to the strength of our system,” says Frank Carr, CMO at FRS. “We are pleased that InvestPro™ is the chosen solution to manage their complex investment administration requirements and assist their international growth.”
 
-Invest|Pro™ is already a well-recognised system in the life assurance investment administration market in Europe. FRS’s customers are some of the biggest brands in life assurance and business process outsourcing (BPO). 
+InvestPro™ is already a well-recognised system in the life assurance investment administration market in Europe. FRS’s customers are some of the biggest brands in life assurance and business process outsourcing (BPO). 
 
 End
  
