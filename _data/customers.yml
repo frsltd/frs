@@ -7,7 +7,7 @@
 - name: Aegon
   description: 
   quote: Having one single dedicated system allows us to manage both our unit linked funds and portfolio bonds while streamlining our business processes and providing a better user experience. The Invest|Pro™ system delivers an integrated asset and fund management system. The team at FRS are dedicated specialists in this area. We look forward to a long and rewarding relationship.
-  quotefrom: CFO, Aegon Ireland
+  quotefrom: Marco Groot Wassink, CFO, Aegon Ireland
   download: /Resources/FRS - Aegon Ireland Case Study.pdf
   image: Aegon.png
   website: www.Aegon.com
@@ -15,7 +15,7 @@
 - name: Capita
   description: 
   quote: The Hawthorn Life investment administration delivery is a landmark in a new era of cloud based computing. Capita, working with FRS, is leading this industry and is proud of the delivery of this ambitious project.
-  quotefrom: Managing Director, Capita
+  quotefrom: Sean Holland, Managing Director, Capita
   download: /Resources/FRS Case Study - Hawthorn Life_Capita_Microsoft.pdf
   image: capita.png
   website: www.capita.ie
@@ -23,7 +23,7 @@
 - name: CTIS – Charles Taylor Insurance Services
   description: CTIS provide a complete range of outsourced insurance and fund services to international life insurance companies. Their services enable their clients to operate and manage their businesses more effectively as well as reducing their costs.  CTIS are also one of the most active acquirers and consolidators of international life insurers through their sister company LCL International.
   quote: FRS’s unrivalled experience in the life assurance investment administration space is reflected in its Invest|Pro™ system. The broad range of functionality it provides for both unitised funds and portfolio bond administration is unique, and has hugely benefitted our business operationally. Given the number of life assurance companies we integrate into LCL international, having the ability to manage our own data migrations is a huge advantage to us. The integrated dealing platform which is part of the latest release is helping us further improve straight-through-processing, making our processes even more coordinated than before.
-  quotefrom: Business Support Director, CTIS
+  quotefrom: Paul Rowlands, Business Support Director, CTIS
   image: charles-taylor.png
   website: www.ctplc.com
 
@@ -61,7 +61,8 @@
 
 - name: Hawthorn Life
   description: Hawthron Life Based in Swords, Co Dublin, Ireland, Hawthorn Life Limited ("HLL") is a European subsidiary of Columbia Insurance Company, a Berkshire Hathaway company. HLL focuses on supporting and managing an existing book of variable annuities (investment and retirement products) for a UK customer base.
-  quote: 
+  quote: Through our adoption of InvestGRC™ being able to view and report on our investments and funds not only helps us meet our regulatory requirements but also benefits our overall business – and we have been able to do this quickly, efficiently and at minimal cost to our business. The process of adopting the software from FRS was seamless and efficient, which means that we are now 15 months ahead of our regulatory deadline and can concentrate on our main business of serving our clients.
+  quotefrom: Brian Aherne, Head of Investment Operations, Hawthorn Life
   image: hawthorn.png
   website: www.hawthornlife.com
 
@@ -74,7 +75,7 @@
 - name: Investors Trust
   description: Investors Trust specializes in medium to long term unit-linked investment products tailored to international investors around the world. Investors Trust offers a range of flexible, tax-efficient products, designed to suit various income levels and financial planning needs.
   quote: Working with FRS and their technology allowed Investors Trust Assurance to launch a successful portfolio bond into the market securely and in a short period of time. This offering is currently being scaled in several markets, which is one of the many benefits of the technology solutions that they provide. Working with the team at FRS helped us benefit from their experience and knowledge of the life assurance industry and we look forward to a long relationship into the future.
-  quotefrom: Managing Director, Investors Trust
+  quotefrom: Bob Pain, Chairman, Investors Trust
   download: /Resources/Investors Trust - FRS InvestPro Case Study.pdf
   image: investors-trust.png
   website: www.investors-trust.com
@@ -94,7 +95,8 @@
 
 - name: MSV
   description: 
-  quote: 
+  quote: Having one dedicated system to manage everything around our unit-linked business is a real step forward in terms of efficiency. Invest|Pro™ from FRS will also give us the opportunity to continue to scale our business efficiently as many activities will now be completely automated. The Invest|Pro™ system is delivering exactly what we need and the specialist experience of the team at FRS is impressive.
+  quotefrom: Chief Officer Business Development, MSV
   image: msv.png
   website: www.msvlife.com
 
@@ -126,13 +128,15 @@
 
 - name: SJPI
   description: 
-  quote: 
+  quote: InvestGRC™ will enable us to meet our Solvency II investment reporting requirements in an easy-to-use format. The cloud-based solution is easy to deploy so there is minimum disruption for the team yet maximum benefit for the business. Both the technical and the actuarial teams at FRS really understand our business and the impact of Solvency II on our operations which should contribute to a smooth implementation.
+  quotefrom: Fintan McKeon, Finance Director, St. James’s Place International
   image: SJPI.png
   website: www1.sjp.co.uk/find-a-partner/london-city-location-office
 
 - name: Zurich
   description: 
-  quote: 
+  quote: The team from Financial Risk solutions did an excellent job implementing Invest|Pro™, their  industry knowledge added hugely to the project. The system has made a significant improvement to  our entire investment administration department by increasing controls, improving processing times and  facilitating significant scalability. Invest|Pro™ has been very well received by users and management.
+  quotefrom: Louise Duncan, Zurich Internation Life
   image: Zurich.png
   website: www.Zurich.com
 
