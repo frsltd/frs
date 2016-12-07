@@ -283,6 +283,16 @@ header{
 	/* Added */text-shadow:0 0 4px rgba(0,0,0,0.4);
 
 }
+.hero-text .white-background h1  {
+color: #095064;
+text-shadow:0 0 2px rgba(0,0,0,0.4);
+}
+
+.hero-text .white-background h2  {
+color: #095064;
+text-shadow:0 0 2px rgba(0,0,0,0.4);
+}
+
 .hero-productlanding h1, .hero-productlanding h2, .hero-productlanding h3{font-weight:300;font-family: 'Lato', sans-serif;}
 
 .hero-productlanding h1{
