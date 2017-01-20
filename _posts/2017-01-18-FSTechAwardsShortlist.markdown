@@ -38,8 +38,8 @@ InvestPro™ is available in three different software delivery models, namely; o
 
 The GRC module (Governance, Risk & Compliance) provides a centralised data warehouse to aggregate asset positions and other relevant compliance and risk management data and automatically produces Solvency II quantitative reporting templates (QRT) on a client-specified frequent basis.  It also allows Insurers to conduct their own risk and solvency assessments on their investment-related business.
 
-Chief Marketing Officer at FRS, Frank Carr said; 
- *“Hosting our software on Microsoft Azure allows us to provide our clients with a speedy and straightforward implementation process which provides a robust, flexible solution without the need for additional infrastructure or resources. This is extremely valuable for many life assurance companies today in assisting them with their increasing administration, reporting and compliance demands while supporting their growth objectives.”* 
+Chief Marketing Officer at FRS, Frank Carr said; <br>
+ *“Hosting our software on Microsoft Azure allows us to provide our clients with a speedy and straightforward implementation process which provides a robust, flexible solution without the need for additional infrastructure or resources. This is extremely valuable for many life assurance companies today in assisting them with their increasing administration, reporting and compliance demands while supporting their growth objectives.”* <br>
 The awards are independently judged and the winners will be announced at the FStech Awards Gala Dinner & Ceremony at the London Marriott Hotel, Grosvenor Square, 23rd March 2017.
 
 
@@ -54,13 +54,13 @@ About the FS Tech Awards
 Find out more: [www.fstech.co.uk/awards](www.fstech.co.uk/awards)
 
 **The Judging Panel:**
-Martyn Atkinson, Director of Digital and Change, **Metro Bank**
-Simon Burrows, Director, **PwC**
-Matt Cox, Head of Innovation and Insight, **Nationwide Building Society**
-Glenn Murphy, Head of IT, **Cazenove**
-Aksana Pekun, Head of Culture and Capability, Chief Data Office, **Deutsche Bank**
-Julian Sawyer, Chief Operating Officer, **Starling Bank**
-Michelle Stevens, Editor, **FStech**
+Martyn Atkinson, Director of Digital and Change, **Metro Bank**<br>
+Simon Burrows, Director, **PwC**<br>
+Matt Cox, Head of Innovation and Insight, **Nationwide Building Society**<br>
+Glenn Murphy, Head of IT, **Cazenove**<br>
+Aksana Pekun, Head of Culture and Capability, Chief Data Office, **Deutsche Bank**<br>
+Julian Sawyer, Chief Operating Officer, **Starling Bank**<br>
+Michelle Stevens, Editor, **FStech**<br>
 
 
 **About Financial Risk Solutions (FRS)**
