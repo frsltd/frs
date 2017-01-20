@@ -17,7 +17,7 @@ Financial Risk Solutions (FRS), a Dublin-based provider of unit-linked investmen
 -	Risk Management Software of the Year (InvestGRC™)
 
 <br><br>
-The [FStech Awards] (http://www.fstech.co.uk/awards/index.php), which are now in their 17th year, recognise excellence and innovation in the field of information technology within the UK and EMEA financial services sector. 
+The [FStech Awards](http://www.fstech.co.uk/awards/index.php), which are now in their 17th year, recognise excellence and innovation in the field of information technology within the UK and EMEA financial services sector. 
 
 
 Entries come from financial services institutions and technology suppliers which are leading the way in such areas as;
