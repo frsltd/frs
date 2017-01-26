@@ -75,12 +75,5 @@ FRS offer a proven range of modular, intuitive technology solutions which allow 
 For more information visit [www.frsltd.com](www.frsltd.com) or follow FRS on [LinkedIn](https://www.linkedin.com/company/frs-ltd).
 
 
-**For Media enquiries:**
-Alice Thomas
-MD Consulting 
-Tel: +44 (0) 7788 298560 
-Email: alice@mdconsulting.com
-
-
 Disclaimer: The names of actual companies and products mentioned herein may be the trademarks of their respective owners.  
 
