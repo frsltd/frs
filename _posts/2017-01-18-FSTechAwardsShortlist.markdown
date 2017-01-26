@@ -31,7 +31,7 @@ Entries come from financial services institutions and technology suppliers which
 -	mobile
 -	online 
 
-FRS is thrilled to be in the running for two awards this year, proving that the company’s decision to adopt a strategy of launching a tech-reg software product, InvestGRC™, an oversight software product InvestOPS™ and dividing the InvestPro™ software suite into component parts to address specific investment administration risk management areas, is the right decision for the business - and their customers. 
+FRS is thrilled to be in the running for two awards this year, endorsing the company’s decision to adopt a strategy of launching a tech-reg software product, InvestGRC™, an oversight software product InvestOPS™ and dividing the InvestPro™ software suite into component parts to address specific investment administration risk management areas, is the right decision for the business - and their customers. 
 
 InvestPro™ is available in three different software delivery models, namely; on-premises, SaaS hosted on Microsoft Azure, and delivery by a licensed FRS outsource partner, making it a scalable, cost-effective solution, which completely meets the requirements of fund administration in one system.  
 
