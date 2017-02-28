@@ -10,6 +10,9 @@ date:   2016-12-05 09:09:28
 
 *Financial Risk Solutions (FRS) has been named ‘Tech Vendor of the Year: GRC’ in Risk.net Buy-Side Awards 2016.*
 
+
+<br><br>![Risk.net Awards]({{ site.baseurl }}/img/Risk_Net_Award1.png) <br><br>
+
 <br>
 Dublin-based provider of unit-linked investment administration and compliance oversight software, Financial Risk Solutions (FRS), has been named [‘Tech Vendor of the Year: GRC’](http://www.risk.net/risk/analysis/2478740/best-tech-vendor-for-grc-frs) in the Risk.net Buy-Side Awards 2016 at the Sheraton, Park Lane, London yesterday.    <br><br>
 

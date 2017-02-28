@@ -1,3 +1,9 @@
+- doc: Asset Manager Oversight of Service Providers
+  description: Frank Carr discusses outsourcing oversight for asset managers.
+  src: Resources/FRS-Asset_Manager_Oversight.pdf
+  author: 
+  publish-date: Feb 2017
+
 - doc: Seeing through the risks of DC fund Investment Administration
   description: This article examines how new technology is poised to revolutionise the administration of DC pension fund solutions in the UK pension landscape - and how this can fuel both opportunity and risk reduction for those operating here.
   src: Resources/FRS-Seeing through.pdf
@@ -89,11 +95,11 @@
   publish-date: April 2013
 
 
-- doc: 
-  description:
-  src: 
-  author: 
-  publish-date: 
+# - doc: 
+#   description:
+#   src: 
+#   author: 
+#   publish-date: 
 
 
 
