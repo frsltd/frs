@@ -191,10 +191,13 @@ show-subscribe: true
                     //    //    LoadOrderDetails(newDiv, CustomerID);
                     //    //}
                     //});// End of our $.each loop
-                },
-                error: function (xhr, ajaxOptions, thrownError) {
-                    alert("$.ajax error: " + xhr.status + " " + thrownError);
-                    emailSent = "failure";
+                },                
+                     error: function (xhr, ajaxOptions, thrownError) {
+                    //alert("$.ajax error: " + xhr.status + " " + thrownError);
+                    //emailSent = "failure";
+                    $('#GSCCModal').modal('hide')
+                    createCookie("EmailSent", FromEmailAddress, "30");
+                    window.location.href = $("#PDFId").attr("download");
                 }
             });
         }
