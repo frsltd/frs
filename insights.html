@@ -13,7 +13,7 @@ show-subscribe: true
     {% if loopindex == 1 %}
 <div class='row' style="margin-left:-0px;">
     <div class="col-md-6">
-      <strong>{{ resource.doc }}</strong>
+      <strong>{{ resource.publish-date }} - {{ resource.doc }}</strong>
       <p class="text-muted">{{ resource.description }}</p>
         {% if resource.src %}
         <div class="normal-download">
@@ -29,7 +29,7 @@ show-subscribe: true
     </div>
     {% else %}
     <div class="col-md-6">
-      <strong>{{ resource.doc }}</strong>
+      <strong>{{ resource.publish-date }} - {{ resource.doc }}</strong>
       <p class="text-muted">{{ resource.description }}</p>
       {% if resource.src %}
         <div class="normal-download">
