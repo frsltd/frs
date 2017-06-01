@@ -1,3 +1,9 @@
+- doc: PRIIPs System Challenges
+  description: George McCutcheon MSc FIA discusses PRIIPs and KID challenges.
+  src: Resources/FRS - PRIIPs system challenges.pdf
+  author: 
+  publish-date: May 2017
+
 - doc: Asset Manager Oversight of Service Providers
   description: Frank Carr discusses outsourcing oversight for asset managers.
   src: Resources/FRS-Asset_Manager_Oversight.pdf
@@ -95,11 +101,11 @@
   publish-date: April 2013
 
 
-# - doc: 
-#   description:
-#   src: 
-#   author: 
-#   publish-date: 
+ doc: 
+  description:
+  src: 
+  author: 
+  publish-date: 
 
 
 
