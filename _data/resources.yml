@@ -1,3 +1,9 @@
+- doc: UCITS derogation for PRIIPs manufacturers
+  description: George McCutcheon MSc FIA discusses the important implications for all investment product manufacturers in Europe.
+  src: Resources/FRS - PRIIPs manufacturers derogation.pdf
+  author: 
+  publish-date: June 2017 - 
+
 - doc: PRIIPs System Challenges
   description: George McCutcheon MSc FIA discusses PRIIPs and KID challenges.
   src: Resources/FRS_PRIIPs system challenges.pdf
@@ -101,11 +107,11 @@
   publish-date: April 2013 - 
 
 
-- doc: 
-  description:
-  src: 
-  author: 
-  publish-date: 
+# - doc: 
+#   description:
+#   src: 
+#   author: 
+#   publish-date: 
 
 
 
