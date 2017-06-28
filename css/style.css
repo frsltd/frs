@@ -605,6 +605,12 @@ ul.frstabs a{
 	font-size:18px;
 
 }
+.FiveTabs{padding:0 0px;}
+
+/*ul.frstabs li.active a{
+	background:#fff;
+	color:#031229;*/
+}
 .tablike{padding:0 5px;}
 
 ul.frstabs li.active a{
