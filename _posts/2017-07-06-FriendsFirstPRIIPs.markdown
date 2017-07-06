@@ -2,7 +2,7 @@
 layout: post
 title:  Friends First Select InvestGRC™ from Financial Risk Solutions to meet demands of upcoming PRIIPs KID regulation
 categories: jekyll update
-date:   2017-07-05 09:09:28
+date:   2017-07-06 09:09:28
 
 ---
 
