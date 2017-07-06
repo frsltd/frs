@@ -26,6 +26,7 @@ KIDs will be more than a regulatory requirement to provide additional documents 
 -	risks
 -	rewards
 -	costs of each investment product 
+
 <br>
 
 
