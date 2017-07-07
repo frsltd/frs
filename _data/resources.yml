@@ -1,3 +1,9 @@
+- doc: PRIIPs Changes on the Horizon.pdf
+  description: Frank Carr discusses how PRIIPs manufacturers are moving on from their decision-making in respect of PRIIPs implementation plans to a consideration of the key emerging issues from PRIIPs.
+  src: Resources/FRS - PRIIPs Changes in the Pipeline.pdf
+  author: 
+  publish-date: July 2017 - 
+
 - doc: UCITS derogation for PRIIPs manufacturers
   description: George McCutcheon MSc FIA discusses the important implications for all investment product manufacturers in Europe.
   src: Resources/FRS - PRIIPs manufacturers derogation.pdf
@@ -107,11 +113,11 @@
   publish-date: April 2013 - 
 
 
-# - doc: 
-#   description:
-#   src: 
-#   author: 
-#   publish-date: 
+- doc: 
+  description:
+  src: 
+  author: 
+  publish-date: 
 
 
 
