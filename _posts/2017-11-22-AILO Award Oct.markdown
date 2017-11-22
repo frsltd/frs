@@ -25,7 +25,7 @@ Frank Carr has been chief marketing officer at Financial Risk Solutions since 20
 
 Peter Caslin, CEO and founder of Financial Risk Solutions, said of the award, *“It is great to see Frank’s expertise and industry contribution recognsied by AILO. He has been instrumental in our success at FRS”.*
 
-![Receiving Award]({{ site.baseurl }}/img/FrankAILOaward.PNG) <br><br>
+![Receiving Award]({{ site.baseurl }}/img/FrankAILOaward.png) <br><br>
 
 <br>
 
