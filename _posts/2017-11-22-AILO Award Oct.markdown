@@ -13,11 +13,11 @@ date:   2017-11-22 09:09:28
 
 
 <br>
-Financial Risk Solutions (FRS), a Dublin-based provider of unit-linked investment administration and compliance oversight software, is delighted to announce that chief marketing officer, Frank Carr, has been awarded the ‘James Ball Memorial Award for Outstanding Contribution’ 2017 at the [Association for International Life Offices](http://www.ailo.org/) (AILO)’s 30th annual awards.  
+Financial Risk Solutions (FRS), a Dublin-based provider of unit-linked investment administration and compliance oversight software, is delighted to announce that chief marketing officer, Frank Carr, has been awarded the ‘James Ball Memorial Award for Outstanding Contribution’ 2017 at the [Association for International Life Offices](http://www.ailo.org/){:target="_blank"} (AILO)’s 30th annual awards.  
 
 The James Ball Memorial Award was instigated by AILO in memory of the late James Ball, a founder of AILO.  This annual award is presented to the individual who has, in the opinion of AILO’s Members, made a significant contribution to the international and cross-border life industry.
 
-Announcing the award, Alan Morgan-Moodie, chief executive of AILO, said, *“AILO’s annual award is given in recognition of the significant contribution made by an individual. I am pleased to present this award to Frank Carr in recognition of his consistent contribution and overall support of AILO, and the industry as a whole, over many years.” *
+Announcing the award, Alan Morgan-Moodie, chief executive of AILO, said, *“AILO’s annual award is given in recognition of the significant contribution made by an individual. I am pleased to present this award to Frank Carr in recognition of his consistent contribution and overall support of AILO, and the industry as a whole, over many years.”*
 
 On recieveing the award, Frank Carr said, *“I am humbled and surprised, but delighted, to receive such an accolade from AILO, an organisation I thoroughly enjoy being part of.  Members have a strong professional skill set, and can be counted on for knowledgeable industry insights”.*
 

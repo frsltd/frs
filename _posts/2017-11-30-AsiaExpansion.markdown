@@ -13,7 +13,7 @@ date:   2017-11-30 09:09:28
 
 
 <br>
-Financial Risk Solutions (FRS), a Dublin-based provider of unit-linked investment administration and compliance oversight software, , is pleased to announce the opening of two offices in Asia;  [Hong Kong](http://www.frsltd.com/contact.html) and [Malaysia](http://www.frsltd.com/contact.html). These are the first offices outside of Europe for the business.
+Financial Risk Solutions (FRS), a Dublin-based provider of unit-linked investment administration and compliance oversight software, is pleased to announce the opening of two offices in Asia;  [Hong Kong](http://www.frsltd.com/contact.html){:target="_blank"} and [Malaysia](http://www.frsltd.com/contact.html){:target="_blank"}. These are the first offices outside of Europe for the business.
 
 
 The decision is the result of research into strategic growth in the region.  FRS met 25 life insurance firms and 15 asset managers across Asia over 18 months, to understand their specific investment administration and oversight requirements. The research identified that Unit Linked Insurance Plans (ULIPs) or Investment-linked Insurance Plans (ILPs) are growing at a significant pace. This brings challenges for life insurers to scale operations in a robustly controlled risk environment, a key regulatory concern. 

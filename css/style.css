@@ -99,6 +99,8 @@ ul {
 	padding-left: 15px;
 }
 
+body, ul{font-size: 15px}
+
 /*li{
 	list-style-type:none;
 }*/
