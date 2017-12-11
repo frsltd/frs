@@ -6,7 +6,7 @@ date:   2017-12-11 09:09:28
 
 ---
 
-<!--**Dublin, {{ page.date | date_to_long_string }}** -->
+**Dublin, {{ page.date | date_to_long_string }}**
 
 <!-- *FRS Wins ‘Technology Firm of the Year’ at the Insurance Asset Management Awards* -->
 
