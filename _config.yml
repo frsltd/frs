@@ -7,3 +7,6 @@ baseurl: ""
 gems: [jekyll-paginate]
 repository: 'mkelly505/frs.git'
 future: true
+
+# Build Settings
+port: 4000
