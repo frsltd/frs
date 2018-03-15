@@ -16,9 +16,14 @@ date:   2018-3-12 09:09:28
 Financial Risk Solutions (FRS), a Dublin-based provider of unit-linked investment administration and compliance oversight software, was joined by An Tánaiste, Simon Coveney TD to open their Hong Kong office at International Commerce Centre. It marks their second location in Asia, as the company expands to match regional growth in the life insurance industry.
 
 <br>
+
+![Tánaiste opens FRS Hong Kong office]({{ site.baseurl }}/img/FRS Opens HK Office.jpg)
+
+
 Matthew Baldwin, Head of Asia, Financial Risk Solutions commented “It is a privilege for FRS to have the Tánaiste, Simon Coveney TD open our new Hong Kong office. This marks a exciting time for the company as we expand further to service our clients in Asia’s thriving life insurance market”. 
 
 <br>
+
 Statistics released by the Insurance Agent Registration Board (IARB) showed that in 2016, the total gross premiums of the Hong Kong insurance industry increased by 20.7 percent to $451.7 billion. Research published from Munich Re puts growth in Asia’s emerging markets at above 10 percent for 2017-2018. The same research placed Asian market share of the global insurance industry at 21.4 percent by 2025.
 
 <br>
