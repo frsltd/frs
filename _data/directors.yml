@@ -1,32 +1,32 @@
 - name: Peter Caslin
   qualification:
   role: CEO
-  image: peter_new.jpg
+  image: Peter_18.jpg
   description: As one of the founders of FRS, Peter's vision and dedicated efforts have made FRS a reality. Peter is responsible for the overall strategic direction of the company and the building of awareness of FRS and the company's product and services in the international marketplace. Peter has many years' experience in the financial services sector and has worked as a directly employed actuary and a consulting actuary for life and pensions companies in Ireland. Peter is a Fellow of the Society of Actuaries in Ireland.
 #'
 
 - name: George McCutcheon
   qualification: 
   role: CFO
-  image: george_new2.jpg
+  image: George_18.jpg
   description: Mr. George McCutcheon qualified as an Actuary and has a Master's degree in Mathematical Science from University College Dublin. George has extensive experience in the financial services industry specialising in investment related issues. Prior to joining FRS, he was an executive director at the Irish subsidiary of a global life assurance group with responsibility for financial reporting and investment functions. George also has responsibility for regulatory research in FRS. George is a regular presenter at industry conferences and presents webinars for FRS on subjects as diverse as Solvency II unit matching and PRIIPs issues keeping FRS to the industry forefront on RegTech issues.  
 
 
 - name: Ceall O’Dunlaing
   qualification:
-  role: Chief Technology Officer
-  image: ceall_new.jpg
+  role: CTO
+  image: Ceall_18.jpg
   description: A co-founder of FRS, Ceall has over 25 years' experience in software engineering roles and senior operational roles within the financial services sector. At FRS, he is responsible for driving the company's technology and product vision and ensuring that the company's solutions maintain their strong competitive advantage technically and functionally. As head of the development team, Ceall is responsible for the ultimate delivery of customer solutions and ensuring these are distributed to customers in a quality assured manner. Ceall is a fellow of the Society of Actuaries in Ireland. 
 #'
 
 - name: Paul O’Meara
   qualification: 
   role: Professional Services Director
-  image: paul_new.jpg
+  image: Paul_18.jpg
   description: Mr. Paul O’Meara is a Fellow of the Society of Actuaries in Ireland. He joined FRS from HSBC Life (Europe) where he served as the Finance Actuary. Paul has over 25 years’ experience in the life industry and has significant expertise in software development. As Professional Services Director Paul has responsibility for all software implementation, upgrade and support functions.
 
 - name: Frank Carr
   qualification: 
-  role: Chief Marketing Officer
-  image: frank_new.jpg
+  role: CMO
+  image: Frank_18.jpg
   description: Frank holds overall responsibility for the marketing strategy of the organisation. The primary responsibility is to generate revenue by increasing sales through successful marketing for FRS using market research, pricing, product marketing, marketing communications, advertising and public relations. In addition, he oversees client relationships and upgrades. Frank received the 2017 James Ball memorial award for his significant contribution to the international and cross-border life insurance industry. His primary degree is in Economics and Philosophy and he has post graduate qualifications in International Selling and a Master’s of Science in Sales Management.
