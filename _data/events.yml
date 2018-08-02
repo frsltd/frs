@@ -1,12 +1,12 @@
-- name: Life Insurance International - Innovation Forum and Awards 2018
-  location: Waldorf Hilton, London
-  date: 7th Nov 2018
-  url: https://www.verdict.co.uk/life-insurance-international/events/life-insurance-international-innovation-forum-awards-2018/
-
 - name: Singapore Actuarial Society - Life Insurance Conference 2018
   location: The Fullerton Hotel, Singapore
   date: 16th - 17th Aug 2018
   url: https://actuaries.org.sg/?q=node/19220
+  
+- name: Life Insurance International - Innovation Forum and Awards 2018
+  location: Waldorf Hilton, London
+  date: 7th Nov 2018
+  url: https://www.verdict.co.uk/life-insurance-international/events/life-insurance-international-innovation-forum-awards-2018/
 
 - name: Institute and Faculty of Actuaries Life Conference 2018
   location: ACC, Liverpool
