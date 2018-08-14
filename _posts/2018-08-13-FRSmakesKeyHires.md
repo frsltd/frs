@@ -24,9 +24,11 @@ Financial Risk Solutions (FRS), a Dublin-based provider of unit-linked investmen
 <br>
 
 In Europe, Fréderic Simon joins the firm as EMEA head of sales. A Belgian national, Simon has worked in the financial technology industry for 20 years at companies such as FIS, Cetrel Securities Deustche Borse and Cloud Margin. Between 2001 and 2014 he was based in Luxembourg before moving to London, where he has been based for the past four years. Currently, InvestPro™ is the core investment administration system for 62 blue-chip financial services and business process outsourcing (BPO) clients. Fréderic Simon said of joining FRS;
+
 <br>
 
 *“I’m delighted to be joining the FRS team at this exciting time of growth for the business. Financial Risk Solutions has quickly become a dominant European and Middle Eastern unit pricing software provider and with the evolving regulatory landscape in Europe there is strong appetite for specialist providers of PRIIPs/ KID solutions in both the funds and life and pensions industry”*
+
 <br>
 
 Niall McDonagh joins in Dublin as Financial Controller, reporting directly to the Chief Financial Officer. He is a graduate of Trinity College Dublin, and trained as a chartered accountant with PwC before most recently working at international biopharmaceutical company Pfizer.
