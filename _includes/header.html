@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>FRS - {{ page.title }}</title>
     <meta name="keywords" content="FRS, Financial, Risk, Solutions, ireland, dublin, frsltd.com, software, fund admin, nav, fund of funds, investment administration, portfolio, valuation, fund, solvency, life, assurance, box, management,unit, linked, net, asset, value, trading, Unit pricing software, Box management software, Investment administration software, Investment accounting software, Fund administration software, Life assurance software ,NAV software,Portfolio valuation software,Fund valuation software,Life assurance fund admin software,Fund of funds, iCPPI, Micro CPPI, underfunding, asset liability unit matching, asset QRT, quantitative reporting template, Box management">
-  <meta name="description" content="FRS are a Dublin based software company who provide a Customisable Modular Fund Management Solution for the Life Assurance Industry.">
+  <meta name="description" content="FRS License Unit Linked Fund Investment Administration Software to Life Insurers, Oversight Software to Asset Managers and RegTech.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">        
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ site.baseurl }}/img/favicon.ico"> 
@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/css/animate.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/sidr.css">
     <!-- Font Awesome -->
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <!-- Googe fonts Lato -->
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
     <!-- Googe fonts Open Sans -->
@@ -71,13 +72,21 @@
                             <a href="" class="closemenu" onclick="$.sidr('close', 'sidr');return false;"><i class="fa fa-times"></i></a>
                             <ul>
                                 <li> <a href="{{ site.baseurl }}/">Home</a></li>                                
-                                <li> <a href="{{ site.baseurl }}/solutions.html">Software</a></li>
-                                <li> <a href="{{ site.baseurl }}/services.html">Services</a></li>
-                                <li> <a href="{{ site.baseurl }}/why_frs.html">Why FRS?</a></li>
+                                <li> <a>Software for...</a>                                                               
+                                <li> <a class="mobile-submenu" href="{{ site.baseurl }}/fund_admin.html">- Life Companies</a></li>
+                                <li> <a class="mobile-submenu" href="{{ site.baseurl }}/asset_mgmt.html">- Asset Managers</a></li>
+                                <li> <a>FRS...</a>
+                                <li> <a class="mobile-submenu" href="{{ site.baseurl }}/about.html">- About</a></li>
+                                <li> <a class="mobile-submenu" href="{{ site.baseurl }}/services.html">- Services</a></li>
+                                <li> <a class="mobile-submenu" href="{{ site.baseurl }}/why_frs.html">- Why FRS?</a></li> 
+                                                               
                                 <li> <a href="{{ site.baseurl }}/clients.html">Clients</a></li>
-                                <li> <a href="{{ site.baseurl }}/insights.html">Insights</a></li> 
-                                <li> <a href="{{ site.baseurl }}/about.html">About</a></li> 
-                                <li> <a href="{{ site.baseurl }}/news">News</a></li>                            
+                                <li> <a href="{{ site.baseurl }}/insights.html">Research</a></li> 
+                                <li> <a>Media...</a>
+                                <li> <a class="mobile-submenu" href="{{ site.baseurl }}/news">- News</a></li>
+                                <li> <a class="mobile-submenu" href="{{ site.baseurl }}/media">- Coverage</a></li>
+
+                           
                             </ul>
                         </div>
                     </div>
@@ -87,12 +96,36 @@
                 <div class="container">
                    <ul class="nav primary">
                     <li {% if page.title == 'Home' %}class="active"{% endif %}><a href="{{ site.baseurl }}/">Home</a></li>                    
-                    <li {% if page.title == 'Invest|Pro' %}class="active"{% endif %}><a href="{{ site.baseurl }}/solutions.html">Software</a></li>
-                    <li {% if page.title == 'Services' %}class="active"{% endif %}><a href="{{ site.baseurl }}/services.html">Services</a></li>
-                    <li {% if page.title == 'Why FRS' %}class="active"{% endif %}><a href="{{ site.baseurl }}/why_frs.html">Why FRS?</a></li>
+                        
+                        <li class ="dropdown"><a class="dropbtn" >Software for...</a>   
+                            <div class="secondmenu">                            
+                                <a href="{{ site.baseurl }}/fund_admin.html">Life Companies</a>                            
+                                <a href="{{ site.baseurl }}/asset_mgmt.html">Asset Managers</a>                        
+                            </div>
+                        </li>
+                        
+                        <li class ="dropdown" ><a class="dropbtn" >FRS</a>                            
+                            <div class="secondmenu">                            
+                                <a href="{{ site.baseurl }}/about.html">About</a>
+                                <a href="{{ site.baseurl }}/services.html">Services</a>                            
+                                <a href="{{ site.baseurl }}/why_frs.html">Why FRS?</a>                        
+                                
+                            </div>
+                        </li>
+
+                        
                     <li {% if page.title == 'Clients' %}class="active"{% endif %}><a href="{{ site.baseurl }}/clients.html">Clients</a></li>
-                    <li {% if page.title == 'Insights' %}class="active"{% endif %}><a href="{{ site.baseurl }}/insights.html">Insights</a></li>  
-                    <li {% if page.title == 'News' %}class="active"{% endif %}><a href="{{ site.baseurl }}/news">News</a></li>  
+                    <li {% if page.title == 'Insights' %}class="active"{% endif %}><a href="{{ site.baseurl }}/insights.html">Research</a></li>  
+                     
+
+                        
+                        <li class ="dropdown"><a class="dropbtn" >Media</a>                              
+                            <div class="secondmenu">   
+                                <a href="{{ site.baseurl }}/news">News</a>
+                                <a href="{{ site.baseurl }}/media">Coverage</a>
+                            </div>
+                        </li>                        
+
                 </ul>
             </div>
-        </div><!-- END nav-wrapper -->
+        </div><!-- END nav-wrapper --> 

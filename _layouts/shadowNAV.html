@@ -1,0 +1,30 @@
+{% include header.html %}
+
+
+<section id="shadowNAV" class="moduleblock">
+    <div class="container">
+        <h1 class="portfolios">Shadow NAV &amp; IBOR | <small>See your data and make better decisions</small></h1>
+        <hr>
+        <div class="list-group col-md-3">
+                <a href="{{ site.baseurl }}/modules/shadowNAV-md/analytics.html" class="list-group-item {% if page.sub-title == 'Analytics' %}active{% endif %}"><span class="glyphicon glyphicon-search"></span> Analytics <span class="label label-default"></span></a>   
+                <a href="{{ site.baseurl }}/modules/shadowNAV-md/asset-reconciliations.html" class="list-group-item {% if page.sub-title == 'Asset Reconciliations' %}active{% endif %}"><span class="fa fa-exchange-alt"></span> Asset Reconciliations <span class="label label-default"></span></a>
+                <a href="{{ site.baseurl }}/modules/shadowNAV-md/box-management.html" class="list-group-item {% if page.sub-title == 'Box Management' %}active{% endif %}"><span class="fab fa-dropbox"></span> Box Management  <span class="label label-default"></span></a>
+                <a href="{{ site.baseurl }}/modules/shadowNAV-md/fund-accounting.html" class="list-group-item {% if page.sub-title == 'Fund Accounts' %}active{% endif %}"><span class="fa fa-cubes"></span> Fund Accounts <span class="label label-default"></span></a>
+                <a href="{{ site.baseurl }}/modules/shadowNAV-md/rules.html" class="list-group-item {% if page.sub-title == 'Rules Management' %}active{% endif %}"><span class="glyphicon glyphicon-list-alt"></span> Rules Management <span class="label label-default"></span></a>
+                <a href="{{ site.baseurl }}/modules/shadowNAV-md/scheduler.html" class="list-group-item {% if page.sub-title == 'Task Scheduler' %}active{% endif %}"><span class="glyphicon glyphicon-calendar"></span> Task Scheduler <span class="label label-default"></span></a>
+                <a href="{{ site.baseurl }}/modules/shadowNAV-md/trading.html" class="list-group-item {% if page.sub-title == 'Trade Management' %}active{% endif %}"><span class="fa fa-suitcase"></span> Trade Management <span class="label label-default"></span></a>
+                <a href="{{ site.baseurl }}/modules/shadowNAV-md/valuations.html" class="list-group-item {% if page.sub-title == 'Valuations' %}active{% endif %}"><span class="glyphicon glyphicon-globe"></span> Valuations <span class="label label-default"></span></a>
+            </div>
+
+		<div id = "module-description" class="col-md-9">
+			<h2 style="margin-top:0px;">{{ page.sub-title }}</h2>
+
+			{{ content }}
+        <a class="btn orange-btn wow fadeInUp animated" href="{{ site.baseurl }}/asset_mgmt.html" style="visibility: visible; -webkit-animation: fadeInUp;">Application Areas</a>
+
+        <a class="call btn btn-action wow fadeInRight animated" href="{{ site.baseurl }}/contact.html" style="visibility: visible; -webkit-animation: fadeInRight;">Arrange a call with one of our sales team</a>
+		</div>
+        </div>
+	</section>
+
+	{% include footer.html %}

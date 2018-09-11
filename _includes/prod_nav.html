@@ -48,13 +48,13 @@
 {% endif %}
 
 
-{% if page.url contains 'outsourcing' %}
-<h4>Outsourcing Modules</h4>
+{% if page.url contains 'shareholder' %}
+<h4>Shareholder Modules</h4>
 <div class="list-group">
 
 	{% for p in site.pages | sort "p.sub-title" %}
 
-	{% if p.url contains 'outsourcing-md' %}
+	{% if p.url contains 'shareholder-md' %}
 	<a href="{{ site.baseurl }}{{ p.url }}" class="list-group-item {% if p.url == page.url %} list-group-item-success{% endif %}"><span class="glyphicon {{ p.icon }}"></span> {{ p.sub-title }} <span class="label label-default">{{ p.nav-label }}</span></a>
 	{% endif %}
 	{% endfor %}

@@ -1,0 +1,26 @@
+{% include header.html %}
+
+<section id="Reporting" class="moduleblock">
+	<div class="container">
+		<h1 class="portfolios">Regulatory Reporting | <small>Automate the Preparation and Publication of each KID</small></h1>
+		<hr>
+			<div class="list-group col-md-3">
+				<a href="{{ site.baseurl }}/modules/reporting-md/analytics.html" class="list-group-item {% if page.sub-title == 'Analytics' %}active{% endif %}"><span class="glyphicon glyphicon-search"></span> Analytics <span class="label label-default"></span></a>
+				<a href="{{ site.baseurl }}/modules/reporting-md/priips.html" class="list-group-item {% if page.sub-title == 'PRIIPs' %}active{% endif %}"><span class="glyphicon glyphicon-pencil"></span> PRIIPs <span class="label label-default"></span></a>
+				<a href="{{ site.baseurl }}/modules/reporting-md/rules.html" class="list-group-item {% if page.sub-title == 'Rules Management' %}active{% endif %}"><span class="glyphicon glyphicon-list-alt"></span> Rules Management <span class="label label-default"></span></a>
+				<a href="{{ site.baseurl }}/modules/reporting-md/solvency.html" class="list-group-item {% if page.sub-title == 'Solvency II' %}active{% endif %}"><span class="fas fa-university"></span> Solvency II <span class="label label-default"></span></a>
+				<a href="{{ site.baseurl }}/modules/reporting-md/taxation.html" class="list-group-item {% if page.sub-title == 'Tax Accruals' %}active{% endif %}"><span class="glyphicon glyphicon-stats"></span> Tax Accruals <span class="label label-default"></span></a>
+					
+			</div>
+
+		<div id="module-description" class="col-md-9">
+			<h2 style="margin-top:0px;">{{ page.sub-title }}</h2>
+
+			{{ content }}
+<a class="btn orange-btn wow fadeInUp animated" href="{{ site.baseurl }}/asset_mgmt.html" style="visibility: visible; -webkit-animation: fadeInUp;">Application Areas</a>
+
+<a class="call btn btn-action wow fadeInRight animated" href="{{ site.baseurl }}/contact.html" style="visibility: visible; -webkit-animation: fadeInRight;">Arrange a call with one of our sales team</a>
+		</div>
+	</section>
+
+	{% include footer.html %}

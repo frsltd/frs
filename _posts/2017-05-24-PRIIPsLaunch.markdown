@@ -39,14 +39,14 @@ Requiring quarterly updates to each KID based on the previous 5 years unit price
 Frank Carr, Chief Marketing Officer at FRS commented; <br><br>
 *“In discussions with the industry we have found many companies are moving the new PRIIPs regulation close to the top of their agenda given it directly impacts new business from Jan 1st 2018. Several are grappling with the initial stages of in-house solutions albeit with assistance from group HQ in many cases. This is why FRS is now offering the whole PRIIPs module, or alternatively separate components of the solution depending on each specific insurers’ requirements and individual in-house competencies. Uniquely the FRS software caters for the complex requirements of both  fund of funds PRIIPs  and open architecture wrapped products.”*<br>
 
-The InvestGRC™ [PRIIPs module](http://www.frsltd.com/solutions.html#PRIIPs) is comprised of these components;<br>
+The InvestGRC™ [PRIIPs module](http://www.frsltd.com/reg_tech.html#PRIIPs) is comprised of these components;<br>
 **1) SQL Database Repository** To import, check, complete and hold all new data and archive all KIDs <br>
 **2) Calculation engine** To compute using different data sets the complex calculations necessary for the production for all KIDs<br>
 **3) Reporting Tool** For upload to website, broker interface, platforms and all sales channels <br>
 **4) Ongoing Updating** To existing products’ KIDs and the launch of new products’ KIDs <br>
 **5) Comparative risk metrics analysis** To track changes in KIDs and apply sign-off rules and exception reporting using the FRS rules and breach engine <br>
 
-In line with the rest of the InvestGRC™ suite, the [PRIIPs module](http://www.frsltd.com/solutions.html#PRIIPs) will be available on-premise or hosted in the Cloud using [Microsoft Azure](http://www.frsltd.com/Resources/FRS-Software_on_Microsoft_Azure.pdf).  Also for companies familiar with the FRS software there are full sign-off and internal control processes wth audit trails, rules and breach oversight, archiving and date-stamping of all committed parts to the production of PRIIPs and KIDs.
+In line with the rest of the InvestGRC™ suite, the [PRIIPs module](http://www.frsltd.com/reg_tech.html#PRIIPs) will be available on-premise or hosted in the Cloud using [Microsoft Azure](http://www.frsltd.com/Resources/FRS-Software_on_Microsoft_Azure.pdf).  Also for companies familiar with the FRS software there are full sign-off and internal control processes wth audit trails, rules and breach oversight, archiving and date-stamping of all committed parts to the production of PRIIPs and KIDs.
 
 
 
