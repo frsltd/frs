@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  FRS Wins 'Technology Firm of the Year' at the Insurance Asset Maagement Awards
+title:  FRS Wins 'Technology Firm of the Year' at the Insurance Asset Management Awards
 categories: jekyll update
 date:   2018-12-04 09:09:28
 
