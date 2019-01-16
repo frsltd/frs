@@ -355,8 +355,8 @@ text-shadow:0 0 2px rgba(0,0,0,0.4);
 }
 /** Nav **/
 .logo {
-	width: 150px;
-	margin-left:15px;
+	width: 170px;
+	margin-left:20px;
 }
 
 .nav-wrapper {
@@ -1530,7 +1530,7 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 	}
 
 	.logo {
-		width: 100px;
+		width: 120px;
 	}
 
 	.contact {
@@ -1760,7 +1760,7 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 940px) {
 	.logo {
-		width: 100px;
+		width: 120px;
 	}
 
 	.header {
