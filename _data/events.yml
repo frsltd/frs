@@ -1,17 +1,12 @@
-- name: Asian Wealth Management Forum 2019
-  location: Hong Kong
-  date: 26th Feb 2019
-  url: http://hubbis.com/event/asian-wealth-management-forum-2019-2019-2-26/Summary
+- name: Annual Global Funds Conference
+  location: Dublin, Ireland
+  date: 23rd May 2019
+  url: https://www.irishfunds.ie/events/annual-global-funds-conference-2019
 
-- name: 2019 Life Insurance Conference
-  location: Baltimore, USA
-  date: 1st - 3rd April 2019
-  url: https://www.limra.com/Events/Conferences/2019/2019_Life_Insurance_Conference.aspx
-
-- name: IFoA Asia Conference 2019
-  location: Chengdu, China
-  date: 9th - 10th May 2019
-  url: https://www.actuaries.org.uk/learn-and-develop/events-calendar/ifoa-asia-conference-2019-chengdu
+- name: Unit Pricing Conference
+  location: Sydney, Australia
+  date: 12th June, 2019
+  url: https://ibrc.com.au/event/unit-pricing-2019-forum-3/
 
 - name: Lifetime Savings & Investments 2019
   location: Hilton Tower Bridge, London
