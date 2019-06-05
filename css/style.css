@@ -1516,7 +1516,7 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 	border-spacing: 10px;
 	padding: 10px 30px;
 	margin-top: 70px;
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 }
 
 .campaign-vision .boxed h2{
@@ -1558,26 +1558,18 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 .campaign-vision .white-box{
 	background-color: #fff;
 	text-align: left;
-	height: 350px;
-	
-
-}
-
-.campaign-vision .white-box p{
-	text-align: left;
-	margin-top: 30px;
-	padding-left: 10px;
 	padding-right: 0px;
-	line-height: 1.3em;
-	font-size: 20px;
-	color: #000;
-	
+	width: 32%;
+	margin-right:10px;
+	height: 72px;
 }
 
 .campaign-vision .orange-box{
 	background-color: #ee720b;
 	text-align: left;
 	padding-right: 5px;
+	margin-top: -30px;
+	height: 100px;
 }
 
 .campaign-vision .orange-box .icon{
@@ -1590,17 +1582,121 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 	padding-left: 10px;
 	padding-right: 0px;
 	line-height: 1.3em;
-	font-size: 20px;
+	font-size: 19px;
 	color: #fff;
 	margin-right: 15px;
 }
 
-.campaign-technology h3{
+.campaign-overview {
+	background:url(../img/campaign-overview-background.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;	
+}
 
+.campaign-overview .white-box-text{
+	background-color: #fff;
 	text-align: left;
-	padding-left:10px;
+	padding-right: 0px;
+	width: 32%;
+	margin-right:10px;	
+	height: 240px;
+	margin-bottom: 100px;
+}
+
+.campaign-overview .white-box-text p{
+	text-align: left;
+	margin-top: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 20px;
+	line-height: 1.3em;
+	font-size: 15px;
+	color: #000;	
+}
+
+.campaign-overview h1{
+	text-align: center;
+	margin-bottom: 30px;	
+	/*padding-left: 50px;
+	padding-right: 50px;
+	line-height: 1.3em;
+	font-size: 34px;
+	color: #fff;*/
+}
+
+
+.campaign-overview .white-box{
+	background-color: #fff;
+	text-align: left;
+	padding-right: 0px;
+	padding-top:10px;
+	margin-right:10px;
+	margin-top:	10px;
+	width: 32%;
+}
+
+.campaign-overview .white-box h3{
+	text-align: center;
+	color: #ee720b;
+	font-size: 22px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.campaign-overview .IPoverview_top .white-box{
+	height: 368px;
+}
+
+.campaign-overview .IPoverview_bottom .white-box{
+	height: 320px;
+}
+
+.campaign-overview .white-box p{
+	text-align: center;
+	padding-right: 30px;
+	padding-left: 30px;
+	line-height: 1.3em;
+}
+
+.campaign-overview .icon{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.campaign-overview .tech{
+	margin-top: 50px;	
+}
+
+.campaign-overview .tech h1{
+	margin-bottom: 20px;
+}
+
+.campaign-technology {
+	background:url(../img/microsoft_azure.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 50%;
+	
+}
+
+.campaign-technology h3{
+	color: #fff;
+	text-align: left;
+	padding-bottom:50px;
+	padding-top:50px;
+}
+
+.campaign-technology .blue h3{
+	padding-right: 60px;
+}
+
+.campaign-technology .grey h3{
+	color: black;
+	padding-left:50px;
 	padding-right: 40px;
 }
+
 
 .campaign-about{
 	background:url(../img/Campaign_aboutFRS.jpg)left top no-repeat;	
