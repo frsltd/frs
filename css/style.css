@@ -1468,22 +1468,6 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 }
 
 
-
-
-/*.campaign-quote {
-	padding: 52px 25px 55px 25px;
-	border: 1px solid #c2bebe;
-	box-shadow: 0 0px 0px #e2e3e3, 
-		    0 -1px 6px #e2e3e3, 
-		    0 0px 0px #e2e3e3, 
-		    0 -1px 6px #e2e3e3;
-	position: relative;
-	margin-bottom: 30px;
-}	
-*/
-
-
-
 .campaign-vision {
 	background:url(../img/campaign_vision.jpg)left top no-repeat;
 	padding-top: 60px;
@@ -1617,11 +1601,6 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 .campaign-overview h1{
 	text-align: center;
 	margin-bottom: 30px;	
-	/*padding-left: 50px;
-	padding-right: 50px;
-	line-height: 1.3em;
-	font-size: 34px;
-	color: #fff;*/
 }
 
 
@@ -1662,6 +1641,7 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	height: 80px;
 }
 
 .campaign-overview .tech{
@@ -1673,10 +1653,8 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 }
 
 .campaign-technology {
-	background:url(../img/microsoft_azure.jpg);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: 50%;
+	background:url(../img/microsoft_azure_2.jpg) no-repeat left, url(../img/technical_implementation.jpg) no-repeat right; 
+	background-size: 50%, 50%
 	
 }
 
@@ -1688,33 +1666,27 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 }
 
 .campaign-technology .blue h3{
-	padding-right: 60px;
+	padding-right: 100px;
 }
 
 .campaign-technology .grey h3{
-	color: black;
-	padding-left:50px;
-	padding-right: 40px;
+	padding-left:100px;	
 }
 
 
 .campaign-about{
-	background:url(../img/Campaign_aboutFRS.jpg)left top no-repeat;	
-	padding-bottom: 40px;
-	padding-top: 40px
+	background:url(../img/Campaign_aboutFRS_3.jpg)right bottom no-repeat;	
+	padding-bottom: 80px;
+	padding-top: 80px
 }
 
-.campaign-about h1{}
-
-.campaign-about h2{
-
+.campaign-about h4{
+	line-height: 1.3em;
 }
+
 
 .campaign-quote {
-	background: #121314 /*url(../img/featured.jpg)*/;
-/*	background-attachment: fixed;
-	background-size: cover;*/
-	/*background-size: 100%;*/
+	background: #121314 
 	padding-top: 60px;
 	padding-bottom: 60px;
 	
@@ -1741,26 +1713,43 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 }
 
 
-
-
-/*.campaign .about-item h3 {
-	color: #de6b00;
-	font-family: 'Lato', sans-serif;
-	font-size: 24px;
-	margin:20px 0 15px 0;
-}
-.campaign .about-item {
-	text-align: center;
-}*/
-
 .campaign-casestudy {
 	margin-bottom: 50px;
 }
 
 .campaign-casestudy h2 {
-	text-align: center;
-	margin-bottom: 60px;
+	text-align: left;
+	margin-bottom: 30px;
 	margin-top: 60px;
+}
+
+.campaign-casestudy p{
+	font-size: 18px;
+}
+
+.demo-wrapper {
+	background:url(../img/Book_a_demo.jpg)right bottom no-repeat;
+	color: #ffffff;
+	text-align: center;
+	padding-bottom: 100px;
+	padding-top: 100px;
+	margin-top: 0px;
+}
+
+/*.demo-wrapper input:nth-child(3) {
+	margin-left: 20px;
+}*/
+
+.demo-wrapper input {
+	padding: 8px 10px 8px 10px;
+	border: none;
+	width: 240px;
+}
+
+.demo-wrapper h2 {	
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 40px;
 }
 
 
