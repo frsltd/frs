@@ -1645,11 +1645,13 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 }
 
 .campaign-overview .tech{
-	margin-top: 50px;	
+	margin-top: 70px;	
+	padding-bottom: 20px;
 }
 
 .campaign-overview .tech h1{
 	margin-bottom: 20px;
+
 }
 
 .campaign-technology {
@@ -1686,10 +1688,9 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 
 
 .campaign-quote {
-	background: #121314 
+	background-color: #121314; 
 	padding-top: 60px;
-	padding-bottom: 60px;
-	
+	padding-bottom: 60px;		
 }
 
 .campaign-quote h3{
