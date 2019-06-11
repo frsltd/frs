@@ -4,11 +4,15 @@
             <h2>Subscribe to our research brief</h2>
             <form method="POST" action="//formspree.io/monica.kelly@frsltd.com" onsubmit="return checkForm();">
                 <input type="text" placeholder="Your name" name="name" id="name" class="subscription-padding">
+                <input type="text" placeholder="Your company" name="company" id="company" class="subscription-padding"> 
                 <input type="text" placeholder="Your email" name="_replyto" id="email" class="subscription-padding"> 
                 <input type="text" name="_gotcha" style="display:none" />
                 <input type="hidden" name="_next" value="http://www.frsltd.com/submission.html" />            
+                <input type="hidden" name="_subject" value="New research brief subscription" />
                 <input type="submit" value="Subscribe" class="btn dark-orange-btn">
+                <input type="hidden" name="_cc" value="frank.carr@frsltd.com" />                
                 <span class="error" id="nameError" style="display:none";><br><br>Required: Please enter your name</span>
+                <span class="error" id="companyError" style="display:none";><br><br>Required: Please enter your company name</span>
                 <span class="error" id="emailError" style="display:none";><br><br>Required: Please enter your email address</span>
                 <span class="error" id="emailInvalid" style="display:none";><br><br>Please enter a valid email address</span>
             </form>

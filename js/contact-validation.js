@@ -1,10 +1,16 @@
 function checkForm() {
 	name = document.getElementById("name").value;
+	company = document.getElementById("company").value;
 	email = document.getElementById("email").value;
 	hideAllErrors()
 	if (name == "")
 	{
 		document.getElementById("nameError").style.display = "inline";
+		return false;
+	}
+	if (company == "")
+	{
+		document.getElementById("companyError").style.display = "inline";
 		return false;
 	}
 	else if (email == "")
@@ -23,6 +29,7 @@ function checkForm() {
 
 function hideAllErrors() {
 	document.getElementById("nameError").style.display = "none";
+	document.getElementById("companyError").style.display = "none";
 	document.getElementById("emailError").style.display = "none";
 	document.getElementById("emailInvalid").style.display = "none";
 }

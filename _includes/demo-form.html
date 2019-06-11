@@ -2,13 +2,15 @@
     <div class="demo-wrapper">
         <div class="container">
             <h2>Book a demo to see how the Invest|Pro™ platform can work for you.</h2>
-            <form method="POST" action="//formspree.io/monica.kelly@frsltd.com" onsubmit="return checkDemoForm();">
+            <form method="POST" action="//formspree.io/monica.kelly@frsltd.com" onsubmit="return checkForm();">
                 <input type="text" placeholder="Your name" name="name" id="name" class="subscription-padding">
                 <input type="text" placeholder="Your company" name="company" id="company" class="subscription-padding"> 
                 <input type="text" placeholder="Your email" name="_replyto" id="email" class="subscription-padding"> 
                 <input type="text" name="_gotcha" style="display:none" />
                 <input type="hidden" name="_next" value="http://www.frsltd.com/submission.html" />            
+                <input type="hidden" name="_subject" value="New demo request" />
                 <input type="submit" value="Book Now" class="btn dark-orange-btn">
+                <input type="hidden" name="_cc" value="frank.carr@frsltd.com" />
                 <span class="error" id="nameError" style="display:none";><br><br>Required: Please enter your name</span>
                 <span class="error" id="companyError" style="display:none";><br><br>Required: Please enter your company name</span>
                 <span class="error" id="emailError" style="display:none";><br><br>Required: Please enter your email address</span>
