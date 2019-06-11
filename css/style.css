@@ -2042,6 +2042,48 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 
 	}
 	#header-contact {visibility:hidden;}
+
+	.campaign-vision{	
+		padding-bottom: 20px;
+		background: none;
+		background-color: #efefef;
+	}
+
+	.campaign-vision h2{
+		font-size: 28px;
+		padding-left:10px;
+		padding-right:10px;
+		color: #000;
+	}
+
+	.campaign-vision p{
+		padding-left:10px;
+		padding-right:10px;
+		color: #000;
+	}
+
+	.campaign-vision .boxed{
+		padding: 0px 0px;
+		margin-top: 20px;
+		border-color: #ee720b;
+		margin-bottom: 20px;
+	}
+
+	.campaign-vision .boxed h2{
+		font-size: 20px;
+	}
+
+	.campaign-vision .white-box {
+		width: 100%;
+	}
+
+	.orange-box{
+		background: #ee720b;
+	}
+
+	.orange-box {
+		background: #ee720b;
+	}
 }
 
 @media (max-width: 940px) {
