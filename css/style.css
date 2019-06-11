@@ -1612,6 +1612,7 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 	margin-right:10px;
 	margin-top:	10px;
 	width: 32%;
+	height: 368px;
 }
 
 .campaign-overview .white-box h3{
@@ -1622,13 +1623,13 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 	padding-right: 20px;
 }
 
-.campaign-overview .IPoverview_top .white-box{
+/*.campaign-overview .IPoverview_top .white-box{
 	height: 368px;
 }
 
 .campaign-overview .IPoverview_bottom .white-box{
 	height: 320px;
-}
+}*/
 
 .campaign-overview .white-box p{
 	text-align: center;
@@ -2045,12 +2046,13 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 
 	.campaign-vision{	
 		padding-bottom: 20px;
+		padding-top: 30px;
 		background: none;
 		background-color: #efefef;
 	}
 
 	.campaign-vision h2{
-		font-size: 28px;
+		font-size: 25px;
 		padding-left:10px;
 		padding-right:10px;
 		color: #000;
@@ -2065,12 +2067,14 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 	.campaign-vision .boxed{
 		padding: 0px 0px;
 		margin-top: 20px;
-		border-color: #ee720b;
 		margin-bottom: 20px;
+		border: 2px solid #ee720b;
+
 	}
 
 	.campaign-vision .boxed h2{
 		font-size: 20px;
+		margin-top: 10px;
 	}
 
 	.campaign-vision .white-box {
@@ -2079,10 +2083,42 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 
 	.orange-box{
 		background: #ee720b;
+		height: 60px;
+		padding:0 0;
 	}
 
-	.orange-box {
-		background: #ee720b;
+	.orange-box p{
+		margin-top: 10px;
+		padding-left: 10px;
+		font-weight: bold;
+	}
+
+	.orange-box .icon img{
+		height: 55px;
+		padding-top: 5px;
+	}
+
+	.campaign-overview .white-box-text{
+		width: 100%;
+		text-align: center;
+		margin-bottom: 10px;
+		height: auto;
+	}
+
+	.campaign-overview .white-box-text p{
+		text-align: center;
+		padding-bottom: 10px;
+	}
+
+	.campaign-overview {
+		background-color: #f8f8f8; 
+	}
+
+	.campaign-overview .white-box{
+		width: 100%;
+		background-color: transparent;
+		height: auto;
+		padding-bottom: 30px;
 	}
 }
 
