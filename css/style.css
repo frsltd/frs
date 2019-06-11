@@ -1737,9 +1737,9 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 	margin-top: 0px;
 }
 
-/*.demo-wrapper input:nth-child(3) {
+.demo-wrapper input:nth-child(4) {
 	margin-left: 20px;
-}*/
+}
 
 .demo-wrapper input {
 	padding: 8px 10px 8px 10px;

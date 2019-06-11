@@ -8,9 +8,9 @@ function checkDemoForm() {
 		document.getElementById("nameError").style.display = "inline";
 		return false;
 	}
-	else if (company == "")
+	if (company == "")
 	{
-		document.getElementById("emailCompany").style.display = "inline";
+		document.getElementById("companyError").style.display = "inline";
 		return false;
 	}
 	else if (email == "")
@@ -29,7 +29,7 @@ function checkDemoForm() {
 
 function hideAllErrors() {
 	document.getElementById("nameError").style.display = "none";
-	document.getElementById("emailCompany").style.display = "none";
+	document.getElementById("companyError").style.display = "none";
 	document.getElementById("emailError").style.display = "none";
 	document.getElementById("emailInvalid").style.display = "none";
 }
