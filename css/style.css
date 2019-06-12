@@ -1679,14 +1679,18 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 
 .campaign-about{
 	background:url(../img/Campaign_aboutFRS_3.jpg)right bottom no-repeat;	
-	padding-bottom: 80px;
-	padding-top: 80px
+	padding-bottom: 60px;
+	padding-top: 60px
 }
 
 .campaign-about h4{
 	line-height: 1.3em;
 }
 
+.campaign-about .col-xs-12{
+	background-color: rgba(255, 255, 255, 0.8);
+	padding-left: 10px;
+}
 
 .campaign-quote {
 	background-color: #121314; 
@@ -1714,6 +1718,11 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 	color: #ee720b;
 }
 
+.campaign-companies {
+	padding:30px 30px 0;
+	margin-top: 0;
+	background:#fff;
+}
 
 .campaign-casestudy {
 	margin-bottom: 50px;
@@ -1754,6 +1763,43 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 	font-size: 40px;
 }
 
+.demo-wrapper #mc_embed_signup form{
+	padding-left: 0px;
+}
+
+.demo-wrapper #mc_embed_signup {
+	background: transparent;
+}
+
+.demo-wrapper #mc_embed_signup .mc-field-group {
+	clear: none;
+	float: left;
+	width: 25%;
+	padding-right: 10px;
+}
+
+.demo-wrapper #mc_embed_signup #mce-success-response {
+	color: #fff;
+}
+
+.demo-wrapper #mc_embed_signup .button{
+	background-color:#000;
+	font-weight: 600;
+	display:block;
+	margin: 0 auto;
+}
+
+.demo-wrapper #mc_embed_signup .button:hover{
+	background-color:#000;	
+}
+/*.demo-wrapper #mc_embed_signup .button{
+	background-color: #777;
+}*/
+
+
+/*#mc_embed_signup .button:hover {
+	background-color: #000;
+}*/
 
 /** Media Queries **/
 /*@media (min-width: 1200px) {
@@ -2120,6 +2166,55 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 		height: auto;
 		padding-bottom: 30px;
 	}
+
+	.campaign-companies img{
+		width: 50%;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.campaign-casestudy .col-xs-12{
+		padding-right: 0px;
+	}
+
+	.campaign-casestudy img{
+		width: 50%;
+		display: block;
+		margin: auto;
+	}
+
+	.campaign-casestudy h2{
+		text-align: center;
+		margin-top: 30px;
+	}
+
+	.campaign-casestudy p{
+		text-align: center;
+	}
+
+	.campaign-casestudy .btn.orange-btn{		
+		display: block;
+		position: relative;
+		left:25%;
+		width:50%;
+	}
+
+	.demo-wrapper{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.demo-wrapper #mc_embed_signup .mc-field-group{
+		clear: both;
+		width: 100%;
+		padding-left: 10px;
+	}
+	
+	#mc_embed_signup #mce-error-response a{
+		color: #fff;
+		text-decoration: underline;
+	}
+
 }
 
 @media (max-width: 940px) {
@@ -2295,8 +2390,8 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 	.event{margin-bottom:40px;}
 	.application-container{
 				width:100%;}
-		.wow {
-  visibility: visible !important;
+		.wow {visible
+  visibility:  !important;
   -webkit-animation: none !important;
      -moz-animation: none !important;
        -o-animation: none !important;
