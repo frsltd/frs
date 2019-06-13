@@ -1446,6 +1446,7 @@ a.to-top{
 }
 a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 
+
 /** Campaigns **/
 .campaign-title{
 	text-align: center;
@@ -1464,15 +1465,12 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 	top: 50%;
 	bottom: 30%;
 	transform: translate(-50%, -50%);
-
 }
-
 
 .campaign-vision {
 	background:url(../img/campaign_vision.jpg)left top no-repeat;
 	padding-top: 60px;
 }
-
 
 .campaign-vision h2{
 	text-align: center;
@@ -1528,7 +1526,6 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 	  transition: transform .5s linear;	
 }
 
-
 .campaign-vision a:hover{
 	color: #c76102 !important;
 }
@@ -1537,7 +1534,6 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 	padding-left: 5px;
 	padding-bottom: 2px;
 }
-
 
 .campaign-vision .white-box{
 	background-color: #fff;
@@ -1623,14 +1619,6 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 	padding-right: 20px;
 }
 
-/*.campaign-overview .IPoverview_top .white-box{
-	height: 368px;
-}
-
-.campaign-overview .IPoverview_bottom .white-box{
-	height: 320px;
-}*/
-
 .campaign-overview .white-box p{
 	text-align: center;
 	padding-right: 30px;
@@ -1652,13 +1640,11 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 
 .campaign-overview .tech h1{
 	margin-bottom: 20px;
-
 }
 
 .campaign-technology {
 	background:url(../img/microsoft_azure_2.jpg) no-repeat left, url(../img/technical_implementation.jpg) no-repeat right; 
 	background-size: 50%, 50%
-	
 }
 
 .campaign-technology h3{
@@ -1675,7 +1661,6 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 .campaign-technology .grey h3{
 	padding-left:100px;	
 }
-
 
 .campaign-about{
 	background:url(../img/Campaign_aboutFRS_3.jpg)right bottom no-repeat;	
@@ -1792,14 +1777,7 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 .demo-wrapper #mc_embed_signup .button:hover{
 	background-color:#000;	
 }
-/*.demo-wrapper #mc_embed_signup .button{
-	background-color: #777;
-}*/
 
-
-/*#mc_embed_signup .button:hover {
-	background-color: #000;
-}*/
 
 /** Media Queries **/
 /*@media (min-width: 1200px) {
@@ -2137,6 +2115,7 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 		margin-top: 10px;
 		padding-left: 10px;
 		font-weight: bold;
+		font-size: 18px; 
 	}
 
 	.orange-box .icon img{
@@ -2154,6 +2133,7 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 	.campaign-overview .white-box-text p{
 		text-align: center;
 		padding-bottom: 10px;
+		font-size:16px;
 	}
 
 	.campaign-overview {
@@ -2165,6 +2145,16 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 		background-color: transparent;
 		height: auto;
 		padding-bottom: 30px;
+	}
+
+	.campaign-overview .icon{
+		padding-right:0px;
+	}
+	
+	.campaign-overview h1{
+		font-size: 30px;
+		line-height: 3.3em;
+		margin-bottom: 0px;
 	}
 
 	.campaign-companies img{
@@ -2202,6 +2192,10 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 	.demo-wrapper{
 		padding-top: 30px;
 		padding-bottom: 30px;
+	}
+
+	.demo-wrapper h2{
+		font-size: 30px;
 	}
 
 	.demo-wrapper #mc_embed_signup .mc-field-group{
