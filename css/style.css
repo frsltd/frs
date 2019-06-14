@@ -1599,7 +1599,6 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 	margin-bottom: 30px;	
 }
 
-
 .campaign-overview .white-box{
 	background-color: #fff;
 	text-align: left;
@@ -1609,6 +1608,12 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 	margin-top:	10px;
 	width: 32%;
 	height: 340px;
+}
+
+.campaign-overview .white-box:hover{
+	cursor: pointer;
+	transform: translateY(-8px);
+	transition: all 0.3s;
 }
 
 .campaign-overview .white-box h3{
