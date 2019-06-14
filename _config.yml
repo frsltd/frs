@@ -8,6 +8,7 @@ plugins: [jekyll-paginate]
 repository: 'mkelly505/frs.git'
 future: true
 github: [metadata]
+# permalink: pretty
 
 # Build Settings
 port: 4000
