@@ -2123,6 +2123,11 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 		padding-top: 5px;
 	}
 
+	.campaign-overview .container{
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
 	.campaign-overview .white-box-text{
 		width: 100%;
 		text-align: center;
