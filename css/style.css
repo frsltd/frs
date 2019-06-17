@@ -2503,3 +2503,50 @@ border-right-style:solid;
 border-right-width: 1px;
 border-color:#dbdbdb;
 }
+
+/*small browser view (half screen)*/
+@media (max-width: 991px) and (min-width: 768px){
+	.orange-box{
+		background: #ee720b;
+    	height: 60px;
+    	padding: 0 0;}
+
+    .orange-box p {
+    	margin-top: 10px;
+    	padding-left: 10px;
+    	font-weight: bold;
+    	font-size: 18px;}
+
+    .campaign-overview .icon {
+    	padding-right: 0px;}
+
+    .orange-box .icon img {
+    	height: 55px;
+    	padding-top: 5px;}
+
+	.campaign-overview .white-box-text {
+    	width: 100%;
+    	text-align: center;
+    	margin-bottom: 10px;
+    	height: auto;}
+
+    .campaign-casestudy img {
+    	width: 50%;
+    	display: block;
+    	margin: auto;}
+
+    .container{
+    	width: 100%;}
+
+    .campaign-casestudy h2{
+	    margin-left: 50px;}
+    
+
+    .campaign-casestudy p{
+	    margin-left: 50px;}
+    
+
+    .campaign-casestudy .btn.orange-btn{
+	    margin-left: 50px;}
+    
+}
