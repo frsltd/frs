@@ -730,7 +730,7 @@ ul.frstabs{margin-top:100px;}
 
 #owl-logos .item img {
     display: block;
-    width: 100%;
+    width: auto;
     height: auto;
 
     filter: grayscale(100%);
