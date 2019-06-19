@@ -1,14 +1,19 @@
-- name: Annual Global Funds Conference
-  location: Dublin, Ireland
-  date: 23rd May 2019
-  url: https://www.irishfunds.ie/events/annual-global-funds-conference-2019
-
-- name: Unit Pricing Conference
-  location: Sydney, Australia
-  date: 12th June, 2019
-  url: https://ibrc.com.au/event/unit-pricing-2019-forum-3/
-
 - name: Lifetime Savings & Investments 2019
   location: Hilton Tower Bridge, London
   date: 18th - 19th June 2019
   url: https://marketforcelive.com/horizons/events/lifetime-savings-investments/
+
+- name: Fundtech 2019 Superfund Technology Conference
+  location: Melbourne, Australia
+  date: 8th August 2019
+  url: https://ibrc.com.au/event/3rd-annual-fundtech-2019-superfund-technology-innovations-and-disruption-conference/
+
+- name: InvestOps
+  location: London, UK
+  date: 17-19th September 2019
+  url: https://clearingsettlement.wbresearch.com/
+
+- name: European Fund Management Operations Summit
+  location: London, UK
+  date: 7th November 2019
+  url: https://www.clearpathanalysis.com/events/fund-management-operations-summit-2019
