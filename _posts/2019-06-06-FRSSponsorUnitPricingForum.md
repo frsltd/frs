@@ -2,7 +2,7 @@
 layout: post
 title:  Financial Risk Solutions (FRS) announces lead sponsorship of IBR Conferences Unit Pricing Forum 2019
 categories: jekyll update
-date:   2019-06-19 09:09:28
+date:   2019-06-06 09:09:28
 
 ---
 
