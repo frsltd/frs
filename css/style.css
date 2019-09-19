@@ -136,7 +136,7 @@ body, ul{font-size: 15px}
 	text-transform: uppercase;
 	padding: 5px 16px 5px 16px;
 	border-radius: 3px;
-	margin-top: -2px;
+	/*margin-top: -2px;*/
 	margin-left: 20px;
 	font-size: 15px;
 }
@@ -206,6 +206,26 @@ a:hover {
 	text-decoration: none;
 	color: #031229;	
 }
+
+.book-demo a {
+	color: #fff;
+	-webkit-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	-ms-transition: all .2s linear;
+	transition: all .2s linear;	
+}
+
+.book-demo a:hover {
+	-webkit-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	-ms-transition: all .2s linear;
+	transition: all .2s linear;
+	text-decoration: none;
+	color: #031229;	
+}
+
 a.mailto, a.linkedin{font-size:20px;color:#a2a2a2;}
 a.mailto:hover, a.linkedin:hover{color:#ee720b;}
 a.mailto{padding:0 10px;}
@@ -1469,7 +1489,7 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 
 .campaign-vision {
 	background:url(../img/campaign_vision.jpg)left top no-repeat;
-	padding-top: 60px;
+	padding-top: 100px;
 }
 
 .campaign-vision h2{
@@ -1541,14 +1561,29 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 	padding-right: 0px;
 	width: 32%;
 	margin-right:10px;
-	height: 72px;
+	margin-bottom: 150px;
+	height: 320px;
+	
 }
+
+.campaign-vision .white-box p{
+	text-align: left;
+	margin-top: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 20px;
+	line-height: 1.3em;
+	font-size: 15px;
+	color: #000;	
+}
+
 
 .campaign-vision .orange-box{
 	background-color: #ee720b;
 	text-align: left;
 	padding-right: 5px;
 	margin-top: -30px;
+	margin-bottom: 20px;
 	height: 100px;
 }
 
@@ -1570,28 +1605,22 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 .campaign-overview {
 	background:url(../img/campaign-overview-background.jpg);
 	background-repeat: no-repeat;
-	background-position: bottom;	
+	background-position: bottom;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
-.campaign-overview .white-box-text{
-	background-color: #fff;
-	text-align: left;
-	padding-right: 0px;
-	width: 32%;
-	margin-right:10px;	
-	height: 240px;
+.campaign-overview .book-demo{
+	margin-top: -100px;
 	margin-bottom: 100px;
+	background-color: #ee720b;
+	border-radius: 50px;
 }
 
-.campaign-overview .white-box-text p{
-	text-align: left;
-	margin-top: 20px;
-	padding-left: 40px;
-	padding-right: 40px;
-	padding-bottom: 20px;
-	line-height: 1.3em;
-	font-size: 15px;
-	color: #000;	
+.campaign-overview .book-demo h1{
+	text-align: center;
+	margin-bottom: 30px;
+	color:#fff;
 }
 
 .campaign-overview h1{
@@ -1606,6 +1635,7 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 	padding-top:10px;
 	margin-right:10px;
 	margin-top:	10px;
+	margin-bottom: 10px;
 	width: 32%;
 	height: 340px;
 }
@@ -2074,7 +2104,7 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 	#header-contact {visibility:hidden;}
 
 	.campaign-vision{	
-		padding-bottom: 20px;
+		padding-bottom: 100px;		
 		padding-top: 30px;
 		background: none;
 		background-color: #efefef;
@@ -2106,9 +2136,49 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 		margin-top: 10px;
 	}
 
-	.campaign-vision .white-box {
+	.campaign-vision .white-box, .campaign-overview .white-box {
 		width: 100%;
 	}
+
+	.campaign-vision .container, .campaign-overview .container{
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+	
+	.campaign-vision .white-box p, .campaign-overview .white-box-text p{
+		text-align: center;
+		padding-bottom: 10px;
+		font-size:16px;
+	}
+	
+	.campaign-vision .white-box {
+		width: 100%;
+		background-color: #fff;
+		height: auto;
+		margin-bottom: 40px;		
+	}
+
+	.campaign-vision .orange-box{
+		height: 80px;
+
+	}
+
+	.campaign-vision .orange-box .icon{
+		padding-right:0px;
+		padding-top: 10px;
+	}
+
+
+	.campaign-vision .orange-box p{
+		margin-top: 20px;
+   		padding-left: 10px;
+    	font-weight: bold;
+    	font-size: 18px;
+    	text-align: center;
+	}
+
+	
 
 	.orange-box{
 		background: #ee720b;
@@ -2128,11 +2198,29 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 		padding-top: 5px;
 	}
 
-	.campaign-overview .container{
-		padding-right: 0px;
-		padding-left: 0px;
+	.campaign-overview .book-demo{
+	margin-top: -155px;
+	margin-bottom: 50px;
+	padding-right: 0px;
+	background-color: #ee720b;
+	border-radius: 50px;
+}
+
+	.campaign-overview .book-demo h1{
+		font-size: 25px;
+		text-align: center;
+		line-height: 1em;
 	}
 
+	.campaign-overview {
+		background-color: #f8f8f8; 
+	}
+	.campaign-overview .white-box{
+		width: 100%;
+		background-color: transparent;
+		height: auto;
+		padding-bottom: 30px;
+	}
 	.campaign-overview .white-box-text{
 		width: 100%;
 		text-align: center;
@@ -2140,25 +2228,9 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 		height: auto;
 	}
 
-	.campaign-overview .white-box-text p{
-		text-align: center;
-		padding-bottom: 10px;
-		font-size:16px;
-	}
-
-	.campaign-overview {
-		background-color: #f8f8f8; 
-	}
-
-	.campaign-overview .white-box{
-		width: 100%;
-		background-color: transparent;
-		height: auto;
-		padding-bottom: 30px;
-	}
-
 	.campaign-overview .icon{
 		padding-right:0px;
+		
 	}
 	
 	.campaign-overview h1{
@@ -2444,6 +2516,14 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
     
     .hero-text h1{font-size:30px; margin-top: -30px;}
 	.hero-text h2{font-size:16px;}
+
+	.btn.dark-orange-btn{
+		margin-left: 0px;
+	}
+
+	.partners .row{
+		margin-left: 0px;
+	}
 }
 
 /* Default: 940px and up  */
@@ -2524,6 +2604,27 @@ border-color:#dbdbdb;
     	height: 55px;
     	padding-top: 5px;}
 
+	.campaign-vision .white-box {
+		width: 100%;
+		background-color: #fff;
+		height: auto;
+		margin-bottom: 40px;		
+	}
+	
+	.campaign-overview .book-demo{
+		margin-top: -80px;
+    	margin-bottom: 50px;
+    	padding-right: 0px;
+    	background-color: #ee720b;
+    	border-radius: 50px;
+	}
+
+	.campaign-overview .book-demo h1{
+		font-size: 25px;
+		text-align: center;
+		line-height: 1em;
+	}
+
 	.campaign-overview .white-box-text {
     	width: 100%;
     	text-align: center;
@@ -2534,7 +2635,7 @@ border-color:#dbdbdb;
     	width: 50%;
     	display: block;
     	margin: auto;}
-
+/*
     .container{
     	width: 100%;}*/
 
