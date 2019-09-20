@@ -2363,6 +2363,14 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 	.quote-left {
 		left: 20px;
 	}
+
+	.campaign-title .container .hero-text{
+		bottom: 1%;
+	}
+
+	.campaign-title .container .hero-text h1{
+		font-size: 25px;
+	}
 }
 
 /* Small and Medium */
