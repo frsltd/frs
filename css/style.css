@@ -1475,15 +1475,14 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 
 .campaign-title .title-image{
 	display: block;
-	width: 100%;
+	width: 100%;	
 }
 
 .campaign-title .container .hero-text{	
 	left: 50%;	
 	text-align: center;
 	position: absolute;
-	top: 50%;
-	bottom: 30%;
+	top: 50%;	
 	transform: translate(-50%, -50%);
 }
 
