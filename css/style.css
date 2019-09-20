@@ -1738,7 +1738,7 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 }
 
 .campaign-companies {
-	padding:30px 30px 0;
+	padding:10px 30px 0;
 	margin-top: 0;
 	background:#fff;
 }
@@ -2006,6 +2006,7 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 	.companies {
 		padding-left: 30px;
 		padding-right: 30px;
+		padding-top: 0px;
 	}
 
 	.events {
@@ -2333,6 +2334,11 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 	.nav {
 		padding-top: 0px;
 	}
+
+	.companies {		
+		padding-top: 0px;
+	}
+
 	.macbook {
 		display: none;
 	}
@@ -2365,7 +2371,7 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 	}
 
 	.campaign-title .container .hero-text{
-		bottom: 1%;
+		margin-top: 3%;
 	}
 
 	.campaign-title .container .hero-text h1{
