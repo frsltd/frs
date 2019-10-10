@@ -1491,6 +1491,12 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 	padding-top: 100px;
 }
 
+.campaign-vision#oversight {
+	background:url(../img/background1.png)left top no-repeat;
+	padding-top: 100px;	
+	height: 800px;
+}
+
 .campaign-vision h2{
 	text-align: center;
 	margin-top: 0px;
@@ -1555,7 +1561,7 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 }
 
 .campaign-vision .white-box{
-	background-color: #fff;
+	background-color: #fff;	
 	text-align: left;
 	padding-right: 0px;
 	width: 32%;
@@ -1576,6 +1582,24 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 	color: #000;	
 }
 
+.campaign-vision .transparent-box{
+	background-color: #rgba(255,255,255,0);
+	border: 1px solid #fff;
+	text-align: left;
+	padding-right: 0px;
+	width: 32%;
+	margin-right:10px;
+	margin-bottom: 50px;
+	height: 250px;	
+}
+
+.campaign-vision .transparent-box img{
+	width: 30%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20%;	
+}
 
 .campaign-vision .orange-box{
 	background-color: #ee720b;
@@ -1602,11 +1626,23 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 }
 
 .campaign-overview {
-	background:url(../img/campaign-overview-background.jpg);
+	background:url(../img/background2.png);
 	background-repeat: no-repeat;
 	background-position: bottom;
 	padding-top: 50px;
 	padding-bottom: 50px;
+}
+
+.campaign-overview img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.campaign-overview h4{
+	text-align: center;	
+	font-weight: bold;
+	margin-top: 20px;
 }
 
 .campaign-overview .book-demo{
@@ -1675,6 +1711,37 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 .campaign-overview .tech h1{
 	margin-bottom: 20px;
 }
+
+.campaign-overview #TaskOneOfSix{
+	padding-left: 60px;
+}
+
+.campaign-overview #TaskTwoOfSix{
+	padding-right: 0px;
+	padding-left: 20px;
+}
+
+.campaign-overview #TaskThreeOfSix{
+	padding-right: 0px;	
+}
+
+.campaign-overview #TaskFiveOfSix{
+	padding-right: 45px;	
+}
+
+.campaign-overview #TaskSixOfSix{
+	padding-right: 70px;	
+}
+
+
+.campaign-section-dark {
+	background:url(../img/background3.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
 
 .campaign-technology {
 	background:url(../img/microsoft_azure_2.jpg) no-repeat left, url(../img/technical_implementation.jpg) no-repeat right; 
@@ -2239,6 +2306,26 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 		margin-bottom: 0px;
 	}
 
+	.campaign-overview h4{
+		font-size: 15px;		
+	}
+
+	.campaign-overview #TaskOneOfSix{
+		padding-left: 15px;	
+	}
+
+	.campaign-overview #TaskTwoOfSix{
+		padding-left: 0px;	
+	}
+
+	.campaign-overview #TaskFiveOfSix{
+		padding-right: 0px;	
+	}
+
+	.campaign-overview #TaskSixOfSix{
+		padding-right: 0px;	
+	}
+
 	.campaign-companies img{
 		width: 50%;
 		padding-left: 30px;
@@ -2377,6 +2464,30 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 	.campaign-title .container .hero-text h1{
 		font-size: 25px;
 	}
+
+	.campaign-vision#oversight h2{
+		font-size: 30px;
+	}
+
+	.campaign-overview h4{
+		font-size: 15px;		
+	}
+
+	.campaign-overview #TaskOneOfSix{
+		padding-left: 15px;	
+	}
+
+	.campaign-overview #TaskTwoOfSix{
+		padding-left: 0px;	
+	}
+
+	.campaign-overview #TaskFiveOfSix{
+		padding-right: 0px;	
+	}
+
+	.campaign-overview #TaskSixOfSix{
+		padding-right: 0px;	
+	}
 }
 
 /* Small and Medium */
@@ -2413,6 +2524,78 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 
 	}
 	#funds.productblock .col-md-3, #portfolios.productblock .col-md-3{min-height:1px;height:auto;}
+
+	.campaign-vision#oversight{
+		padding-top: 0px;			
+	}
+
+	.campaign-vision h2{
+		color: #fff;
+		padding-left: 15px;
+		padding-top: 20px;
+		font-size: 19px;
+	}
+
+	.campaign-overview .book-demo{
+		margin-top: -100px;
+		margin-bottom: 0px;
+	}
+
+	.campaign-overview h1{
+		line-height: 1.3em;
+	}
+
+	.campaign-overview img{
+		margin-top: 30px;
+	}
+
+	.campaign-overview h4{
+		font-size: 11px;
+		word-wrap: break-word;		
+	}
+
+	.campaign-overview #TaskOneOfSix{
+		padding-left: 15px;	
+	}
+
+	.campaign-overview #TaskTwoOfSix{
+		padding-left: 0px;	
+	}
+
+	.campaign-overview #TaskFiveOfSix{
+		padding-right: 0px;	
+	}
+
+	.campaign-overview #TaskSixOfSix{
+		padding-right: 0px;	
+	}
+
+	.campaign-vision .transparent-box{
+		width: 100%;
+		height: auto;
+		margin-bottom: 0px;
+	}
+
+	.campaign-vision .transparent-box img{
+		width: 20%;	
+		margin-top: 20px;	
+	}
+
+	.campaign-vision .transparent-box p{
+		color: #fff;
+		font-size: 16px;
+	}
+
+	/*.campaign-vision .transparent-box{
+		margin-right: 2px;
+		margin-left: 2px;
+	}
+
+	.campaign-vision .transparent-box p{
+		color: #fff;
+		font-size: 16px;
+		height
+	}*/
 }
 @media (min-width:480px) and (max-width:600px){
 
@@ -2453,7 +2636,40 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 	.mobile-claim .btn.btn-blue{
 		margin-left:30px;
 	}
-}
+
+	.campaign-vision#oversight{
+		padding-top:0px;
+		height: 450px;		
+	}
+
+	.campaign-vision .transparent-box{
+		margin-right: 5px;
+		margin-left:2px;
+		margin-bottom: 20px;
+		height: 220px;		
+	}
+
+	.campaign-vision .transparent-box p{
+		color: #fff;
+		font-size: 15px;	
+	}
+
+	.campaign-vision h2 {
+	    color: #fff;
+	    padding-left: 15px;
+	    padding-top: 20px;
+	    font-size: 22px;
+	}
+
+	.campaign-overview .book-demo{
+		margin-top: -90px;
+		margin-bottom: 0px;
+	}
+
+	.campaign-overview h1{
+		line-height: 1.3em;
+	}
+
 @media (min-width:601px) and (max-width:768px){
 
 	#mobile-menu{
