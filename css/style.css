@@ -1760,13 +1760,26 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 
 
 .campaign-section-dark {
-	background:url(../img/background3.jpg);
+	background:url(../img/background3.png);
 	background-repeat: no-repeat;
 	background-position: bottom;
+	background-size: cover;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
 
+.campaign-section-dark h1{
+	text-align: center;
+	margin-bottom: 30px;
+	color: #fff;	
+}
+
+.campaign-section-dark .icon p{
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	margin-top: 10px;
+}
 
 .campaign-technology {
 	background:url(../img/microsoft_azure_2.jpg) no-repeat left, url(../img/technical_implementation.jpg) no-repeat right; 
@@ -2334,8 +2347,7 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 
 	.campaign-overview .icon{
 		padding-right:0px;
-		padding-top: 20px;
-		
+		padding-top: 20px;		
 	}
 	
 	.campaign-overview h1{
@@ -2362,6 +2374,22 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 
 	.campaign-overview #TaskSixOfSix{
 		padding-right: 0px;	
+	}
+
+	.campaign-section-dark{
+		padding-top: 30px;
+	}
+
+	.campaign-section-dark h1{
+		font-size: 30px;
+	}
+
+	.campaign-section-dark .icon img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		height: 80px; 
+		margin-top: 20px;
 	}
 
 	.campaign-companies img{
