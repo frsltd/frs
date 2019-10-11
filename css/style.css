@@ -2626,15 +2626,29 @@ a.to-top:hover, a.to-top:focus{color:#df7a1c;}
 	}
 
 	.campaign-overview #TaskOneOfSix{
-		padding-left: 15px;	
+		padding-left: 5px;	
+		padding-right: 1px;
 	}
 
 	.campaign-overview #TaskTwoOfSix{
 		padding-left: 0px;	
 	}
 
+	.campaign-overview #TaskThreeOfSix{
+		margin-left: -5px;
+	}
+
+
+	.campaign-overview #TaskFourOfSix{
+		padding-right: 1px;	
+	}
+
+	.campaign-overview #TaskFourOfSix h4{
+		font-size: 10px;	
+	}
+
 	.campaign-overview #TaskFiveOfSix{
-		padding-right: 0px;	
+		padding-right: 2px;	
 	}
 
 	.campaign-overview #TaskSixOfSix{
