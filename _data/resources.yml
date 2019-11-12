@@ -1,3 +1,8 @@
+- doc: Pensions around the World
+  description: A deep dive into Defined Contribution Pensions in Australia, the United Kingdom and Ireland.
+  src: Resources/FRS-Pensions_around_the_World.pdf
+  author: 
+  publish-date: Nov 2019 -
 
 - doc: IDD – Tracking  All Costs and charges for Policy Holders and Members
   description: New regulations in the life and pensions industry have the potential to distract providers as they adjust their operating processes to remain compliant. Finding partners that can respond with regtech solutions that optimise the operating model is key for businesses focused on growth.
@@ -132,11 +137,11 @@
   publish-date: April 2013 - 
 
 
-# - doc: 
-#   description:
-#   src: 
-#   author: 
-#   publish-date: 
+- doc: 
+  description:
+  src: 
+  author: 
+  publish-date: 
 
 
 
