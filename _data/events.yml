@@ -1,9 +1,14 @@
-- name: Pacific Insurance Conference
-  location: Grand Hyatt, Hong Kong
-  date: 17th - 20th November 2019
-  url: https://www.pacificinsuranceconference.org/
+- name: Adminovate
+  location: Trinity College Dublin
+  date: 16th January 2020
+  url: https://www.adminovate.ie
 
-- name: Life Conference
-  location: The Convention Centre, Dublin
-  date: 20th - 22nd November 2019
-  url: https://www.actuaries.org.uk/learn-and-develop/events-calendar/life-conference-2019
+- name: Middle East Wealth Management Forum
+  location: Ritz-Carlton Hotel, UAE
+  date: 22nd January 2020
+  url: https://hubbis.com/event/middle-east-wealth-management-forum-2020-2020-1-21/
+
+- name: The Investment Operations Conference
+  location: The Fullerton Hotel, Sydney 
+  date: 11th February 2020
+  url: https://www.investmentoperations.com.au
