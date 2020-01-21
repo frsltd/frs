@@ -25,6 +25,8 @@ Available as a stand-alone module, InvestTax™ automates the process and calcul
 *	Reduce risk through automated processing and a robust audit trail
 *	Manage the corporate level CGT return
 <br>
+<br>
+
 Frank Carr, Chief Marketing Officer at FRS, commented:
 <br>
 
