@@ -1,14 +1,14 @@
-- name: Adminovate
-  location: Trinity College Dublin
-  date: 16th January 2020
-  url: https://www.adminovate.ie
-
-- name: Middle East Wealth Management Forum
-  location: Ritz-Carlton Hotel, UAE
-  date: 22nd January 2020
-  url: https://hubbis.com/event/middle-east-wealth-management-forum-2020-2020-1-21/
-
 - name: The Investment Operations Conference
   location: The Fullerton Hotel, Sydney 
   date: 11th February 2020
   url: https://www.investmentoperations.com.au
+
+- name: InvestOps USA
+  location: Tampa Marriott Water Street, Tampa 
+  date: 17th - 19th March 2020
+  url: https://investops.wbresearch.com
+
+- name: Irish Funds Annual Global Conference
+  location: Convention Centre, Dublin
+  date: 21st May 2020
+  url: https://www.irishfunds.ie/events/irish-funds-annual-global-funds-conference-2020
