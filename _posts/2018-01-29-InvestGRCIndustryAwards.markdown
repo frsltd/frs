@@ -28,10 +28,10 @@ Now in their 18th year, the FStech Awards, hosted by FStech Magazine, are the sh
 <br>
 
 **InvestGRC™: A market-leading RegTech solution:**
-InvestGRC™ is an award-winning* solution which aggregates asset positions and other relevant compliance and risk management data and automatically produces [Solvency II quantitative reporting templates (QRT)](http://www.frsltd.com/solutions.html#governance){:target="_blank"} on a client-specified frequent basis.
+InvestGRC™ is an award-winning* solution which aggregates asset positions and other relevant compliance and risk management data and automatically produces [Solvency II quantitative reporting templates (QRT)](http://www.frsltd.com/asset_mgmt.html#Reporting){:target="_blank"} on a client-specified frequent basis.
 
 
-It also allows Insurers to conduct their own risk and solvency assessments on their investment-related business.  Importantly, since mid-2017 InvestGRC™ has included the automated production and publication of complex [Key Information Documents (KIDs)](http://www.frsltd.com/solutions.html#PRIIPs){:target="_blank"} in relation to the PRIIPs (Packaged Retail and Insurance-based Investment Products) which came into force earlier this month. 
+It also allows Insurers to conduct their own risk and solvency assessments on their investment-related business.  Importantly, since mid-2017 InvestGRC™ has included the automated production and publication of complex [Key Information Documents (KIDs)](http://www.frsltd.com/asset_mgmt.html#Reporting){:target="_blank"} in relation to the PRIIPs (Packaged Retail and Insurance-based Investment Products) which came into force earlier this month. 
 
 InvestGRC™ completely meets the requirements of fund administration in one system available in three different software delivery models, namely;
 -	on-premises
