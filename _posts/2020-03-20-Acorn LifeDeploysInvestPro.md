@@ -15,12 +15,13 @@ date:   2020-03-20 09:00:00
 Financial Risk Solutions (FRS), the award-winning provider of fund administration software to global life assurance and asset management companies, today announced Acorn Life has deployed the InvestPro™ platform to manage its Life Assurance book of business.
 <br>
 
-Replacing legacy in-house systems, InvestPro™ will manage the investment administration of all Acorn Life unit-linked funds, including unit-pricing, cash allocation and rebalancing, and trade order management. By moving to the automated InvestPro™ software, Acorn Life stands to benefit from reduced operational risk and increased efficiency. 
+Replacing legacy in-house systems, InvestPro™ is managing the investment administration of all Acorn Life unit-linked funds, including unit-pricing, cash allocation and rebalancing, and trade order management. By moving to the automated InvestPro™ software, Acorn Life stands to benefit from reduced operational risk and increased efficiency. 
 <br>
 
 Established in 1989, Acorn Life is an Irish owned life assurance company providing protection, pensions, savings and investment solutions to the Irish public. The company recorded €698 million of assets under management at the end of 2018.
 <br>
 <br>
+
 Jennifer Loftus, Head of Actuarial Function at Acorn Life, said:
 <br>
 
