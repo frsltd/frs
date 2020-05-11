@@ -94,9 +94,12 @@
   website: www.mobiuslife.co.uk
 
 - name: Monument
-  description: 
+  description: Monument Re is a Bermuda based Reinsurer and Consolidator with a proven track-record of successfully acquiring and operating portfolios or direct insurers in Europe, primarily those in run-off. They focus on annuity, guaranteed savings or protection product lines. 
+  quote: Financial Risk Solutions were the obvious choice for Monument Insurance, both from a product perspective as well as their best-in-class reputation in the industry. Their expert project team got us up and running in record time and we are now well positioned for growth without having to add a large amount of human resource.
+  quotefrom: Eoin Parsons, Group Finance
   image: monument.png
-  website: https://www.monumentregroup.com/
+  download: /Resources/FRS-Monument_Case_Study.pdf 
+  website: monumentregroup.com/
 
 - name: MSV
   description: 
