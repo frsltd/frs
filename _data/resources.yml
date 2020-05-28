@@ -1,3 +1,9 @@
+- doc: Removing the Deep Uncertainty from Middle Office Digital Transformation
+  description: CTO Ceall O'Dunlaing unpacks the complexities of enterprise technology and demonstrates how new delivery methods, like continuous deployment, reduces the risks of software upgrades and improvements.
+  src: Resources/FRS-DigitalTransformation.pdf
+  author: 
+  publish-date: May 2020 -
+
 - doc: Remote implementations in the new world
   description: Reduce risk and increase efficiency with a proven implementation plan. This research will appeal to senior project and operations staff, heads of fund admin and change, COO's, CTO's and CFO's.
   src: Resources/FRS-RemoteImplementations.pdf
