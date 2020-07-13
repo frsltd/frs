@@ -4,7 +4,7 @@ title: Financial Risk Solutions adds Continuous Deployment service to InvestProâ
 
 
 categories: jekyll update
-date:   2020-03-20 09:00:00
+date:   2020-07-13 09:00:00
 
 ---
 
