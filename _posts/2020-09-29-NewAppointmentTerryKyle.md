@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Financial Risk Solutions adds Continuous Deployment service to InvestPro™ 
+title: Financial Risk Solutions appoints industry veteran in APAC expansion 
 
 
 categories: jekyll update
